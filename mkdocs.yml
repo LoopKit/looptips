@@ -11,7 +11,7 @@ pages:
 - 'index.md'
 - GitHub:
     - 'Overview': 'github/overview.md'
-    - 'Repos and Branches' : 'github/repos.md'
+    - 'Repos and Branches': 'github/repos.md'
     - 'Commits': 'github/commit.md'
     - 'Compare, PR, Merge': 'github/compare.md'
     - 'Start Over': 'github/delete.md'
