@@ -1,26 +1,22 @@
-# Welcome to Loop
+# GitHub
 
-<img src="img/phones.png" width="300" alt="iPhone Screenshot">
-<img src="img/watch.png" alt="Apple Watch Screenshots">
 
 ## Introduction
 
-[Loop](https://github.com/LoopKit/Loop) is an app template for building an automated insulin delivery system. It is a stone resting on the boulders of work done by many others.  
+The official description of [GitHub](https://github.com) from their own website is "GitHub is a a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere."  
 
-The app is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calculation, as well as boilerplate view controllers used in Loop.
+If you're just an average Joe (like myself), GitHub may look quite foreign, use words that are confusing and you may get somewhat lost.  Definitely doesn't inspire collaboration if you are afraid you'll mess something up in the process.  So, I'm putting together these docs in an effort to make things slightly less intimidating and hoepfully, you'll feel more confident to use GitHub to your advantage.
 
-Please understand that this project:
+## T1D projects
 
-- Is highly experimental
-- Is not approved for therapy
+There are LOADS of projects in GitHub that are specific to our T1D community.  There are some that are readily recognizable, like Nightscout, and there are others that are building blocks of projects, such as Decocare for OpenAPS.  Since the "We Are Not Waiting" community is spread across the globe, GitHub provides the coders and others an easy way to collaborate without needing to be physically nearby.
 
-Using the open source Loop app template, you can build an insulin delivery system that uses specific commercial and open source hardware and software technologies to bring together the insulin pump, continuous glucose monitor (CGM), and insulin dosing algorithm to create a continuous insulin basal dosing “Loop”.  This Loop predicts future glucose based on basal-rate schedules, carbohydrate intake, insulin on board, and current CGM readings.  These glucose forecasts provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future.  The system can either operate as an “open loop” by making recommendations to the user for their approval before enacting or as a “closed loop” by automatically setting the recommended temporary basal rate.  *You take full responsibility for building and running this system and do so at your own risk.*
+Some of the projects most of us have come to know:
 
-You should undertake this project in stages. For example, first “open loop” to familiarize yourself with Loop’s operation. Also, investigate the code to ensure you understand what it is recommending and why. Then when you progress to “closed loop”, do so safely by starting with appropriate safety limits and only progress to higher limits after several days of no lows. Please ask questions at this point about why Loop is making the recommendations it does.  It should be similar to the therapy decisions you would make yourself.  If the recommendations it makes are different than you would make, try to figure out why.
+* Loop
+* OpenAPS
+* Nightscout
 
-## Development History
-
-Loop has been developed as an open-source, shared project.  For a really interesting read about the history of Loop development, check out this [History of Loop and LoopKit](https://medium.com/@loudnate/the-history-of-loop-and-loopkit-59b3caf13805) post, written by Loop developer Nate Racklyeft.  The project continues to be a labor-of-love by a community of users; maintained and improved by volunteers.
 
 ## Stay in the Loop!
 
