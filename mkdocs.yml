@@ -1,0 +1,54 @@
+site_name: GitHub Docs
+theme: flatly
+extra_css:
+    - css/admonitions.css
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: ⌁
+
+pages:
+- 'index.md'
+- Overview:
+    - 'Overview': 'overview/overview.md'
+    - 'Insulin Pump': 'overview/pump.md'
+    - 'CGM': 'overview/cgm.md'
+    - 'RileyLink': 'overview/rileylink.md'
+    - 'Computer': 'overview/computer.md'
+    - 'iPhone': 'overview/iphone.md'
+    - 'Apple Developer': 'overview/appledev.md'
+- Compare, Merge, PR:
+    - 'Overview': 'build/overview.md'
+    - 'Installing': 'build/installing.md'
+    - 'Configuration': 'build/configuration.md'
+    - 'iPhone widget': 'build/widget.md'
+    - 'Apple Watch': 'build/watch.md'
+    - 'Updating': 'build/updating.md'
+- Local Computer:
+    - 'Loop Display': 'use/overview.md'
+    - 'Getting a Green Loop': 'use/green-loop.md'
+    - 'Open Loop': 'use/open-loop.md'
+    - 'Close Loop': 'use/close-loop.md'
+    - 'Carb Entries': 'use/carbs.md'
+    - 'Bolus': 'use/bolus.md'
+    - 'Workout Targets': 'use/workout.md'
+    - 'Priming and Sites': 'use/priming.md'
+    - 'Time Changes': 'use/time-change.md'
+    - 'RileyLink': 'use/rileylink.md'
+    - 'Loop Notifications': 'use/notifications.md'
+- Nightscout:
+    - 'Overview': 'algorithm/overview.md'
+    - 'Glucose Prediction': 'algorithm/prediction.md'
+    - 'Temp Basal Adjustments': 'algorithm/temp_basal.md'
+    - 'Bolus Recommendations': 'algorithm/bolus.md'
+- Loop:
+    - 'Overview': 'nightscout/overview.md'
+    - 'Setup New Site': 'nightscout/new_user.md'
+    - 'Update Site': 'nightscout/update_user.md'
+    - 'Azure to Heroku': 'nightscout/azure_migration.md'
+    - 'mLab': 'nightscout/mlab_cleanup.md'
+    - 'Loop Pill': 'nightscout/loop_pill.md'
+    - 'IFTTT': 'nightscout/ifttt.md'
+    - 'Pebble': 'nightscout/pebble.md'
+    - 'Remote Notifications': 'nightscout/pushover.md'
+    - 'Reports': 'nightscout/reports.md'
