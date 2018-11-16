@@ -1,2 +1,2 @@
-# githubdocs
-GitHub docs for Looped users
+# Loop Tips
+A set of documents covering how to Loop
