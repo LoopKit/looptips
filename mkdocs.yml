@@ -1,4 +1,4 @@
-site_name: GitHub Docs
+site_name: Loop Tips
 theme: flatly
 extra_css:
     - css/admonitions.css
@@ -8,24 +8,37 @@ markdown_extensions:
         permalink: ⌁
 
 pages:
-- 'index.md'
-- GitHub:
-    - 'Overview': 'github/overview.md'
-    - 'Repos and Branches': 'github/repos.md'
-    - 'Commits': 'github/commit.md'
-    - 'Compare, PR, Merge': 'github/compare.md'
-    - 'Start Over': 'github/delete.md'
-    - 'Git commands': 'github/local.md'
-- Nightscout:
-    - 'Overview': 'nightscout/overview.md'
-    - 'Updating Site': 'nightscout/updating.md'
-    - 'Loop Users': 'nightscout/loop.md'
-    - 'OpenAPS Users': 'nightscout/openaps.md'
-- Loop:
-    - 'Overview': 'loop/overview.md'
-    - 'Loop source code': 'loop/loop_source.md'
-    - 'Loop docs': 'loop/loop_docs.md'
-- OpenAPS:
-    - 'Overview': 'openaps/overview.md'
-    - 'Docs': 'openaps/openaps_docs.md'
-    - 'oref0': 'openaps/oref0.md'    
+- Home: 'home.md'
+- Settings:
+    - 'Overview': 'settings/overview.md'
+    - 'Initial Settings': 'settings/settings.md'
+    - 'Duration of Insulin': 'settings/dia.md'
+    - 'Check Settings': 'settings/test-settings.md'
+    - 'Adjustments': 'settings/adjust.md'
+- Algorithm:
+    - 'Overview': 'algorithm/overview.md'
+    - 'Prediction': 'algorithm/prediction.md'
+    - 'Basal': 'algorithm/temp-basal.md'
+    - 'Bolus': 'algorithm/bolus.md'
+- Data Tools:
+    - 'Overview': 'data/overview.md'
+    - 'Health': 'data/health.md'
+    - 'Loop': 'data/loop.md'
+    - 'Nightscout': 'data/nightscout.md'
+    - 'Tidepool': 'data/tidepool.md'
+    - 'Glucodyn': 'data/glucodyn.md'
+- How To:
+    - 'Overview': 'how-to/overview.md'
+    - 'Exercise': 'how-to/exercise.md'
+    - 'Extended Bolus': 'how-to/bolus.md'
+    - 'LC/HF meals': 'how-to/meal.md'
+    - 'Site Failure': 'how-to/site-fail.md'
+    - 'Stuck on High': 'how-to/high-bg.md'
+    - 'Low Treatments': 'how-to/low-treat.md'
+    - 'Illness': 'how-to/illness.md'
+    - 'Teens/Kids': 'how-to/teens-kids.md'
+    - 'Talk with Endo': 'how-to/endo.md'
+    - 'Adjust IOB': 'how-to/iob.md'
+    - 'CGM warmups': 'how-to/cgm.md'
+    - 'Override Targets': 'how-to/overrides.md'
+
