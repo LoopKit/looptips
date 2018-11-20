@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Overview - Loop Tips</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+        <link href="../../css/admonitions.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Loop Tips</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../../home/">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Overview</a>
+</li>
+                                    
+<li >
+    <a href="../settings/">Initial Settings</a>
+</li>
+                                    
+<li >
+    <a href="../dia/">Duration of Insulin</a>
+</li>
+                                    
+<li >
+    <a href="../test-settings/">Check Settings</a>
+</li>
+                                    
+<li >
+    <a href="../adjust/">Adjustments</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Algorithm <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../algorithm/overview/">Overview</a>
+</li>
+                                    
+<li >
+    <a href="../../algorithm/prediction/">Prediction</a>
+</li>
+                                    
+<li >
+    <a href="../../algorithm/temp-basal/">Basal</a>
+</li>
+                                    
+<li >
+    <a href="../../algorithm/bolus/">Bolus</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data Tools <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../data/overview/">Overview</a>
+</li>
+                                    
+<li >
+    <a href="../../data/health/">Health</a>
+</li>
+                                    
+<li >
+    <a href="../../data/loop/">Loop</a>
+</li>
+                                    
+<li >
+    <a href="../../data/nightscout/">Nightscout</a>
+</li>
+                                    
+<li >
+    <a href="../../data/tidepool/">Tidepool</a>
+</li>
+                                    
+<li >
+    <a href="../../data/glucodyn/">Glucodyn</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../how-to/overview/">Overview</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/exercise/">Exercise</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/bolus/">Extended Bolus</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/meal/">LC/HF meals</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/site-fail/">Site Failure</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/high-bg/">Stuck on High</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/low-treat/">Low Treatments</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/illness/">Illness</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/teens-kids/">Teens/Kids</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/endo/">Talk with Endo</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/iob/">Adjust IOB</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/cgm/">CGM warmups</a>
+</li>
+                                    
+<li >
+    <a href="../../how-to/overrides/">Override Targets</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../../home/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../settings/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#overview">Overview</a></li>
+            <li><a href="#why-settings-still-matter">Why settings still matter</a></li>
+            <li><a href="#what-if-settings-are-off">What if settings are "off"?</a></li>
+            <li><a href="#automated-settings-adjustments">Automated settings adjustments</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">⌁</a></h1>
+<p>In the context of the following discussion, the term "settings" refers to information that the user typically enters into their pump.  These settings include:</p>
+<ul>
+<li>basal rate schedule</li>
+<li>insulin sensitivitiy factor (ISF)</li>
+<li>carb ratio</li>
+<li>duration of insulin action (DIA)</li>
+<li>correction/target range</li>
+</ul>
+<p>Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's BG and treatments history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic (Think Like A Pancreas, etc)</p>
+<h2 id="why-settings-still-matter">Why settings still matter<a class="headerlink" href="#why-settings-still-matter" title="Permanent link">⌁</a></h2>
+<p>With all the excitement about automated insulin delivery, some people mistakenly assume that the user's settings don't matter anymore....that <strong><i>everything</i></strong> is automated. However, settings do still matter as they provide the basis for Loop's math.  Diabetes is not a static math equation.  What worked for basals, insulin sensitivity, or carb ratios yesterday...well, that might not work today.  The degree that those variations happen can affect your looping experience.</p>
+<p>Let's give some examples to help.  When you go to calculate a meal bolus, your math probably looks similar to this:</p>
+<p align="center">
+<img src="../img/bolus-equation.jpg" width="450">
+</p>
+
+<p>But then many times you are also probably adjusting that math based on any number of "factors" that you are aware could be affecting your BG.  <a href="https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/">Diatribe</a> put together this great list of factors that affect BGs, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.</p>
+<p align="center">
+<img src="../img/bg-factors.png" width="450">
+</p>
+
+<p>Some of those factors you are already used to making allowances for, such as:</p>
+<ul>
+<li>Pizza boluses...You probably are accustomed to needing an extended bolus and/or higher temp basal rate to help with the late BG spike common after the initial bolus starts to wear off.  That pizza takes a long time to digest thanks to those slow-acting fats.  </li>
+<li>Medications...How about that time that you had to take steroids for an achy joint?  Those steroids probably resulted in a dramatic overall increase in insulin needs for several days.</li>
+<li>Hormones...monthly hormone cycles have many women adjusting their basal rates and insulin sensitivity schedules for a week or so each month.</li>
+<li>Exercise...always a tough one because some exercise may make your BG rise (lifting weights) and other exercise may make your BG drop (running).  Through repetition, most people have learned how to adjust for exercise by using temp basal rates or timing of meals/boluses.</li>
+</ul>
+<p>The degree to which Loop can deal with those factors is largely dependent on the duration of the "factor" itself and how well we can communicate to Loop that those factors are at play.  For things we know are coming, we can tell Loop in advance, and Loop has ways of dealing with them mathematically.  In the pizza example, Loop lets us mark the meal as long, slow digestion and therefore better react to a potential late BG rise.  For exercise, we can use temporary targets before/after exercise to help Loop administer less insulin for awhile.</p>
+<p>If, however, your insulin needs are impacted by something unnanouced such as horomone cycles, stress, or illness then sometimes your Loop may not be able to consistently hold you at your target BG range.  You may end up holding steady at a higher BG than you'd prefer.  This is because Loop's math is still using the inputs that were from before you got sick/stressed/horomone'd (new word).  Then the decision becomes "Do you adjust your settings now or just wait it out until the stressor goes away?" </p>
+<h2 id="what-if-settings-are-off">What if settings are "off"?<a class="headerlink" href="#what-if-settings-are-off" title="Permanent link">⌁</a></h2>
+<p>Loop is primarily a set of math equations called an algorithm.  The recommendations and actions that Loop takes are based on math.  If the inputs to those math equations (aka your settings) are not accurate, your results for blood glucose control may also not be optimal.</p>
+<p>Let's use an analogy to explain the impact of settings.  Imagine your are trying to keep a house plant healthy.  If you water it "just right", the plant is green and lush.  After much trial and error, you've discovered that 1/3 cup of water every other day is "just right".  Everything is beautiful...plant is happy.</p>
+<p>Until, your mom decided to move the plant into the warmest room of the house.  Now the plant's soil is evaporating water at a quicker rate.  You notice this is leaving the plant stressed and not quite as perky looking.  If you continued to water just 1/3 cup of water every other day...the plant would not be as healthy as it was in the cooler room.  What changed?  The underlying need for water changed due to a stressor (hotter room).  Knowing that there was a stressor, you have some options:</p>
+<ol>
+<li>Keep the same watering schedule.  Before choosing this option you might want to know how long your mom is staying.  If she will be gone soon and you can move the plant back into the cooler room, maybe you choose this option.  The affect on the plant, while not ideal, will be short-lived and you just don't want to deal with mom-drama about plant locations.  Ride out the short-term stress.</li>
+<li>Increase your watering schedule.  If mom is going to be visiting for a long time, it might be best to adjust your watering schedule.  You might not be quite sure how much, but you know it's something.  You can periodically check in on the plant and soil moisture to see how it is responding to a little more water.</li>
+</ol>
+<p>Much like the plant and its watering schedule, your basic insulin settings are what keeps your BGs steady <em>without stessors</em> present.  For much of the time, the stressors in type 1 are short-lived and temporary (we just ride them out)...carb count a little off, math test in fourth period, public speaking engagement, etc.  Loop does well helping with the short-term stressors.  They don't represent a prolonged need to change settings and the BG-impacts are short-lived. </p>
+<p>However, the longer term stressors are often helped by settings adjustments.  Examples of longer term stressors are medications, illness, hormones, travel, or altitude.   By letting Loop know that the status quo has changed (more/less insulin is needed overall) will help BGs get and stay in range.  If you have told Loop that your insulin need is 1 unit/hour, but in reality you're needing 1.3 units/hour because you've traveled to a colder place and will be sedentary for days...you will likely find yourself steady but higher than your target range while looping.  The high temp basals that Loop will be providing in an attempt to bring you back to target will simply be going to fill the lack of adequate basal scheduled.  If you update your basal schedule to reflect 1.3 units/hour of basal needs, Loop would be better positioned to provide needed insulin delivery to keep you in target range.</p>
+<h2 id="automated-settings-adjustments">Automated settings adjustments<a class="headerlink" href="#automated-settings-adjustments" title="Permanent link">⌁</a></h2>
+<p>A common sentiment among new Loop users goes something like <em>"Why doesn't Loop see that I'm stuck on a high BG?  Why doesn't it bring me back to my target BG?"</em></p>
+<p>What's actually being implied is that the user thinks Loop should be doing some sort of retrospective analysis on the user's BG and data to make a "better" decision.   The user wants Loop to learn from recent data.  </p>
+<p>There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of BG changes.  However, larger-scale "learning" is not currently a part of Loop's algorithm. </p>
+<p>Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning will be incorporated.  Until then, you will need to tell Loop if your plant has moved long-term to a warmer room ;)</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
