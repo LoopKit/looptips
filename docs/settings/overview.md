@@ -1,6 +1,6 @@
 # Overview
 
-In the context of the following discussion, the term "settings" refers to information that the user typically enters into their pump.  These settings include:
+In the context of the following discussion, the term "settings" refers to information that the user has typically entered into their pump.  These settings include:
 
 * basal rate schedule
 * insulin sensitivitiy factor (ISF)
@@ -8,19 +8,25 @@ In the context of the following discussion, the term "settings" refers to inform
 * duration of insulin action (DIA)
 * correction/target range
 
-Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's BG and treatments history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic (Think Like A Pancreas, etc)
+Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's glucose and treatment history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic (Think Like A Pancreas, etc)
 
 ## Why settings still matter
 
+Loop is primarily a set of math equations called an algorithm.  The recommendations and actions that Loop takes are based on that algorithm, and the settings you enter in your Loop app are the basis for that math.
+
+Let's start by thinking about basal rates.  A well-adjusted basal schedule is designed to keep your BG steady throughout the day, everything else being equal.  So...if you were to not eat, not exercise, and basically keep a mellow lifestyle...basals should keep your BGs steady.  
+
+That is how Loop's math starts, and it's an important point to remember as you use and learn your Loop app.  Loop's math is based on the assumption that the basal schedule you have provided in your settings are capable of keeping your BGs steady in the absence of other stressors.  So as your BGs go out of range for an unusual short-term influence like stress, exercise, or unannounced carbs, Loop will apply corrective insulin (via temp basal) adjustments to bring your BGs back to target.
+
 With all the excitement about automated insulin delivery, some people mistakenly assume that the user's settings don't matter anymore....that **<i>everything</i>** is automated. However, settings do still matter as they provide the basis for Loop's math.  Diabetes is not a static math equation.  What worked for basals, insulin sensitivity, or carb ratios yesterday...well, that might not work today.  The degree that those variations happen can affect your looping experience.
 
-Let's give some examples to help.  When you go to calculate a meal bolus, your math probably looks similar to this:
+Let's give some examples to help.  When you calculate a meal bolus, your math probably looks similar to this:
 
 <p align="center">
 <img src="../img/bolus-equation.jpg" width="450">
 </p>
 
-But then many times you are also probably adjusting that math based on any number of "factors" that you are aware could be affecting your BG.  [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) put together this great list of factors that affect BGs, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.
+But many times you are probably adjusting that math based on any number of "factors" that you are aware could be affecting your BG.  [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) put together this great list of factors that affect BGs, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.
 
 <p align="center">
 <img src="../img/bg-factors.png" width="450">
@@ -29,8 +35,8 @@ But then many times you are also probably adjusting that math based on any numbe
 Some of those factors you are already used to making allowances for, such as:
 
 * Pizza boluses...You probably are accustomed to needing an extended bolus and/or higher temp basal rate to help with the late BG spike common after the initial bolus starts to wear off.  That pizza takes a long time to digest thanks to those slow-acting fats.  
-* Medications...How about that time that you had to take steroids for an achy joint?  Those steroids probably resulted in a dramatic overall increase in insulin needs for several days.
-* Hormones...monthly hormone cycles have many women adjusting their basal rates and insulin sensitivity schedules for a week or so each month.
+* Medications...How about that time that you had to take steroids for an achy joint?  Those steroids probably resulted in a dramatic overall increase in insulin needs for several days, and you had to set aggressive temp basal increases or other settings adjustments.
+* Hormones...monthly hormone cycles have many women adjusting their basal rates and/or insulin sensitivity schedules for a week or so each month.
 * Exercise...always a tough one because some exercise may make your BG rise (lifting weights) and other exercise may make your BG drop (running).  Through repetition, most people have learned how to adjust for exercise by using temp basal rates or timing of meals/boluses.
 
 The degree to which Loop can deal with those factors is largely dependent on the duration of the "factor" itself and how well we can communicate to Loop that those factors are at play.  For things we know are coming, we can tell Loop in advance, and Loop has ways of dealing with them mathematically.  In the pizza example, Loop lets us mark the meal as long, slow digestion and therefore better react to a potential late BG rise.  For exercise, we can use temporary targets before/after exercise to help Loop administer less insulin for awhile.
@@ -39,7 +45,8 @@ If, however, your insulin needs are impacted by something unnanouced such as hor
 
 ## What if settings are "off"?
 
-Loop is primarily a set of math equations called an algorithm.  The recommendations and actions that Loop takes are based on math.  If the inputs to those math equations (aka your settings) are not accurate, your results for blood glucose control may also not be optimal.
+ 
+If the inputs to those math equations (aka your settings) are not accurate, your results for blood glucose control may also not be optimal.
 
 Let's use an analogy to explain the impact of settings.  Imagine your are trying to keep a house plant healthy.  If you water it "just right", the plant is green and lush.  After much trial and error, you've discovered that 1/3 cup of water every other day is "just right".  Everything is beautiful...plant is happy.
 
