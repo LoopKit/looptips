@@ -4,7 +4,7 @@ There will be times when you need to adjust your settings in order to keep your 
 
 ## Troubleshooting before a change
 
-The most common reason that people decide it may be time to adjust their settings is when previously great blood glucose control suddenly becomes elusive. What worked yesterday is no longer working today.
+The most common reason that people decide it may be time to adjust their settings is when previously great blood glucose control suddenly becomes elusive. What worked yesterday is no longer working today. Because of course, as soon as you test and dial-in all those settings, diabetes will throw you a curve ball and change your insulin needs. That's the way it works. It's not just YDMV (your diabetes may vary), it's actually YDWV (your diabetes will vary).
 
 Before considering a change to your settings, the usual laundry list of possible other causes should be explored.
 
@@ -16,9 +16,9 @@ Before considering a change to your settings, the usual laundry list of possible
 Some signs that the issue is actually the result of equipment failure include failure of blood glucose to decrease despite repeated bolus corrections. Often during equipment failure troubleshooting, you've blamed the food (and adjusted a carbohydrate count), given corrections, checked for hidden food wrappers, and maybe even open-looped rage bolused.  Breathe deep, it is super frustrating to have equipment failure. One of the benefits of Loop can be that equipment failures can become a little easier to identify over time because blood glucose control becomes more predictable and reliable.
 
 ## Assess the duration
-Once you have eliminated equipment failures as a source of the unexpected blood glucose control problems, it is time to determine if this is a short-term or long-term issue. This assessment tends to be a skill that people will get better with practice. Because of course, as soon as you test and dial-in all those settings, diabetes will throw you a curve ball and change your insulin needs. That's the way it works. It's not just YDMV (your diabetes may vary), it's actually YDWV (your diabetes will vary).
+Once you have eliminated equipment failures as a source of the unexpected blood glucose control problems, it is time to determine if this is a short-term or long-term issue. This assessment tends to be a skill that people will get better with practice. 
 
-Before considering a change to your settings, you should assess if you expect the issue to resolve on its own soon or if the issue might be caused by a more longer term issue that should be addressed.
+Before considering a change to your settings, you should assess if you expect the issue to resolve on its own soon or if the issue might be caused by a more long(er) term issue that should be addressed.
 
 ### Short-term factors
 
