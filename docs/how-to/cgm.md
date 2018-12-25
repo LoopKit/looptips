@@ -24,7 +24,7 @@ As you can see on the left, the red dot was a finger stick blood glucose check a
 
 We similarly see an increase in sensor noise at the end of a sensors useful life. The figure below is a G6 sensor at 9.5 days. 
 
-![noisy old G6 sensor](img/end_of_sesnor.jpeg)
+![noisy old G6 sensor](img/end_of_sensor.jpeg)
 
 There is a marked increase in sensor noise and scatter, as well as several periods of sensor error that lead to lost CGM data. We opted to pull this sensor just shy of the 10 days due to this noise. However, as you can see, the Loop was still doing an aequate job controling overall blood glucose fluctuations despite the erratic CGM data.
 
