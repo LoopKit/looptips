@@ -10,7 +10,7 @@ In the context of the following discussion, the term "settings" refers to inform
 
 Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's blood glucose and treatment history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic (Think Like A Pancreas, etc)
 
-## Why settings still matter
+## Why settings matter
 
 Loop is primarily a set of math equations called an algorithm.  The recommendations and actions that Loop takes are based on that algorithm, and the settings you enter in your Loop app are the basis for that math.
 

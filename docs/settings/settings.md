@@ -43,8 +43,8 @@ It's a pretty easy test. Turn off your loop or open loop. Don't eat food, don't 
 Many people, especially little kids, are not enthusiastic about fasting basal testing...so look for opportunities to make it less cumbersome if you have to eat during the test. For example, use a low carb meal/snack that you know how to bolus for (or doesn't need a bolus at all) and generally needs no corrections. For us, that's two extra large scrambled eggs (or three small ones) with cheese bolused at 8g. If she eats that meal, the blood glucose response is slow and measured. Three hours after that meal, the bolus and food effects are really muted and we can start watching to see if blood glucose stayed pretty steady.  For example, here's some of a recent open-loop basal testing we did and confirmed that blood glucose could stay pretty steady without the involvement of temporary basal help from looping.
 
 <p>
-<img src="../img/basal_open_loop.png" width="450">
-</p>
+<img src="../img/basal-open-loop.png" width="450">
+</p></br>
 
 ### 3rd: Insulin sensitivity factor
 
@@ -73,7 +73,7 @@ A bad carb ratio will leave you higher or lower than the starting point of the m
 For example, this graph shows too aggressive of a carb ratio.  Three hours after the meal, there's nearly 0.50 units of active insulin, blood glucose is well below where the meal started, and definitely low treatments needed.
 
 <p>
-<img src="../img/carbratio2.png" width="450">
+<img src="../img/carbratio2.png" width="300">
 </p></br>
 
 If you are finding that a correct carb ratio is yielding good blood glucose 3 hours later, but you aren't happy with the peak blood glucose during the meal, then it may be time to explore increasing or adding prebolusing time to your meal or implementing "eating soon" targets an hour before meals to help control the post-meal blood glucose spike. Artificially strengthening carb ratios to help control post-meal blood glucose spike will likely yield lows 2-3 hours after a meal.
