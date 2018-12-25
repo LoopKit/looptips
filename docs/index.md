@@ -21,7 +21,7 @@ The U.S. Food and Drug Administration (FDA) has a general definition of an "arti
 
 # What is Loop?
 
-The Loop app is a do-it-yourself closed loop algorithm and user interface, developed through the work of community volunteers.  (You can read about the history of Loop development in LoopDocs.)  Loop predicts future glucose based on basal-rate schedules, carbohydrate intake, insulin on board, and current CGM readings. These glucose forecasts provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future. The system can either operate as an “open loop” by making recommendations to the user for their approval before enacting or as a “closed loop” by automatically setting the recommended temporary basal rate.
+The Loop app is a do-it-yourself closed loop algorithm and user interface, developed through the work of community volunteers. You can read about the history of Loop development in LoopDocs. Loop predicts future blood glucose based on basals, carbohydrate intake, insulin deliveries, and current CGM readings. These blood glucose predictions provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future. The system can either operate as an “open loop” by making recommendations to the user for their approval before enacting or as a “closed loop” by automatically setting the recommended temporary basal rate.
 
 As exciting as this sounds...we should first get the cavaets out of the way.  There are some limitations on what kind of pumps/equipment are required.  This system doesn't work with most pumps and requires you to do some work (directions are thoroughly covered in LoopDocs).
 
@@ -33,6 +33,8 @@ As exciting as this sounds...we should first get the cavaets out of the way.  Th
 * Medtronic x54 series (WW: 2.6A or lower and Canadian/Australian: 2.7A or lower)
 * You need access to a Mac computer to build Loop app onto your iPhone
 * You need to buy a RileyLink ($150) and a developer license ($99 per year)
+
+Put in other words, no this does not current work on android phones. Animas, T-slim, Combo, Dana-R, Dana-RS, Medtronic (not listed above), and any other pump you can name will also not be compatible. The only exception is the current Omnipod pumps (called Eros pods that are used with the PDMs, not the DASH pods that are in limited release currently)...we are very close to having Loop compatible with those Eros pods.
 
 # Disclaimer
 

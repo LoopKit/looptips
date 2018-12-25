@@ -10,16 +10,9 @@ markdown_extensions:
 pages:
 - Home: 'index.md'
 - Settings:
-    - 'Overview': 'settings/overview.md'
+    - 'Why Settings Matter': 'settings/overview.md'
     - 'Initial Settings': 'settings/settings.md'
-    - 'Duration of Insulin': 'settings/dia.md'
-    - 'Check Settings': 'settings/test-settings.md'
-    - 'Adjustments': 'settings/adjust.md'
-- Algorithm:
-    - 'Overview': 'algorithm/overview.md'
-    - 'Prediction': 'algorithm/prediction.md'
-    - 'Basal': 'algorithm/temp-basal.md'
-    - 'Bolus': 'algorithm/bolus.md'
+    - 'Adjust Your Settings': 'settings/adjust.md'
 - Data Tools:
     - 'Overview': 'data/overview.md'
     - 'Health': 'data/health.md'
@@ -41,4 +34,9 @@ pages:
     - 'Adjust IOB': 'how-to/iob.md'
     - 'CGM warmups': 'how-to/cgm.md'
     - 'Override Targets': 'how-to/overrides.md'
+- Algorithm:
+    - 'Overview': 'algorithm/overview.md'
+    - 'Prediction': 'algorithm/prediction.md'
+    - 'Basal': 'algorithm/temp-basal.md'
+    - 'Bolus': 'algorithm/bolus.md'
 
