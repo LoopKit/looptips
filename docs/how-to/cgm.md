@@ -18,13 +18,13 @@ Depending on which CGM device you use, you may observe a sweet spot of data accu
 
 The figure below shows an example of a new G6 sensor for approximately its first 21 hours of use.
 
-![noisy new G6 sensor](img/cgm_noise.jpg)
+![noisy new G6 sensor](img/cgm_noise.jpeg)
 
 As you can see on the left, the red dot was a finger stick blood glucose check and it nicely aligned with the CGM value when the session first started to provide live data.  However, between that first value and approximately noon the next day, there was a considerable amount of jumpiness to the data (as well as some suspected compression lows or extreme sensor jumpiness in the first 6 hours). The CGM noise immediately decreased after the first calibration was provided at the noon-time meal bolus. (Personally, we give the G6 one calibration point about 8-12 hours after a session starts because we have noticed that it helps settle down the noise quickly. This is not a part of the standard Dexcom protocols.)
 
 We similarly see an increase in sensor noise at the end of a sensors useful life. The figure below is a G6 sensor at 9.5 days. 
 
-![noisy old G6 sensor](img/end_of_sesnor.jpg)
+![noisy old G6 sensor](img/end_of_sesnor.jpeg)
 
 There is a marked increase in sensor noise and scatter, as well as several periods of sensor error that lead to lost CGM data. We opted to pull this sensor just shy of the 10 days due to this noise. However, as you can see, the Loop was still doing an aequate job controling overall blood glucose fluctuations despite the erratic CGM data.
 
