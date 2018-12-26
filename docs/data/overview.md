@@ -18,9 +18,8 @@ Then your clinic staff have the less-than-efficient process of trying to overlay
 ## Available solutions
 The good news is that the community has some very useful tools to help address the shortcomings in the traditional data aggregation for Loop users. There are several tools available to help you and/or your endocrinologist evaluate your Loop data. Specifically, this section covers:
 
+* Health app
 * Nightscout
-* Apple HealthKit and Health app
 * Tidepool
-* Glucodyn and Dash
-* Loop
+* Perceptus
 

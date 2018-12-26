@@ -48,10 +48,10 @@ The list of long-term factors is just as long, but the most common are probably:
 
 For long(er) term factors, you may benefit from adjusting your underlying settings to reflect the insulin-need changes that have happened as a result of the factors.  By adjusting your underlying settings, you will help Loop to better predict your insulin needs and therefore you'll be more likely to achieve blood glucose in correction range.
 
-## Assess the need
+## Assess the data
 
-Once you have assessed that there's been a long(er) term need for a settings adjustment, the next step is to decide *which* setting(s) to change and *how* to adjust them.
+Once you have assessed that there's a need for a settings adjustment, the next step is to decide *which* setting(s) to change and *how* to adjust them.
 
 Whether you undertake the adjustments by yourself and/or with your health care provider's input is at your own discretion. Ideally, you would have your health care provider's input and support to discuss the observations and concerns you have and develop an adjusted setting profile based on those discussions. Many endocrinologists are still becoming familiar with Loop and its algorithm, so providing them links to the various sites would be a good starting point for discussion. This can help the endocrinologist understand where Loop is similar/different than traditional pump therapy. If you and your health care provider are comfortable with your self-adjustments and Loop's algorithm, then proceed ahead.
 
-
+To begin the process of settings adjustment, visualizing your data trends is important. You need to be able to piece together what was eaten, how it was bolused, what temporary basals were applied, and how your blood glucose was reacting. The next section of LoopTips covers the various places you can find your diabetes-related data to help you during adjustments.

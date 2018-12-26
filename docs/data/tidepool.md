@@ -11,7 +11,7 @@ In Tidepool's own words, their commitment to diabetes data and accessibility is 
 
 Tidepool also [recently announced](https://tidepool.org/loop/) that they were embarking on a project to build and support an FDA-regulated version of Loop, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
 
-## Tidepool's Website
+## Tidepool Data
 Once you start uploading data into your Tidepool account, you'll see some of the benefits pretty quickly. Tidepool's data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
 
 <p align="center">
