@@ -1,9 +1,8 @@
 # Perceptus
 
-[Perceptus](http://perceptus.org/) is a website and set of free tools developed by Kenneth Stack and Gustavo Munoz, two active members of the DIY community. Perceptus provides two tools particularly helpful for Loop users; Dash and GlucoDyn.  As a side note, Gustavo has an excellent Spanish [Tedx Talk](https://youtu.be/K1C4xEWipOo) about building his own DIY looping algorithm. Kenneth is also the brains behind [NSApple watch app](https://github.com/Kdisimone/nsapple/tree/nsapple-units).
+[Perceptus](http://perceptus.org/) is a website and set of free tools developed by Kenneth Stack and Gustavo Munoz, two active members of the DIY community. Perceptus provides two tools particularly helpful for Loop users; Dash and GlucoDyn. As a side note, Gustavo has an excellent Spanish [Tedx Talk](https://youtu.be/K1C4xEWipOo) about building his own DIY looping algorithm. Kenneth is also the brains behind [NSApple watch app](https://github.com/Kdisimone/nsapple/tree/nsapple-units).
 
 ## Dash
-
 For Loop users with Nightscout integration running, Dash can provide an alternate view and data analysis for the Loop data stored in your Nightscout's mLab database. (Note: mLab used to be called MongoLab, still the same intended reference)
 
 To set up your Dash integration, you will need to:  
@@ -60,7 +59,7 @@ GlucoDyn uses calculations similar to an insulin pump’s bolus wizard to create
 
 Seeing the curves and understanding the effects of bolus timing, carbohydrate absorption rate glycemic index (GI) value, temporary basal timing and rates, etc. can help users with their overall understanding of T1D and its management.
 
-Originally, Loop used the same carbohydrate absorption and insulin models as Glucodyn uses.  Those have since been updated in Loop with dynamic carbohydrate absorption and exponential curves for insulin. Even with those changes, the GlucoDyn tool can still provide users an excellent tool to visualize how small changes in bolusing can affect trends in blood glucose. For example, it’s quite interesting to see the effect of pre-bolusing. By delaying the carb intake by say 20 minutes, you can visualize the reduction of the maximum blood glucose. But, you have to be careful – before the carbohydrates have time to absorb insulin is working, and the minimum blood glucose will also drop. These are the kinds of tradeoffs that are critical to the management of T1D, and thankfully are automated by Loop's smart bolusing based on carbohydrate absorption estimates.
+Originally, Loop used the same carbohydrate absorption and insulin models as Glucodyn uses. Those have since been updated in Loop with dynamic carbohydrate absorption and exponential curves for insulin. Even with those changes, the GlucoDyn tool can still provide users an excellent tool to visualize how small changes in bolusing can affect trends in blood glucose. For example, it’s quite interesting to see the effect of pre-bolusing. By delaying the carb intake by say 20 minutes, you can visualize the reduction of the maximum blood glucose. But, you have to be careful – before the carbohydrates have time to absorb insulin is working, and the minimum blood glucose will also drop. These are the kinds of tradeoffs that are critical to the management of T1D, and thankfully are automated by Loop's smart bolusing based on carbohydrate absorption estimates.
 
 <p align="center">
 <img src="../img/dash9.png" width="750">

@@ -80,10 +80,6 @@
 </li>
                                     
 <li >
-    <a href="../../data/loop/">Loop</a>
-</li>
-                                    
-<li >
     <a href="../../data/nightscout/">Nightscout</a>
 </li>
                                     
@@ -92,7 +88,7 @@
 </li>
                                     
 <li >
-    <a href="../../data/glucodyn/">Glucodyn</a>
+    <a href="../../data/glucodyn/">Perceptus</a>
 </li>
                                 </ul>
                             </li>
@@ -101,7 +97,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../overview/">Overview</a>
+    <a href="../cgm/">CGM habits</a>
+</li>
+                                    
+<li >
+    <a href="../iob/">Use morning IOB</a>
+</li>
+                                    
+<li >
+    <a href="../overrides/">Override Targets</a>
+</li>
+                                    
+<li >
+    <a href="../low-treat/">Low Treatments</a>
+</li>
+                                    
+<li >
+    <a href="../disconnect/">Shower & Swimming</a>
 </li>
                                     
 <li >
@@ -113,19 +125,11 @@
 </li>
                                     
 <li >
-    <a href="../meal/">LC/HF meals</a>
-</li>
-                                    
-<li >
     <a href="../site-fail/">Site Failure</a>
 </li>
                                     
 <li >
     <a href="../high-bg/">Stuck on High</a>
-</li>
-                                    
-<li >
-    <a href="../low-treat/">Low Treatments</a>
 </li>
                                     
 <li >
@@ -141,15 +145,7 @@
 </li>
                                     
 <li >
-    <a href="../iob/">Adjust IOB</a>
-</li>
-                                    
-<li >
-    <a href="../cgm/">CGM warmups</a>
-</li>
-                                    
-<li >
-    <a href="../overrides/">Override Targets</a>
+    <a href="../injections/">Afreeza and Injections</a>
 </li>
                                 </ul>
                             </li>
@@ -188,7 +184,7 @@
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../meal/">
+                                <a rel="prev" href="../site-fail/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -200,15 +196,25 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#test-your-settings">Test Your Settings</a></li>
+        <li class="main active"><a href="#extended-bolus-with-loop">Extended Bolus with Loop</a></li>
+            <li><a href="#pizza-icon">Pizza Icon</a></li>
+            <li><a href="#low-carbhigh-fat-or-keto-diets">Low carb/High Fat or Keto diets</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="test-your-settings">Test Your Settings<a class="headerlink" href="#test-your-settings" title="Permanent link">⌁</a></h1>
-<p>Open Looping
-Fine-Tuning Settings
-Book settings</p></div>
+<h1 id="extended-bolus-with-loop">Extended Bolus with Loop<a class="headerlink" href="#extended-bolus-with-loop" title="Permanent link">⌁</a></h1>
+<h2 id="pizza-icon">Pizza Icon<a class="headerlink" href="#pizza-icon" title="Permanent link">⌁</a></h2>
+<h3 id="example-long-absorption-time-bolus">Example long absorption time bolus<a class="headerlink" href="#example-long-absorption-time-bolus" title="Permanent link">⌁</a></h3>
+<p>For an example of Loop's bolus adjustments using carbohydrate absorption time, let's take a look at an example meal.  This is an example of a long absorption meal. This is a mushroom (arborio) risotto dish with heavy whipping cream and cheese ingredients. While some white rice can be fairly quick acting, after several times eating this dish, the family has noticed that the meal tends to have a longer, slower duration of impact on blood glucose. Using a "taco" icon (3 hours absorption) was causing slight low blood glucose soon after eating the meal. Therefore, they have been using the pizza icon to enter the meal's carbohydrate absorption time.</p>
+<p align="center">
+<img src="../img/pizza_bolus.jpg" width="400">
+</p>
+
+<p>The initial meal entry was 70g at a "pizza" icon aborption time (4 hours). Based on carbohydrate ratio of 8 g/U, the initial bowl of risotto at 60g should have been a bolus of 7.5 units. Loop recommended 5.3 units, or about 70% of the total bolus that would be needed to cover the total carbohydrates. Loop recommended the lower upfront bolus because a full bolus would have overwhelmed the slow absorption of carbohydrates, and the likelihood would be a low blood glucose shortly after eating. </p>
+<p>As the meal was being absorped, Loop was tracking the carbohydrates still remaining to be absorped and expecting that blood glucose values would be rising soon (knowing that there was still insulin needing to be delivered once safely passed the near-meal low blood glucose potential). Loop would have provided the additional insulin via high temporary basals after seeing blood glucose impacts which indicated the potential for a low blood glucose had passed. </p>
+<p>The Loop user then had a second, smaller bowl of risotto about 90 minutes later, and entered 30g at 4 hours absorption again. Notice this bowl of risotto had a bolus recommendation much different than the original bowl. The second bowl had a recommendation of 5 units, much greater amount of bolus relative to the amount of carbs entered than the first bowl had received, and more than the carbohydrate ratio alone would provide (3.75 units). Why the "extra" 1.25 units? Because Loop was including <em>some</em> extra bolus amount to cover what it predicted could safely be provided from the amount <em>not</em> given in the original bowl's bolus (the original bolus was approximately 2.2 units short of carbohydrate ratio alone recommendation). If the user had not had the second bowl, Loop would have been providing high temporary basals as soon as blood glucose had exceeded the correction range. And in fact, you can see that Loop still provided the remaining insulin via high temporary basals as blood glucose rose after the second bowl, in effect making up the small remaining difference.</p>
+<h2 id="low-carbhigh-fat-or-keto-diets">Low carb/High Fat or Keto diets<a class="headerlink" href="#low-carbhigh-fat-or-keto-diets" title="Permanent link">⌁</a></h2></div>
         </div>
 
         <footer class="col-md-12">

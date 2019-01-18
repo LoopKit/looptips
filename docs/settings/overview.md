@@ -26,7 +26,7 @@ Let's give some examples to help.  When you calculate a meal bolus, your math pr
 <img src="../img/bolus-equation.jpg" width="450">
 </p>
 
-But many times you are probably adjusting that math based on any number of "factors" that you are aware could be affecting your blood glucose.  [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) put together this great list of factors that affect blood glucose, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.
+But many times you are probably adjusting that math based on any number of "factors" that you are aware could be affecting your blood glucose. [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) put together this great list of factors that affect blood glucose, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.
 
 <p align="center">
 <img src="../img/bg-factors.png" width="450">
@@ -59,6 +59,6 @@ What's the user is actually implying is that the user thinks Loop should be doin
 
 There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes.  While this does help some, larger-scale "learning" is not currently a part of Loop's algorithm. 
 
-Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning could be incorporated.  Until then, you will need to tell Loop if your underlying settings need upating. These pages in LoopTips are written to help you identify when settings may need adjustment or when other techniques may be useful in given situations.
+Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning could be incorporated.  Until then, you will need to tell Loop if your underlying settings need upating or make temporary adjustments for short term issues. These pages in LoopTips are written to help you identify when settings may need adjustment or when other techniques may be useful in given situations.
 
 
