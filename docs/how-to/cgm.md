@@ -31,7 +31,11 @@ There is a marked increase in sensor noise and scatter, as well as several perio
 ## Compression lows
 A frequent question from people before starting Loop is "*How does Loop deal with compression lows?*"  If you aren't familiar with compression lows, they are false low blood glucose alarms caused by sustained pressure on the sensor area. In effect, the phenomenom is much like resting on an arm for too long and causing it to fall asleep from poor blood flow.
 
-The figure above showing the new sensor noise shows a couple of examples of compression lows. Generally speaking, Loop will deal with compression lows just fine.  Loop will suspend for a short time during the low blood glucose values, and then recover with temporary high temporary basals to make up for the active insulin it had missed as result of the compression low. No special actions need to be taken for compression lows.
+<p align="center">
+<img src="../img/compression-low.jpg" width="300">
+</p>
+
+The figure above showing an example of a compression low. CGM data shows blood glucose droping low, but finger checks on a meter (shown with the red dots) confirm that the CGM data is falsely low. Generally speaking, Loop will deal with compression lows just fine.  Loop will suspend for a short time during the low blood glucose values, and then recover with temporary high temporary basals to make up for the active insulin it had missed as result of the compression low. No special actions need to be taken for compression lows.
 
 ## Calibration jumps
 It is also worth noting that Loop will not calculate blood glucose momentum in instances where CGM data is not continuous (i.e., must have at least three continuous CGM readings to draw the best-fit straight line trend). It also will not calculate blood glucose momentum when the last three CGM readings contain any calibration points, as those may not be representative of true blood glucose momentum trends. Therefore, calibration jumps or missing data will not adversely affect the insulin dosing based on blood glucose momentum.
