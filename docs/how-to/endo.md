@@ -2,7 +2,7 @@
 
 There is a wide range of comfort within the health care profession for DIY projects and type 1 diabetes. Loop is no different; some health care providers are comfortable and some are distrusting. As with all things health care related, honesty with your health care provider is paramount so that the best decisions can be made.
 
-Since using Loop often requires people to secure access to pump supplies that they may not have otherwise have, often times the first conversation about Looping with an endocrinologist will be when trying to get prescriptions for Medtronic or Omnipod supplies. The best approach is to start with objective information. Find out if the clinic has other patients already Looping and whether or not they have concerns from what they have seen. Provide links to the [LoopDocs site](http://loopdoc.org) and this site so that your endocrinologist or health care provider can read about the system's algorithm and operations.
+Since using Loop often requires people to secure access to pump supplies that they may not have otherwise have, often times the first conversation about Looping with an endocrinologist will be when trying to get prescriptions for Medtronic or Omnipod supplies. The best approach is to start with objective information. Find out if the clinic has other patients already Looping and whether or not they have concerns from what they have seen. Provide links to the [LoopDocs site](http://loopdocs.org) and this site so that your endocrinologist or health care provider can read about the system's algorithm and operations.
 
 Most often the important aspects that need discussion are:
 
