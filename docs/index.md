@@ -3,7 +3,7 @@
 
 Welcome to LoopTips!  The purpose of these pages is to help you make the most of your DIY closed-looping experience.  In particular, these pages support users of the [Loop app](https://loopdocs.org).  These documents have been a long time in the making and as always, your feedback is welcome.  If you have comments, please feel free to provide input at the [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf)  or in [Loop's Zulipchat](https://loop.zulipchat.com).
 
-LoopTips is a companion to the LoopDocs.   LoopTips does not cover the build or installation of Loop app.  If you have problems with building your Loop app, or troubleshooting the technical aspects of Loop operations, please head over to the LoopDocs for help.  The pages here are specifically related to understanding how your loop is recommending the actions being taken, and how you can improve your blood glucose outcomes on Loop.
+LoopTips is a companion to the LoopDocs.   LoopTips does not cover the build or installation of Loop app.  If you have problems with building your Loop app, or troubleshooting the technical aspects of Loop operations, please head over to the [LoopDocs](https://loopdocs.org) for help.  The pages here are specifically related to understanding how your loop is recommending the actions being taken, and how you can improve your blood glucose outcomes on Loop.
 
 # What is a closed loop?
 
