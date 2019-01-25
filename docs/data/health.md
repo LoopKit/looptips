@@ -6,7 +6,9 @@ There's often confusion over the terminology surrounding Apple's health data sto
 
 * **HealthKit** -- Apple's iOS database for storing health-related data. App developers can choose to use HealthKit to store information from their apps such as heart rate, blood glucose, insulin use, and a long list of other parameters
 
-(insert graphic here)
+<p align="center">
+<img src="../img/health-data.png" width="350">
+</p>
 
 * **Health App** -- Apple allows iOS users to manage HealthKit permissions and view stored HealthKit data through the use of Apple's Health app (standard on iPhone and iPods, but not available on iPads).  
 
