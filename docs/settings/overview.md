@@ -8,7 +8,7 @@ In the context of the following discussion, the term "settings" refers to inform
 * duration of insulin activity (DIA)
 * correction range
 
-Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's blood glucose and treatment history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic (Think Like A Pancreas, etc)
+Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's blood glucose and treatment history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic ([*Think Like A Pancreas*](https://www.amazon.com/Think-Like-Pancreas-Practical-Insulin-Completely/dp/0738215147) and similar)
 
 ## Why settings matter
 

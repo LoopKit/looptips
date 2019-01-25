@@ -34,7 +34,7 @@ To account for those dietary differences, there are two useful strategies:
 * convert some of the protein and fat to "equivalent carbohydrates" and
 * extend the duration of those carbohydrates using a pizza icon or even longer, depending on the person/food.
 
-Most LC/HF or Keto users will convert a portion of their fat and protein content into an equivent carbohydrate content.  So while an example meal might only have 5g of carbohydrates based on nutritional labels, they may convert 25% of the 20g fat and 50% of the 20g protein grams into an additional 15g of "equivalent carbs" for bolusing purposes. The percentages that people use to convert fat and protein will usually be a bit of trial-and-error, but there are some published articles that may be helpful starting points, if you are interested.
+Most LC/HF or Keto users will convert a portion of their fat and protein content into an equivent carbohydrate content.  So while an example meal might only have 5g of carbohydrates based on nutritional labels, they may convert 25% of the 20g fat and 50% of the 20g protein grams into an additional 15g of "equivalent carbs" for bolusing purposes. The percentages that people use to convert fat and protein will usually be a bit of trial-and-error, but there are some published articles ([here](https://www.practicaldiabetes.com/article/fat-protein-counting-type-1-diabetes/), [here](https://www.ncbi.nlm.nih.gov/pubmed/21949219/), [here](https://youngandt1.com/how-to-bolus-for-fat-and-protein/), and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3609492/)) that may be helpful starting points, if you are interested.
 
 
 
