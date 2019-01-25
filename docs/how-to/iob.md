@@ -12,23 +12,23 @@ This Looped group post started the conversation:
     <img src="../img/looped1.jpg" width="300">
     </p>
 
-To illustrate how to use morning IOB and blood glucose to check your basal rates, we will walk through a series of screenshots from a recent Loop experience. When the Looper woke up, she was below her 95 mg/dL target, but relatively steady. At about 8:48am, Nightscout showed negative IOB of -1.33 units, blood glucose of 90 mg/dL and slightly rising but still below a target of 95 mg/dL. 
+To illustrate how to use morning IOB and blood glucose to check your basal rates, we will walk through a series of screenshots from a recent Loop experience. When the Looper woke up, she was below her 95 mg/dL target, but relatively steady. At about 8:48am, Nightscout showed negative IOB of -1.33 units, blood glucose of 90 mg/dL and slightly rising but still below a target of 95 mg/dL. (Note: this situation is similar to what the original Facebook poster above was describing.)
 
 <p align="center">
 <img src="../img/looped2.jpg" width="750">
 </p>
 
-Looking back on the night, blood glucose was pretty much below target the whole night and her scheduled basal rate was turning off/on in an alternating pattern. Blood glucose wasn't concerning nor were alarms going off. *However*, this combination of data is a great indicator that basal rates need to be decreased. The tendency could be to let loop just keep plodding along like this, but it can lead to certain less than desirable stress points on the algorithm.
+Looking back on the night, blood glucose was pretty much below target the whole night and her scheduled basal delivery was turning off/on in an alternating pattern (the blue pattern area). Blood glucose wasn't concerning nor were alarms going off. *However*, this combination of data is a great indicator that basal rates need to be decreased. The tendency could be to let Loop just keep plodding along like this, but it can lead to certain less than desirable stress points on the algorithm.
 
 Firstly, if the user were to bolus while carrying a lot of negative iob, they would get more of a bolus than otherwise needed...yes, Loop will likely suspend again as soon the meal began because blood glucose spike would be well contained with the extra bolus, but the system would just have a harder time that it should with well tuned settings. 
 
 Secondly, if the user were to go above their correction range, they would begin to get high temporary basals for what is an inaccurate amount of negative iob (because basals really didn't need to be this high). And high temporary basals at this point in time and with these settings would be too aggressive. (If the maximum basal is set really high, the problem compounds with bad underlying settings. This is why it is a good idea to keep your maximum basal relatively low when you first start Loop and are testing your settings.)
 
-In summary, if you probably need to lower your overnight basal rates if you are:
-
-* Carrying negative IOB, and
-* Blood glucose is still below or just below target, and
-* Overnight basals were turning off/on.
+!!!info "Useful Summary"
+    You probably need to lower your overnight basal rates if you wake up:</br>
+        * Carrying negative IOB, and</br>
+        * Blood glucose is still below or just below target, and</br>
+        * Overnight basals were turning off/on.</br>
 
 So, what will you see after you adjust your basal lower? You will see some of the negative IOB disappear and, as a result, the predicted blood glucose curve will not so such an aggressive prediction for a blood glucose rebound.
 
@@ -62,10 +62,10 @@ If one was really exacting, you could adjust basals until a number closer to 0 I
 <img src="../img/looped7.jpg" width="750">
 </p>
 
-The confirmation thnat adjustments were on-track would also be provided by looking at morning blood glucose and IOB the following morning. As you can see below, the user was exactly at target blood glucose and carrying a very small amount of IOB. Also, there are far fewer instances of basals alternating off/on.  All good signs that the basal adjustments were reasonable.
+The confirmation that adjustments were on-track would also be provided by looking at morning blood glucose and IOB the following morning. As you can see below, the user was at target blood glucose and carrying a very small amount of IOB. Also, there are far fewer instances of basals alternating off/on. All good signs that the basal adjustments were reasonable.
 
 <p align="center">
 <img src="../img/looped6.jpg" width="350">
 </p>
 
-Note: This entire scenario can also be applied in the situations where (1) blood glucose has been steady but above target and (2) Loop is holding significant positive IOB.  By increasing the scheduled basals, Loop will recalculate that the positive IOB was actually necessary (not extra) insulin delivery, and the positive IOB will decrease.  This will help the prediction curve to more accurately realize that not all the insulin deliveries were being utilitized as "corrections" but rather as needed background basal.
+Note: This entire scenario can also be applied in the situations where (1) blood glucose has been steady but above target and (2) Loop is holding significant positive IOB, and (3) Loop has been high temping fairly consistently.  By increasing the scheduled basals, Loop will recalculate that the positive IOB was actually necessary (not extra) insulin delivery, and the positive IOB will decrease.  This will help the prediction curve to more accurately realize that not all the insulin deliveries were being utilitized as "corrections" but rather as needed background basal.

@@ -34,7 +34,7 @@ As exciting as this sounds...we should first get the cavaets out of the way.  Th
 * You need access to a Mac computer to build Loop app onto your iPhone
 * You need to buy a RileyLink ($150) and a developer license ($99 per year)
 
-Put in other words, no this does not current work on android phones. Animas, T-slim, Combo, Dana-R, Dana-RS, Medtronic (not listed above), and any other pump you can name will also not be compatible. The only exception is the current Omnipod pumps (called Eros pods that are used with the PDMs, not the DASH pods that are in limited release currently)...we are very close to having Loop compatible with those Eros pods.
+Put in other words, no this does not current work on android phones. Animas, T-slim, Combo, Dana-R, Dana-RS, Medtronic (not listed above), and any other pump you can name will also not be compatible. The only exception is the current Omnipod pumps are nearing Loop compatibility.  DIY Loop is being developed for Eros-type pods, that ones with the large PDMs most people have currently. Tidepool Loop has been announced at the development partner for the DASH pods that are in limited release currently.
 
 # Disclaimer
 

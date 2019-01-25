@@ -14,5 +14,3 @@ Open loop mode is a first line of defense during this situation. By open looping
 ## Prime Insulin
 If you are more certain about how much insulin is missing from your Loop's tracking of active insulin, you can choose to deliver insulin using the "prime" delivery function in your Medtronic pump while having your tubing connected to the new, working infusion site. Assuming you are using a Preferred Data Source set to Event History (most people are since this is the default setting), then prime insulin is not counted towards active insulin. In this way, you can deliver insulin to make up for some of the insulin that Loop had thought had been delivered (but wasn't). 
 
-## Fake Carbohydrates
-Another option is to use fake carbohydrates to offset the active insulin that Loop thinks exists (but doesn't). A rough approximation of carbohydrates to offset some of the active insulin can be made using your carbohydrate ratio.

@@ -35,10 +35,18 @@ A frequent question from people before starting Loop is "*How does Loop deal wit
 <img src="../img/compression-low.jpg" width="300">
 </p>
 
-The figure above showing an example of a compression low. CGM data shows blood glucose droping low, but finger checks on a meter (shown with the red dots) confirm that the CGM data is falsely low. Generally speaking, Loop will deal with compression lows just fine.  Loop will suspend for a short time during the low blood glucose values, and then recover with temporary high temporary basals to make up for the active insulin it had missed as result of the compression low. No special actions need to be taken for compression lows.
+The figure above showing an example of a compression low. CGM data shows blood glucose dropping low, but finger checks on a meter would confirm that the CGM data is falsely low. Often, Dexcom G5 and G6 will stop providing CGM values for awhile when their algorithm detects a suspected compression low. Once the person rolls off the sensor area and blood starts flowing well again, the CGM values come back online to a more reasonable tracking again. 
+
+Generally speaking, Loop will deal with compression lows just fine. Loop will suspend for a short time during the low blood glucose values, and then recover with temporary high temporary basals to make up for the active insulin it had missed as result of the compression low. No special actions need to be taken for compression lows.
 
 ## Calibration jumps
 It is also worth noting that Loop will not calculate blood glucose momentum in instances where CGM data is not continuous (i.e., must have at least three continuous CGM readings to draw the best-fit straight line trend). It also will not calculate blood glucose momentum when the last three CGM readings contain any calibration points, as those may not be representative of true blood glucose momentum trends. Therefore, calibration jumps or missing data will not adversely affect the insulin dosing based on blood glucose momentum.
 
 ## Loss of CGM data
 Transmitter failure, sensor failure, or other equipment failures can lead to a failure in CGM data. In those cases, Loop will revert back to the pump settings after any currently running temporary basal finishes or is manually canceled by the user.
+
+## New Transmitter or Reset Transmitter
+
+* If you begin a new transmitter, don't forget to update your transmitter ID in your Loop settings.
+
+* If you are going to reset a transmitter, don't forget to remove the transmitter ID from Loop settings during the reset and re-pairing of the transmitter. Do not add the transmitter ID back into Loop settings until you've completed the reset process and re-paired with the Dexcom app successfully.
