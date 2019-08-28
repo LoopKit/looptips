@@ -32,6 +32,12 @@ The format for the MongoLab API URL string is: `https://api.mlab.com/api/1/datab
 <img src="../img/dash7.png" width="750">
 </p>
 
+Access to the MongoLab RESTful API is disabled by default.  Click `Enable Data API access` button to permit access to data.
+
+<p align="center">
+<img src="../img/dash10.png" width="750">
+</p>
+
 ### Dash data presentation
 
 Dash provides multiple views of your mlab information, and the data is updated live as your Nightscout data updates too.  While there are some constraints (cannot set your own low/high range limits), the data views are very useful for identifying difficult times of day or difficult days of the week.
