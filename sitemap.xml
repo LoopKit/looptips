@@ -1,118 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/settings/overview/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/settings/settings/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/settings/adjust/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/data/overview/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/data/health/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/data/nightscout/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/data/tidepool/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/data/glucodyn/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/think-like-loop/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/cgm/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/iob/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/overrides/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/low-treat/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/disconnect/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/exercise/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/bolus/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/site-fail/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/high-bg/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/how-to/endo/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/algorithm/overview/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/algorithm/prediction/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-01-25</lastmod>
+     <loc>/algorithm/temp-basal/</loc>
+     <lastmod>2019-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/algorithm/bolus/</loc>
+     <lastmod>2019-10-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
 </urlset>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Think Like a Loop - Loop Tips</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../css/admonitions.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Loop Tips</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../settings/overview/">Why Settings Matter</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../settings/settings/">Initial Settings</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../settings/adjust/">Adjust Your Settings</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data Tools <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../data/overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../data/health/">Health</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../data/nightscout/">Nightscout</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../data/tidepool/">Tidepool</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../data/glucodyn/">Perceptus</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li class="active">
+    <a href="./">Think Like a Loop</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../cgm/">CGM habits</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../iob/">Use morning IOB</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../overrides/">Override Targets</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../low-treat/">Low Treatments</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../disconnect/">Shower & Swimming</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../exercise/">Exercise</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../bolus/">Extended Bolus</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../site-fail/">Site Failure</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../high-bg/">Stuck on High</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../endo/">Talk with Endo</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Algorithm <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../algorithm/overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../algorithm/prediction/">Prediction</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../algorithm/temp-basal/">Basal</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../algorithm/bolus/">Bolus</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../../data/glucodyn/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../cgm/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#think-like-a-loop">Think Like a Loop</a></li>
+        
+            <li><a href="#therapy-with-loop">Therapy with Loop</a></li>
+        
+            <li><a href="#tools-when-you-are-in-disagreement">Tools when you are in disagreement</a></li>
+        
+            <li><a href="#predicted-bg-curve-is-everything">Predicted BG curve is everything</a></li>
+        
+            <li><a href="#what-would-loop-do">What would Loop do?</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="think-like-a-loop">Think Like a Loop<a class="headerlink" href="#think-like-a-loop" title="Permanent link">⌁</a></h1>
+<p>“Why isn’t Loop giving me more?”  That is a common question from new Loopers.</p>
+<p>"Why is Loop suspending right now?" That is another common question.</p>
+<p>For these questions, you'll go really far in Looping if you can remember these two things:</p>
+<ol>
+<li>Go to therapy with your Loop</li>
+<li>Everything depends on the predicted BG curve</li>
+</ol>
+<h2 id="therapy-with-loop">Therapy with Loop<a class="headerlink" href="#therapy-with-loop" title="Permanent link">⌁</a></h2>
+<p>I'll challenge you to "pretend you're at the marriage therapist" as you learn how to use Loop as a partner.</p>
+<p>Why are you in disagreement with your partner? What would a therapist tell you? Usually therapy is because of miscommunications with each other. You aren't on the same expectations or priorities. Same applies for Loop. For example, you'd be at the therapist chair tell her "Loop just isn't treating my high BG as fast as I want. This is so frustrating. I correct and Loop just suspends." That right there is the definition of miscommunications and different priorities. Why?</p>
+<p>➡️ Loop thinks you have enough insulin to be at target later.</p>
+<p>➡️ You think you need more right now.</p>
+<p>So...look at the objectives and info you both have at hand.</p>
+<p>Loop has the info from the settings you’ve given it, how you’ve described your meals, and how you’ve given insulin. Loop does not know if you are stressed. Loop does not know if you are sick. Loop is not a rage bolus machine and is predicting 6 hours out to safely bring you down without you needing to prevent a low while it does that. Loop is considerate partner. It respects your input and acts gentle and even-keeled.</p>
+<p>If you are frustrated with Loop’s actions now...that means you told it the wrong info previously (or are lacking some patience that Loop has). Most often either your meal entry was wrong or your basals or...something else you’ve told Loop has ended up being incorrect.</p>
+<p>Fixing that miscommunication will allow Loop to do a better job.</p>
+<p>If you misjudged a meal, go back and edit that meal entry.</p>
+<p>If you misjudged your basal/ISF/carb ratio needs, correct those (testing to validate is good if you haven’t done that yet)</p>
+<p>If you aren’t patient, you can override Loop...but do expect that is not likely to solve the miscommunication you and Loop are having. That’s the relationship equivalent to just talking louder as opposed to talking smarter.</p>
+<p>Loop will try to save you when you rage bolus, which may just make you even more frustrated. If you can stop and think "What have I told Loop that might not be accurate right now?" that will be a good step to a meaningful improvement in outcomes. </p>
+<h2 id="tools-when-you-are-in-disagreement">Tools when you are in disagreement<a class="headerlink" href="#tools-when-you-are-in-disagreement" title="Permanent link">⌁</a></h2>
+<p>Sure, even with the best therapist, you may still have disagreements. They happen. There are several options for recovering from times like that. The tool you choose may be situationally dependent. Seeing a huge quick BG climb after a meal may be better helped by a carb entry edit as opposed to added patience, but that will depend on your management style.</p>
+<ol>
+<li>Add some patience to your practice. A little patience to give the already added insulin time to work can help with Loop.</li>
+<li>Edit your meal's carb entry. If you find your meal going crazy different than expected (did they forget you said "diet" coke?), you can always go back and edit your original carb guess to be more accurate based on what you're seeing. You can decrease the carbs or increase the carbs. You can change the absorption time. These edits can be done by tapping on the carb chart in Loop's main screen.</li>
+<li>Use overrides to tell Loop about overall insulin needs changing. Hormones...oh lordy the hormones are horrible. That's a good time to use an override to let Loop know that overall you need more than usual. Or if you're about to hike the Himalayas, use an override to let Loop know you will need far less insulin than an average day.</li>
+<li>Open Loop. This is a great tool. If you just had things go really wrong for a bit (bad cannula kink anyone?) then you can open loop until things settle down and you get squared away again. Give your manual injection, Afreeza, or whatever your desire is and wait until you've had 4-6 hours of regular basals going before closing loop again.</li>
+<li>Give pending insulin. If you are really feeling the itch to rage bolus, you can meet Loop at the halfway mark. If you click on the bolus tool while Loop is high temping you, you will see a "pending insulin" value. That is the amount of insulin Loop is planning on giving you through temp basals over the next 30 minutes. If you give that pending insulin total as a bolus now, you will get the entire amount working faster AND Loop agrees you are safe to use it. In this way, Loop won't automatically suspend insulin when you give pending insulin...because your predicted BG curve had said it was needed anyways.  Win win...you got a mini-rage bolus and Loop won't be working against you. Good therapy and a good way to avoid post-rage lows.</li>
+</ol>
+<h2 id="predicted-bg-curve-is-everything">Predicted BG curve is everything<a class="headerlink" href="#predicted-bg-curve-is-everything" title="Permanent link">⌁</a></h2>
+<p>As you start to use Loop you will probably find yourself wondering at some point "why is it suspending insulin right now?" or "Why isn't it giving me increased basals right now?" You might find yourself reverting to a bunch of old-school habits like looking at your carbs on board or insulin on board and trying to calculate a bunch of numbers. Stop there...that's so 1990s. You're a looper now and there is actually an easier way to assess things.</p>
+<div class="admonition danger">
+<p class="admonition-title"><strong>Thinking like a Loop involves just three things</strong></p>
+<p></br></br>
+    ➡️  Predicted BG curve</br></br>
+    ➡️  Correction Range</br></br>
+    ➡️  Suspend Threshold</br></br></br></p>
+</div>
+</p>
+
+<p>All of Loop's decisions are based on what your predicted BG curve is doing with respect to your correction range and suspend threshold. That's it. All the time. Everytime. It always comes down to that predicted BG curve.</p>
+<p>That predicted BG curve has four contributions to its shape:</p>
+<ol>
+<li>Carbs (the ones you've told it about)</br></br></li>
+<li>Insulin (the ones you've given through your pump or recorded in Health app)</br></br></li>
+<li>Blood glucose momentum (how fast your BG has been changing recently)</br></br></li>
+<li>Retrospective correction (how accurate/inaccurate Loop has been recently in predicting your BGs)</br></br></li>
+</ol>
+<p>Loop models the inputs from those four contributions to form the final shape of the predicted BG curve. Once that curve is generated, Loop looks at where the entire curve will be for the next 6 hours relative to your suspend threshold and correction range, and take one of four actions:</p>
+<p><strong>Action 1: Set a 0 u/hr basal rate (aka suspend basals)</strong></p>
+<p>Loop will do this anytime your predicted BG curve has any portion that goes below your suspend threshold.</p>
+<p><u>And the remaining three actions all assume NONE of your predicted BG curve is below suspend threshold, otherwise you'd be in Action 1.</u></p>
+<p><strong>Action 2: Set scheduled basal rate</strong></p>
+<p>Loop will set your scheduled basal rate when:</p>
+<ol>
+<li>All the predicted BG curve is within the correction range, including the very last value which is called your "eventual BG", or when</li>
+<li>If the eventual BG is above your correction range in 6 hours, but there's a dip below correction range earlier in the curve.</li>
+</ol>
+<p><strong>Action 3: Increased basal rate</strong></p>
+<p>If eventual BG and all the predicted BG curve is above your correction range, Loop will give you a high (increased) temp basal.</p>
+<p><strong>Action 4: Decreased basal rate</strong></p>
+<p>If your eventual BG in 6 hours is below correction range, you'll get a decreased basal.</p>
+<h2 id="what-would-loop-do">What would Loop do?<a class="headerlink" href="#what-would-loop-do" title="Permanent link">⌁</a></h2>
+<p>Test your new found skills...let's play a game where you try to guess the action...</p>
+<div class="admonition warning">
+<p class="admonition-title">What would Loop do?</p>
+<p><i>It’s 8pm and your predicted BG curve looks like the following. What do you expect Loop to recommend/enact at 8pm?</br></br>
+A. Zero (suspend) temp basal</br></br>
+B. Scheduled basal from your settings</br></br>
+C. High temp basal</br></br>
+D. Lower temp basal (between zero and scheduled)</i></br></br>
+<p align="center">
+<img src="../img/wwld1.png" width="650">
+</p></br></p>
+</div>
+<p></br></br></p>
+<p>What would your answer be?  Before you give your final answer...consider this next twist.  Would you give the same answer to this graph as you gave the graph above?  If not, what would the answer be for this graph and why? (ignore the timestamp mismatch</br></br></p>
+<p align="center">
+<img src="../img/wwld2.jpg" width="650">
+</p>
+
+<p></br></p>
+<p>This second case has a dramatic drop happening.  Suspend threshold is still at 60 mg/dL, correction range is still 90-110, the lowest value on the predicted BG chart is 75 mg/dL, and the eventual BG is 171 mg/dL for this example.  So, pretty similar to the first example except this precipitous drop going on right now.</p>
+<p>Let me tell you some of the common pitfalls we all can easily slip into when trying to answer these "Why is Loop giving me this basal?" questions.</p>
+<p>Wondering about IOB, COB, or DIA in order to answer...those aren't a factor to answering the question as they have already been used to make the predicted BG curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.
+Thinking about this as a human...humans tend to say "well, I'm on a rise/fall right now so...[insert Loop action based on that]" Loop isn't looking at the past BG movement alone, instead it's looking at the prediction curve ahead and applying its rules based on that.  Any drop or rise going on will have been added to the predicted curve through the BG momentum and retrospective correction components of the algorithm...so again they're already incorporated into the predicted curve.</p>
+<p>Restating for emphasis:  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.</p>
+<p>The answer is B:  Loop will give your scheduled basal in both situations shown above.  When your predicted BG curve (1) drops for a time below correction range but (2) all of the curve still above suspend threshold, and Eventual BG is (3) above range or within range...Loop will give your scheduled basal.</p>
+<p>The logic is a bit of a wait and see.  Scheduled basal will maintain the delivery of insulin.  Your settings haven't told it this is an "oh my gosh...stop the insulin!" moment (you're predicted to still stay above suspend threshold), but we also don't want to give high temps yet (to correct the eventual BG) because we'd like to safely make it through the part that is below correction range coming up.</p>
+<p>If BGs were to drop (enough) or keep dropping (enough), your predicted BG curve would likely slip to your suspend threshold and then Loop would suspend. (One important take away is to not to set your suspend threshold so low that it no longer acts as a safety in these situations.)
+If BGs were to rise enough such that the whole predicted curve comes back into or above the correction range completely, you'd then get high temp basals to correct for that eventual BG that is above correction range.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
