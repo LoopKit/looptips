@@ -20,6 +20,7 @@ pages:
     - 'Tidepool': 'data/tidepool.md'
     - 'Perceptus': 'data/glucodyn.md'
 - How To:
+    - 'Think Like a Loop': 'how-to/think-like-loop.md'
     - 'CGM habits': 'how-to/cgm.md'
     - 'Use morning IOB': 'how-to/iob.md'
     - 'Override Targets': 'how-to/overrides.md'
