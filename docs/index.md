@@ -26,15 +26,18 @@ The Loop app is a do-it-yourself closed loop algorithm and user interface, devel
 As exciting as this sounds...we should first get the cavaets out of the way.  There are some limitations on what kind of pumps/equipment are required.  This system doesn't work with most pumps and requires you to do some work (directions are thoroughly covered in LoopDocs).
 
 * Loop only works on an iPhone
-* Loop only works with older Medtronic pumps
+* Loop only works with older Medtronic pumps and OmniPod Eros pods
 * Medtronic x15 series (all work)
 * Medtronic x22 series (all work)
 * Medtronic x23 series (2.4A or lower)
 * Medtronic x54 series (WW: 2.6A or lower and Canadian/Australian: 2.7A or lower)
+* OmniPod Eros pods (newer Dash pods are not compatible)
 * You need access to a Mac computer to build Loop app onto your iPhone
 * You need to buy a RileyLink ($150) and a developer license ($99 per year)
 
-Put in other words, no this does not current work on android phones. Animas, T-slim, Combo, Dana-R, Dana-RS, Medtronic (not listed above), and any other pump you can name will also not be compatible. The only exception is the current Omnipod pumps are nearing Loop compatibility.  DIY Loop is being developed for Eros-type pods, that ones with the large PDMs most people have currently. Tidepool Loop has been announced at the development partner for the DASH pods that are in limited release currently.
+Put in other words, no this does not current work on android phones. Animas, T-slim, Combo, Dana-R, Dana-RS, Medtronic (not listed above), and any other pump you can name will also not be compatible. 
+
+Note: Tidepool Loop has been announced as the development partner for the DASH pods. Timing for the release of Tidepool Loop is still TBD.
 
 # Disclaimer
 
