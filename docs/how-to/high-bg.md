@@ -51,6 +51,8 @@ If you think that you are being affected by a short term influence that will las
 
 **If you choose to deliver insulin via prime command, remember that your active insulin or IOB will not be accurate for 6 hours after the delivery.**  Caution should be taken usimg this method because if the short term stress suddenly ends and blood glucose begins to drop again, the drop may be more pronounced than Loop predicts due to the untracked primed insulin.
 
+Note:  For Omnipod users Loop does not allow you to prime insulin in. 
+
 ## Open loop and correct manually
 
 Don't forget that you can always go old-school and open your Loop until the cause of the high blood glucose is sorted out and you can get back to normal operations.  Site failures are an especially good example of when open looping plus manual correction may be a less frustrating way of dealing with Loop during times when prediction just isn't meeting reality. Give IOB a chance to get back to reality by letting open loop run for 4-6 hours and you'll come back after site failure with a more functional Loop prediction.
