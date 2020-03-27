@@ -9,7 +9,7 @@ In Tidepool's own words, their commitment to diabetes data and accessibility is 
 
 >We believe that connected data leads to better decision-making. Tidepool’s free software liberates data from diabetes devices, and places it in context of the real world. Tidepool is designed to help you discover insights and bring context to your diabetes management. And, to help make your data more actionable, we allow you to share your data with anyone you choose: caregivers, clinicians, endocrinologists, friends, researchers – anyone.
 
-Tidepool also [recently announced](https://tidepool.org/loop/) that they were embarking on a project to build and support an FDA-regulated version of Loop, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
+Tidepool has [announced](https://tidepool.org/loop/) that they are embarking on a project to build and support an FDA-regulated version of Loop, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
 
 ## Tidepool Data
 Once you start uploading data into your Tidepool account, you'll see some of the benefits pretty quickly. Tidepool's data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
@@ -37,7 +37,7 @@ There are two methods for uploading different data to your Tidepool account:
     In summary, the Uploader is for uploading the numeric data from your various diabetes devices and the Mobile app is for adding the contextual information and notes-on-the-go to make your numeric data more useful.
 
 ### Does Tidepool Uploader work for Loop users?
-There has been a lack of ability to get Loop data into Tidepool using the Tidepool Uploader. The only Loop-compatible pumps supported in Tidepool Uploader are the x23/x54 pumps, so users of the x15 and x22 pumps cannot upload their pump data. Furthermore, the Medtronic pump still suffers from the lack of internal storage sufficient to store more than 3-7 days worth of Looping data. 
+There has been a lack of ability to get Loop data into Tidepool using the Tidepool Uploader. The only Loop-compatible pumps supported in Tidepool Uploader are the x23/x54 pumps, so users of the x15 and x22 pumps cannot upload their pump data. Furthermore, the Medtronic pump still suffers from the lack of internal storage sufficient to store more than 3-7 days worth of Looping data.
 
 However, there has been a very exciting development! Tidepool's Mobile iOS app has been updated to upload Apple's HealthKit data into Tidepool. Since Loop uses HealthKit to store all of your insulin, carbohydrate, and CGM data, this means Tidepool can now upload the full suite of available Loop information. So, there's no need to use Tidepool Uploader for Loop users...their Tidepool Mobile app can take care of the needed connections. Read below for lots of details about this important development.
 
@@ -52,14 +52,14 @@ Sharing the data is simple. You can click on your account’s Share option and e
 
 There are two distinct viewing options for your Tidepool data, and they are not identical. You can either view your data:
 
-1. Using a desktop computer using the Chrome browser and logging into your Tidepool account, or 
+1. Using a desktop computer using the Chrome browser and logging into your Tidepool account, or
 2. Using your Tidepool Mobile app **AND** associated notes.
 
 !!!info ""
     Currently, only the Chrome desktop browser is compatible with Tidepool. You will not be able to use Safari or other browsers to view the data, nor will you be able to use Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome browser. If you want to see your data on your phone, you must use the Tidepool Mobile app **<i>and</i>** use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.
 
 ### What Loop data will you see in desktop Chrome?
-You will see your Loop's temporary basals, CGM readings, boluses, notes, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to Tidepool, those will also overlay. See discussion below about what’s missing for Loop users and still being developed (hint…carbohydrates aren’t showing yet).
+You will see your Loop's temporary basals, CGM readings, boluses, notes, carbohydrates and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to Tidepool, those will also overlay.
 
 <p align="center">
 <img src="../img/loop_in_tidepool.png" width="750">
@@ -95,13 +95,7 @@ The Tidepool Mobile iOS app will sync Loop's diabetes-related HealthKit data int
 Nope. This was not designed nor intended to be a replacement for your Nightscout site. They complement each other, rather than compete. This new upload of Loop data will allow you and your clinics to have a powerful tool to analyze Loop data through an easy-to-use, shared hub.
 
 ### Are there any known issues with Loop and Tidepool Mobile app?
-Sure, of course…this is a new update to the Tidepool Mobile app and there are some issues still being worked out. For example, the carbohydrates associated with the Loop uploads are being uploaded by Tidepool Mobile, but aren’t currently rendered in your desktop view, but they are shown in the Tidepool Mobile app. If you look at the Daily view screenshot a little above…notice that the little yellow carb circles are missing? Tidepool will be getting that bug addressed. Soon, hopefully, your chart will include little carb circles like below (rendered with my crude skills for demonstration only).
-
-<p align="center">
-<img src="../img/tidepool_known_issues.png" width="750">
-</p>
-
-There are some calculated data areas that need updating, too. If you see a NaN (“not a number”), it is a placeholder for where a number will eventually go. Tidepool knows and doesn’t like seeing those either. Tidepool keeping a list of the things that need addressing.
+Loop settings do not show up in Device Settings in Tidepool Web. This is because this info can't be uploaded from Apple Health. If you used Tidepool Web for your Medtronic or Omnipod before, you will still see the pump settings from before you started looping.
 
 ### What cool thing can you use this Tidepool Mobile app for?
 You mean what OTHER cool thing can Tidepool Mobile app do *besides uploading Loop data automatically*? The Tidepool Mobile app also provides an easy searchable log of meal boluses. If you are still learning new meals in Loop…how much to bolus, how long of a carb absorption…these notes are searchable and super easy to add. Learning how to bolus for that Tofu Breakfast Burrito? Simply record a note of how you bolused for it. If you want to, come back afterwards and leave yourself some suggestions for the next time to try. This searchable information can also help for teens learning and exercising independent skills. If they aren’t sure of how to bolus for a meal, this could give them easy tips from past success without necessarily having to stop and ask a parent. As much as a parent might scoff at the idea of a kid looking up a meal, if the alternative is asking a parent…that might be all the motivation it takes. How about co-parenting? Want to leave a note that another parent or caregiver can look up? *"How were the last Chicken McNuggets bolused?"* or *"When was the last site change?"* can easily be tracked and retrieved with notes.
@@ -118,5 +112,4 @@ Hormones can also be easily tracked with notes. *What day-of-the-month and how d
 The Tidepool Mobile app uploads diabetes-related HealthKit data regardless of the source. Loop users store their data in HealthKit, so this is a nice fit. Other diabetes devices (e.g., OneDrop BG meter) and apps (e.g., Spike and Dexcom) also store their data in HealthKit. Some people even manually enter their diabetes data into HealthKit. For all those uses, the Tidepool Mobile app will upload the HealthKit data. OpenAPS does not store its data in HealthKit, so this will not upload OpenAPS-related data. However, if OpenAPS users are using Spike app, some integration of information through Nightscout is possible. Currently, OpenAPS SMBs, boluses, and carbohyrdates can be uploaded to HealthKit for OpenAPS+Spike+Nightscout+iPhone users.  Spike does plan to add temporary basal integration to HealthKit at some time in the future.
 
 ### How can you get the Tidepool Mobile app?
-Tidepool Mobile is available in the iOS App Store on your Loop device.
-
+Tidepool Mobile is available in the [iOS App Store](https://apps.apple.com/us/app/tidepool-mobile/id1026395200) on your Loop device.
