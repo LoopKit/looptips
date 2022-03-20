@@ -1,6 +1,6 @@
 # Tidepool
 
-{Disclosure: The original author of this page, Katie DiSimone, is employed by Tidepool. She used Tidepool before becoming an employee, and continues to use Tidepool and Loop. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of Tidepool's services.}
+{Disclosure: The original author of this page, Katie DiSimone, was employed by Tidepool when this page was initially created. She used Tidepool before becoming an employee, and continues to use Tidepool and Loop. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of Tidepool's services. Tidepool-specific questions should be directed to [support@tidepool.org](mailto:support@tidepool.org).}
 
 ## Tidepool's mission
 In Tidepool's own words, their commitment to diabetes data and accessibility is pretty clear:
