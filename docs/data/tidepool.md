@@ -86,7 +86,7 @@ For example, here’s a sample note+data set below from my Tidepool Mobile app. 
 </p>
 
 ## Tidepool's Mobile app for iOS/iPhone
-As part of Tidepool Loop development, Tidepool updated its Tidepool Mobile iOS app to integrate with Loop user's data stored in Apple's HealthKit database. This update also supports the Jaeb Center observational study ](jaeb.org/loopstudy) of Loop.
+As part of Tidepool Loop development, Tidepool updated its Tidepool Mobile iOS app to integrate with Loop user's data stored in Apple's HealthKit database. This update also supports the [Jaeb Center observational study](jaeb.org/loopstudy) of Loop.
 
 ### How does the Loop data upload work?
 The Tidepool Mobile iOS app will sync Loop's diabetes-related HealthKit data into your Tidepool account. The app will continuously upload that data so long as the Tidepool Mobile app is open, even if it is only open in the background. That data will then be viewable in two places: on the Tidepool Mobile app itself <u>when using notes</u>, or in your Tidepool account using desktop Chrome browser (note: the two options are not identical viewing platforms, see discussion above). This means you will not have to plug any of your devices into a USB cable in order to upload your information to Tidepool.
