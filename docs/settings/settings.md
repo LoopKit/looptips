@@ -31,7 +31,7 @@ Not only that, but the **strength** of the insulin at any given time is also bei
 
 What will happen if you use too short of a DIA in closed-looping? You'll see symptoms in a variety of ways, but too short a DIA will give the equivalent of insulin-stacking. Loop's assumption will be that insulin is disappearing faster than it actually is. If you are getting steady blood glucose while closed looping with a short DIA, it's likely that your basals are being set too low to compensate. If instead you have your basals correctly set and use a short DIA in closed-looping, you will likely find yourself going low from corrections. One good indication of this is going lower than target carrying negative IOB from previous loop low/zero temp basals.
 
-!!!note "Insulin model recommendation"
+!!! note "Insulin model recommendation"
     There are four insulin models to choose from in Loop and the DIA your Loop uses is based on your model selection. Three are exponential models (Rapid-acting adult, Rapid-acting child, and Fiasp) and one is an older, less exact model (Walsh). Use one of Loop's exponential insulin curves (Rapid Acting adult/child or Fiasp) and their default DIA of 6 hours. This will help prevent insulin stacking as you begin Loop. The Walsh model, if you want to try that one, should be set to a DIA of 5.5 to 6 hours...although exponential curves are really the preferred option.  You can read more about insulin models and how they help determine the active insulin over time in the Algorithm section of this site.
 
 ### 2nd: Basals
