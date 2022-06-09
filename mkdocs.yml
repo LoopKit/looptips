@@ -59,9 +59,4 @@ nav:
     - 'Site Failure': 'how-to/site-fail.md'
     - 'Stuck on High': 'how-to/high-bg.md'
     - 'Talk with Endo': 'how-to/endo.md'
-- Algorithm:
-    - 'Overview': 'algorithm/overview.md'
-    - 'Prediction': 'algorithm/prediction.md'
-    - 'Basal': 'algorithm/temp-basal.md'
-    - 'Bolus': 'algorithm/bolus.md'
 
