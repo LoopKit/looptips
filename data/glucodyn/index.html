@@ -1,278 +1,899 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Perceptus - LoopTips</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
         
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
         
+      
+    
+    
+    
+      
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/primary-color.css">
+    
+    
+      
 
-	<title>Perceptus - Loop Tips</title>
 
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link href="../../css/admonitions.css" rel="stylesheet">
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
         
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!-- Main title -->
-            <a class="navbar-brand" href="../..">Loop Tips</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            <!-- Main navigation -->
-            <ul class="nav navbar-nav">
-            
-            
-                <li >
-                    <a href="../..">Home</a>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="../../settings/overview/">Why Settings Matter</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../settings/settings/">Initial Settings</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../settings/adjust/">Adjust Your Settings</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown active">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data Tools <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="../overview/">Overview</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../health/">Health</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../nightscout/">Nightscout</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../tidepool/">Tidepool</a>
-</li>
-
-                    
-                        
-<li class="active">
-    <a href="./">Perceptus</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="../../how-to/think-like-loop/">Think Like a Loop</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/cgm/">CGM habits</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/iob/">Use morning IOB</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/overrides/">Override Targets</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/low-treat/">Low Treatments</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/disconnect/">Shower & Swimming</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/exercise/">Exercise</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/bolus/">Extended Bolus</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/site-fail/">Site Failure</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/high-bg/">Stuck on High</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../how-to/endo/">Talk with Endo</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Algorithm <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="../../algorithm/overview/">Overview</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../algorithm/prediction/">Prediction</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../algorithm/temp-basal/">Basal</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../algorithm/bolus/">Bolus</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            </ul>
-
-            <!-- Search, Navigation and Repo links -->
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                <li >
-                    <a rel="next" href="../tidepool/">
-                        <i class="fa fa-arrow-left"></i> Previous
-                    </a>
-                </li>
-                <li >
-                    <a rel="prev" href="../../how-to/think-like-loop/">
-                        Next <i class="fa fa-arrow-right"></i>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
+        <a href="#perceptus" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LoopTips" class="md-header__button md-logo" aria-label="LoopTips" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LoopTips
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Perceptus
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
 
-        <div class="container">
-            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../settings/overview/" class="md-tabs__link">
+        Settings
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
     
-        <li class="main active"><a href="#perceptus">Perceptus</a></li>
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../overview/" class="md-tabs__link md-tabs__link--active">
+        Data Tools
+      </a>
+    </li>
+  
+
+      
         
-            <li><a href="#dash">Dash</a></li>
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../how-to/think-like-loop/" class="md-tabs__link">
+        How To
+      </a>
+    </li>
+  
+
+      
         
-            <li><a href="#glucodyn">GlucoDyn</a></li>
-        
-    
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../algorithm/overview/" class="md-tabs__link">
+        Algorithm
+      </a>
+    </li>
+  
+
+      
     </ul>
-</div></div>
-            <div class="col-md-9" role="main">
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
-<h1 id="perceptus">Perceptus<a class="headerlink" href="#perceptus" title="Permanent link">⌁</a></h1>
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LoopTips" class="md-nav__button md-logo" aria-label="LoopTips" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    LoopTips
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Settings" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Settings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/overview/" class="md-nav__link">
+        Why Settings Matter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/settings/" class="md-nav__link">
+        Initial Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/adjust/" class="md-nav__link">
+        Adjust Your Settings
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Data Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data Tools" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Data Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../health/" class="md-nav__link">
+        Health
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nightscout/" class="md-nav__link">
+        Nightscout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tidepool/" class="md-nav__link">
+        Tidepool
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Perceptus
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Perceptus
+      </a>
+      
+        
+
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Headers on this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Headers on this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dash" class="md-nav__link">
+    Dash
+  </a>
+  
+    <nav class="md-nav" aria-label="Dash">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mlab-database-information" class="md-nav__link">
+    mLab database information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dash-data-presentation" class="md-nav__link">
+    Dash data presentation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glucodyn" class="md-nav__link">
+    GlucoDyn
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          How To
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="How To" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          How To
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/think-like-loop/" class="md-nav__link">
+        Think Like a Loop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/cgm/" class="md-nav__link">
+        CGM habits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/iob/" class="md-nav__link">
+        Use morning IOB
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/overrides/" class="md-nav__link">
+        Override Targets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/low-treat/" class="md-nav__link">
+        Low Treatments
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/disconnect/" class="md-nav__link">
+        Shower & Swimming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/exercise/" class="md-nav__link">
+        Exercise
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/bolus/" class="md-nav__link">
+        Extended Bolus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/site-fail/" class="md-nav__link">
+        Site Failure
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/high-bg/" class="md-nav__link">
+        Stuck on High
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/endo/" class="md-nav__link">
+        Talk with Endo
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Algorithm
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Algorithm" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Algorithm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../algorithm/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../algorithm/prediction/" class="md-nav__link">
+        Prediction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../algorithm/temp-basal/" class="md-nav__link">
+        Basal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../algorithm/bolus/" class="md-nav__link">
+        Bolus
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Headers on this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Headers on this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dash" class="md-nav__link">
+    Dash
+  </a>
+  
+    <nav class="md-nav" aria-label="Dash">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mlab-database-information" class="md-nav__link">
+    mLab database information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dash-data-presentation" class="md-nav__link">
+    Dash data presentation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glucodyn" class="md-nav__link">
+    GlucoDyn
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="perceptus">Perceptus<a class="headerlink" href="#perceptus" title="Anchor link to this Header on this Page">&para;</a></h1>
 <p><a href="http://perceptus.org/">Perceptus</a> is a website and set of free tools developed by Kenneth Stack and Gustavo Munoz, two active members of the DIY community. Perceptus provides two tools particularly helpful for Loop users; Dash and GlucoDyn. As a side note, Gustavo has an excellent Spanish <a href="https://youtu.be/K1C4xEWipOo">Tedx Talk</a> about building his own DIY looping algorithm. Kenneth is also the brains behind <a href="https://github.com/Kdisimone/nsapple/tree/nsapple-units">NSApple watch app</a>.</p>
-<h2 id="dash">Dash<a class="headerlink" href="#dash" title="Permanent link">⌁</a></h2>
+<h2 id="dash">Dash<a class="headerlink" href="#dash" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>For Loop users with Nightscout integration running, Dash can provide an alternate view and data analysis for the Loop data stored in your Nightscout's mLab database. (Note: mLab used to be called MongoLab, still the same intended reference)</p>
 <p>To set up your Dash integration, you will need to:  </p>
 <ul>
@@ -283,16 +904,16 @@
 <p>Provide your mLab database information</p>
 </li>
 </ul>
-<h3 id="mlab-database-information">mLab database information<a class="headerlink" href="#mlab-database-information" title="Permanent link">⌁</a></h3>
+<h3 id="mlab-database-information">mLab database information<a class="headerlink" href="#mlab-database-information" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>Assuming you have a basic Heroku account to host your Nightscout website, you can access your mLab information as shown in the screenshots below.  (Users who manually setup their own mLab databases as part of Azure accounts will need to access their mLab database manually using their login and account information.)</p>
-<p>Login to your Heroku account to start the process, and then that will take you to your mLab information.
+<p>Login to your Heroku account to start the process, and then that will take you to your mLab information.</p>
 <p align="center">
 <img src="../img/dash8.png" width="750">
-</p></p>
+</p>
+
 <p align="center">
 <img src="../img/dash6.png" width="750">
 </p>
-
 <p></br>
 Your mLab database name and API Key can be found on the same page, as shown below.  Copy and paste these bits of information into your User Settings in Dash.</p>
 <p>The format for the MongoLab API URL string is: <code>https://api.mlab.com/api/1/databases/your-database-name/collections/entries</code> where you are replacing the <code>your-database-name</code> part with your info from the first circled area shown below.
@@ -301,74 +922,114 @@ Your mLab database name and API Key can be found on the same page, as shown belo
 <img src="../img/dash7.png" width="750">
 </p>
 
-<h3 id="dash-data-presentation">Dash data presentation<a class="headerlink" href="#dash-data-presentation" title="Permanent link">⌁</a></h3>
+<h3 id="dash-data-presentation">Dash data presentation<a class="headerlink" href="#dash-data-presentation" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>Dash provides multiple views of your mlab information, and the data is updated live as your Nightscout data updates too.  While there are some constraints (cannot set your own low/high range limits), the data views are very useful for identifying difficult times of day or difficult days of the week.</p>
 <p align="center">
 <img src="../img/dash1.png" width="750">
 </p>
-
 <p align="center">
 <img src="../img/dash2.png" width="750">
 </p>
-
 <p align="center">
 <img src="../img/dash3.png" width="750">
 </p>
-
 <p align="center">
 <img src="../img/dash4.png" width="750">
 </p>
-
 <p align="center">
 <img src="../img/dash5.png" width="750">
 </p>
 
-<h2 id="glucodyn">GlucoDyn<a class="headerlink" href="#glucodyn" title="Permanent link">⌁</a></h2>
+<h2 id="glucodyn">GlucoDyn<a class="headerlink" href="#glucodyn" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>GlucoDyn was created to educate people with T1D and their caregivers about blood glucose dynamics. Each day people with T1D make decisions about what and when to eat, and how much insulin to use to cover carbohydrates effect. It can be difficult to visualize what is happening throughout the day as carbohydrate absorption raises blood glucose and insulin reduces it – particularly when multiple events interact with one another.</p>
 <p>GlucoDyn uses calculations similar to an insulin pump’s bolus wizard to create graphs of blood glucose versus time, based on your inputs of carb and insulin events. The user can enter carbohydrates, boluses, and temporary basals, and GlucoDyn calculates the effect on blood glucose over time. GlucoDyn also allows the user to “slide” the events around once they have been entered – allowing you to see what would have happened to your blood glucose curve if you had bloused earlier or eaten a different amount of carbohydrates “on the fly” – the curves change as you move the sliders.</p>
 <p>Seeing the curves and understanding the effects of bolus timing, carbohydrate absorption rate glycemic index (GI) value, temporary basal timing and rates, etc. can help users with their overall understanding of T1D and its management.</p>
 <p>Originally, Loop used the same carbohydrate absorption and insulin models as Glucodyn uses. Those have since been updated in Loop with dynamic carbohydrate absorption and exponential curves for insulin. Even with those changes, the GlucoDyn tool can still provide users an excellent tool to visualize how small changes in bolusing can affect trends in blood glucose. For example, it’s quite interesting to see the effect of pre-bolusing. By delaying the carb intake by say 20 minutes, you can visualize the reduction of the maximum blood glucose. But, you have to be careful – before the carbohydrates have time to absorb insulin is working, and the minimum blood glucose will also drop. These are the kinds of tradeoffs that are critical to the management of T1D, and thankfully are automated by Loop's smart bolusing based on carbohydrate absorption estimates.</p>
 <p align="center">
 <img src="../img/dash9.png" width="750">
-</p></div>
+</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            
-            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
-        </footer>
-
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../tidepool/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tidepool" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Tidepool
             </div>
-        </div>
-    </body>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../how-to/think-like-loop/" class="md-footer__link md-footer__link--next" aria-label="Next: Think Like a Loop" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Think Like a Loop
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
 </html>
