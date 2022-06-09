@@ -49,7 +49,7 @@ Sure, even with the best therapist, you may still have disagreements. They happe
 
 As you start to use Loop you will probably find yourself wondering at some point "why is it suspending insulin right now?" or "Why isn't it giving me increased basals right now?" You might find yourself reverting to a bunch of old-school habits like looking at your carbs on board or insulin on board and trying to calculate a bunch of numbers. Stop there...that's so 1990s. You're a looper now and there is actually an easier way to assess things.
 
-!!!danger "**Thinking like a Loop involves just three things**"
+!!! danger "**Thinking like a Loop involves just three things**"
     </br></br>
         ➡️  Predicted BG curve</br></br>
         ➡️  Correction Range</br></br>
@@ -92,7 +92,7 @@ If your eventual BG in 6 hours is below correction range, you'll get a decreased
 
 Test your new found skills...let's play a game where you try to guess the action...
 
-!!!warning "What would Loop do?"
+!!! warning "What would Loop do?"
     <i>It’s 8pm and your predicted BG curve looks like the following. What do you expect Loop to recommend/enact at 8pm?</br></br>
     A. Zero (suspend) temp basal</br></br>
     B. Scheduled basal from your settings</br></br>

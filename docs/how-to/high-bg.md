@@ -1,6 +1,6 @@
 # Stuck on High BG
 
-!!!info "Safety consideration"
+!!! info "Safety consideration"
     If the continued delivery of corrective insulin fails to bring down high blood glucose, remember to follow your doctor's recommendations for ketone testing, hydration, and/or more frequent blood glucose monitoring. Check for equipment failure (infected pump site? blocked cannula?). Try fresh insulin. Contact your doctor immediately if you are experiencing sustained high blood glucose despite continued insulin delivery and corrections.
 
 *"How do I deal with high blood glucose that seems to be stuck?"* When you and your Loop are disagreeing about the effectiveness of high temporary basals to bring down blood glucoose, take a deep breath. Unfortunately, most of the time our disagreement is rooted in the impatience that the pump's insulin works so dang slow.  We get tired of waiting another 4-6 hours until blood glucose will be back in range after a correction. So before we start overriding Loop's predictions with manual actions, it may be useful to ask yourself some questions first to help guide potential corrective actions:

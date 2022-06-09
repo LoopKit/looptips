@@ -4,7 +4,7 @@ One of the easiest habits to help check your settings is to simply check-in on y
 
 This Looped group post started the conversation:
 
-!!!note ""
+!!! note ""
     *I've been having more lows recently than I would like. Any help here would be really really appreciated.*</br></br>
     *I took a screenshot of an example situation...LOOP is predicting that I'll eventually rise up to 124 and is therefore giving me my full regular basal rate EVEN THOUGH im currently way below my desired goal range. I have a better knowledge of my diabetes than LOOP does (sorry if that is heresy around here) and I would not like LOOP to be giving me basal right now OR ELSE I'LL GO LOW.*</br></br>
     *QUESTION: Which parameter must I change on my loop settings in order to essentially tell LOOP to relax on the basal rates??*</br></br>
@@ -24,7 +24,7 @@ Firstly, if the user were to bolus while carrying a lot of negative iob, they wo
 
 Secondly, if the user were to go above their correction range, they would begin to get high temporary basals for what is an inaccurate amount of negative iob (because basals really didn't need to be this high). And high temporary basals at this point in time and with these settings would be too aggressive. (If the maximum basal is set really high, the problem compounds with bad underlying settings. This is why it is a good idea to keep your maximum basal relatively low when you first start Loop and are testing your settings.)
 
-!!!info "Useful Summary"
+!!! info "Useful Summary"
     You probably need to lower your overnight basal rates if you wake up:</br>
         * Carrying negative IOB, and</br>
         * Blood glucose is still below or just below target, and</br>
