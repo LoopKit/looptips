@@ -19,7 +19,7 @@ If you want extra help, you can read some excellent books about pump settings an
 
 * Basal rates should keep your blood glucose steady in the absence of other influences (such as food, medications, etc).
 * Boluses should return your blood glucose to target after a meal.
-* Insulin Sensitivity Factor (ISF) should be the amount one unit of insulin drops your blood glucose without other influences.
+* Insulin Sensitivity Factor (ISF) is the amount one unit of insulin drops your blood glucose without other influences.
 * Carb Ratio (CR) is the meal entry in grams that requires one unit of insulin to cover
 
 !!! tip "Basal, ISF and CR"
@@ -46,13 +46,13 @@ The majority of pumpers used DIA at about 3 hours on traditional pump therapy. 
 
 In your traditional pump, the DIA, using a linear model, was used to give a correction because blood glucose is stuck high or going low...in other words, DIA was used as a rough approximation to correct off-target blood glucose. It doesn't have to be rocket science then since we're making an approximation because some other numbers (carbohydrate count, basal rates, ISF, etc) weren't behaving the way we were expecting either and therefore leading to an off-target blood glucose.
 
-With the release of Loop 3, all insulin types use a realistic model, so you will not be selecting a DIA. These models will help prevent insulin stacking as you begin Loop. You can read more about insulin models and how they help determine the active insulin over time in the [LoopDocs: Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/overview) pages.
+With the release of Loop 3, all insulin types use a realistic model, so you will not be selecting a DIA. These models help prevent insulin stacking as you begin Loop. You can read more about insulin models and how they help determine the active insulin over time in the [LoopDocs: Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/overview) pages.
 
-With Loop 3, you will select the Insulin Type you use, such as Humalog, Novalog, Aphidra, Fiasp or Lyumjev. Each is associated with the appropriate exponential model for onset and peak action times.
+With Loop 3, you will select the Insulin Type you use, such as Novalog, Humalog, Apidra, Fiasp or Lyumjev. Each is associated with the appropriate exponential model for onset and peak action times.
 
 ### Basal Rates
 
-Basal rates are the keystone of you therapy settings. Establishing a quality basal schedule is setting yourself up for successful looping. Personally, we find testing basal rates can be pretty painless and doesn't require days of fasting. Instead, look for easy opportunities. If you are willing to open-loop test, that is going to give the most accurate information in the quickest way.
+Basal rates are the keystone of your therapy settings. Establishing a quality basal schedule is setting yourself up for successful looping. Personally, we find testing basal rates can be pretty painless and doesn't require days of fasting. Instead, look for easy opportunities. If you are willing to open-loop test, that is going to give the most accurate information in the quickest way.
 
 It's a pretty easy test. Turn off your loop or open loop. Don't eat food, don't do crazy exercise, don't sit in a hot tub. Just have a relaxing average time period and see if your basal rates are able to hold you roughly steady. It doesn't matter if you are at target or not; the idea is to simply have zero extra active insulin from any boluses or corrections and watch what happens during those hours. Typically you would want to see about 3-4 hours of blood glucose without the influence of food boluses or activity. You can even try this tip: [Loop and Learn: Basal Testing in Closed Loop](https://www.loopandlearn.org/basal-testing-in-closed-loop/)
 
@@ -62,7 +62,7 @@ Many people, especially little kids, are not enthusiastic about fasting basal te
 <img src="../img/basal-open-loop.png" width="650">
 </p></br>
 
-### Insulin Sensitivity FSactor
+### Insulin Sensitivity Factor
 
 Insulin sensitivity factor (ISF) is the next logical setting to test. If you've just done the basal test and gotten steady blood glucose with an open loop, try taking a glucose tab or two. Wait for your blood glucose to be steady at the higher value, and give a safe correction that you think will get you close to target. Watch the resulting blood glucose drop over the next 3-4 hours. You should see blood glucose come to a steady level again. How much did the blood glucose drop? How many units of insulin did you use? Divide the two numbers and you will have your ISF.  If your BG dropped 15 mg/dL with half unit of insulin, your ISF is approximately 30 mg/dL per unit.
 
@@ -76,7 +76,7 @@ The terminology gets confusing sometimes because some people think of the terms 
 
 In order to avoid the confusion that surrounds the words "weak" and "strong", instead we will describe the actual adjustment to the ISF ***value***...the number itself.
 
-If your ISF is set to a value that is too low compared to what it really should be, one of the most common symptoms you'll see is a roller coaster of blood glucose where the insulin adjustments are cycling between zero basal and strong high temporary rates. Here are some example graphs from Looped group. These are examples where too low of ISF is more than likely a large factor in the roller coaster (doesn't mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temporary basals followed by very quick blood glucose drops and zero temps is usually too low of ISF value...raise the ISF value (e.g., go from 50 to 55) to help Loop know that each unit of insulin is actually having more impact than you'd previously thought.
+If your ISF is set to a value that is too low compared to what it really should be, one of the most common symptoms you'll see is a roller coaster of blood glucose where the insulin adjustments are cycling between zero basal and strong high temporary rates (or automatic boluses). Here are some example graphs from Looped group. These are examples where too low of ISF is more than likely a large factor in the roller coaster (doesn't mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temporary basals followed by very quick blood glucose drops and zero temps is usually too low of ISF value...raise the ISF value (e.g., go from 50 to 55) to help Loop know that each unit of insulin is actually having more impact than you'd previously thought. Making changes of about 10% for a setting is a reasonable thing to try; just make sure you are changing it in the correct direction - remember: strong = lower number; weak = high number.
 
 <p>
 <img src="../img/isf1.jpg" width="650">
