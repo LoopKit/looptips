@@ -12,6 +12,7 @@ theme:
         - search.suggest
         - search.highlight
         - content.code.annotate
+        - content.tooltips
 #    logo: loop-logo.png
 #    favicon: loop-logo.png
 
@@ -23,17 +24,26 @@ extra_css:
     
 markdown_extensions:
     - meta
+    - abbr
     - admonition
     - attr_list
+    - pymdownx.arithmatex:
+          generic: true
     - pymdownx.highlight
     - pymdownx.inlinehilite
     - pymdownx.superfences
-    - pymdownx.snippets
+    - pymdownx.snippets:
+        auto_append:
+            - includes/tooltip-list.txt
     - toc:
         permalink: true
         permalink_title: Anchor link to this Header on this Page
         toc_depth: 3
         title: Headers on this Page
+extra_javascript:
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
 - Home: 'index.md'
