@@ -25,7 +25,7 @@ Based on the answers to those questions, you may want to choose on of the potent
 
 ## Lower temporary targets
 
-If you to believe the high blood glucose is a short-term issue, due to acute stress or anerobic exercise for example, then using temporary lower override targets will help Loop be more aggressive at providing additional insulin. The pre-meal target would be a quick, easy implementation of this tool.
+If you to believe the high blood glucose is a short-term issue, due to acute stress or anaerobic exercise for example, then using temporary lower override targets will help Loop be more aggressive at providing additional insulin. The pre-meal target would be a quick, easy implementation of this tool.
 
 This technique, and the delivery pending insulin as a bolus (described below), are good to help control the urge to "rage" bolusing which often yields an overcorrection and subsequent low blood glucose. These two techniques used in combination are often successful for most short-term situations or meals that are just taking a long time to "burn out".
 
@@ -41,7 +41,7 @@ Carbohydrate, fat, and protein estimations for bolusing is frequently a guessing
 
 ## Fake Carbohydrates 
 
-Some people use "fake" carbohydrate entries to push Loop to be more aggressive with correcting a high blood glucose. This can be effective for hyperglycemia due to short term causes, but is not the recommended way of repeatedly dealing with high blood glucose. If you find yourself reguarly using fake carbohydrates often, you may want to consider whether one of your underlying settings needs adjusting.
+Some people use "fake" carbohydrate entries to push Loop to be more aggressive with correcting a high blood glucose. This can be effective for hyperglycemia due to short term causes, but is not the recommended way of repeatedly dealing with high blood glucose. If you find yourself regularly using fake carbohydrates often, you may want to consider whether one of your underlying settings needs adjusting.
 
 ## Prime insulin
 
@@ -49,9 +49,9 @@ If your Preferred Data Source is left on the default "Event History", Loop will 
 
 If you think that you are being affected by a short term influence that will last for at least 4-6 hours, a conservative amount of primed insulin may help control high blood sugar more aggressively than Loop would have otherwise provided during the stressful event.
 
-**If you choose to deliver insulin via prime command, remember that your active insulin or IOB will not be accurate for 6 hours after the delivery.**  Caution should be taken usimg this method because if the short term stress suddenly ends and blood glucose begins to drop again, the drop may be more pronounced than Loop predicts due to the untracked primed insulin.
+**If you choose to deliver insulin via prime command, remember that your active insulin or IOB will not be accurate for 6 hours after the delivery.**  Caution should be taken using this method because if the short term stress suddenly ends and blood glucose begins to drop again, the drop may be more pronounced than Loop predicts due to the untracked primed insulin.
 
-Note:  For Omnipod users Loop does not allow you to prime insulin in. 
+Note:  For Omnipod users, Loop does not allow you to prime insulin in. 
 
 ## Open loop and correct manually
 
