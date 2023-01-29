@@ -3,7 +3,7 @@
 In the context of the following discussion, the term "settings" refers to information that the user has typically entered into their pump.  These settings include:
 
 * basal rate schedule
-* insulin sensitivitiy factor (ISF)
+* insulin sensitivity factor (ISF)
 * carbohydrate to insulin ratio (CR)
 * glucose target range
 * duration of insulin activity (DIA)

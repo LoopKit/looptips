@@ -11,7 +11,7 @@ One of the obvious downtimes is during new sensor warmup. Unfortunately, the onl
 
 Since warmups are an important part of stabilizing CGM values and decreasing sensor noise, they are just going to continue to be a no-Loop time period for the foreseeable future. Most people simply cancel a currently running temporary basal, or let it run its course, when they start a new sensor session. For the two hours of warmup, the Loop will revert to the basal schedule programmed into the pump.
 
-Some people have opted to keep looping during sensor warmups by manually entering blood glusose checks through the Apple Health app for Loop to read. While technically Loop can use those values, the entries would have to be sufficiently frequent to be meaningful. If a person is willing to test 8-12 times in a two hour span, then looping through sensor warmup could be feasible through this method.
+Some people have opted to keep looping during sensor warmups by manually entering blood glucose checks through the Apple Health app for Loop to read. While technically Loop can use those values, the entries would have to be sufficiently frequent to be meaningful. If a person is willing to test 8-12 times in a two hour span, then looping through sensor warmup could be feasible through this method.
 
 ## Sensor noise
 Depending on which CGM device you use, you may observe a sweet spot of data accuracy in the middle of your sensor's session but have sensor "noise" at the beginning and end of the session. Generally speaking, Loop does fairly well despite these times of sensor noise, although having a reasonable maximum basal rate does help mitigate the risk due to a noisy sensor.
@@ -22,7 +22,7 @@ The figure below shows an example of a new G6 sensor for approximately its first
 
 As you can see on the left, the red dot was a finger stick blood glucose check and it nicely aligned with the CGM value when the session first started to provide live data.  However, between that first value and approximately noon the next day, there was a considerable amount of jumpiness to the data (as well as some suspected compression lows or extreme sensor jumpiness in the first 6 hours). The CGM noise immediately decreased after the first calibration was provided at the noon-time meal bolus. (Personally, we give the G6 one calibration point about 8-12 hours after a session starts because we have noticed that it helps settle down the noise quickly. This is not a part of the standard Dexcom protocols.)
 
-We similarly see an increase in sensor noise at the end of a sensors useful life. The figure below is a G6 sensor at 9.5 days, but your end of sensor symptoms may occur differently and at longer/shorter days. Much of the specifics regarding useful sensor life seems to depend on the user's body chemistry and sensor insertion. 
+We similarly see an increase in sensor noise at the end of a sensor's useful life. The figure below is a G6 sensor at 9.5 days, but your end of sensor symptoms may occur differently and at longer/shorter days. Much of the specifics regarding useful sensor life seems to depend on the user's body chemistry and sensor insertion. 
 
 ![noisy old G6 sensor](img/end_of_sensor.jpeg)
 

@@ -10,7 +10,7 @@ There's often confusion over the terminology surrounding Apple's health data sto
 <img src="../img/health-data.png" width="350">
 </p>
 
-* **Health App** -- Apple allows iOS users to manage HealthKit permissions and view stored HealthKit data through the use of Apple's Health app (standard on iPhone and iPods, but not available on iPads).  
+* **Health App** -- Apple allows iOS users to manage HealthKit permissions and view stored HealthKit data through the use of Apple's Health app (standard on iPhones and iPods, but not available on iPads).  
 
 ## Loop's use of HealthKit
 When you first install Loop onto your iPhone, you will be asked to setup Loop's access to the HealthKit database. Loop uses the iPhone's HealthKit to read and write blood glucose, insulin, and carbohydrate data depending on how you initially setup this section. 
@@ -18,11 +18,13 @@ When you first install Loop onto your iPhone, you will be asked to setup Loop's 
 At a minimum, you will need these HealthKit settings:
 
 Loop
+
 * insulin data: read and write
 * carbohydrate data: read and write
 * blood glucose data: read and write
 
 Dexcom App
+
 * blood glucose data: write (if you have this disabled, Loop will still function but will not display blood glucose values older than 3 hours old)
 
 You can always check your HealthKit settings for by opening the Health App, clicking on *Sources* at the bottom bar, and then clicking on the app's name you are interested in, for example Loop.

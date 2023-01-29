@@ -23,11 +23,11 @@ Insulin boluses are also automatically uploaded to NS by the Loop app. The bolus
 
 ### Temporary Basals
 
-Within your NS profile, you will enter in the scheduled basal rates from your Loop settings. This is not automatically updated when you update the Loop app; you will have to manually update your basal profile in your NS site if you change your basal profile in Loop. If you don't update the NS basal profile, it doesn't cause any problems in Loop function...you simply won't have accurate VISUAL representation of high/low temporary basals within NS. The dashed blue line represents the scheduled basal profile (as entered in your NS profile). The solid blue lines indicate the actual basal amounts set for a given time...so as Loop sets temporary basals higher or lower than your scheduled basal rate, the solid blue line will jump above or below your dashed blue line. There is a slight delay (up to 2-5 minutes) in the rendering of basal changes on the blue lines, so if you want the accurate current basal rate, you should check the Loop pill.
+Within your NS profile, you will enter in the scheduled basal rates from your Loop settings. This is not automatically updated when you update the Loop app; you will have to manually update your basal profile in your NS site if you change your basal profile in Loop. If you don't update the NS basal profile, it doesn't cause any problems in Loop function...you simply won't have an accurate VISUAL representation of high/low temporary basals within NS. The dashed blue line represents the scheduled basal profile (as entered in your NS profile). The solid blue lines indicate the actual basal amounts set for a given time...so as Loop sets temporary basals higher or lower than your scheduled basal rate, the solid blue line will jump above or below your dashed blue line. There is a slight delay (up to 2-5 minutes) in the rendering of basal changes on the blue lines, so if you want the accurate current basal rate, you should check the Loop pill.
 
 ### Predicted Blood Glucose
 
-The purple line to the right of the blood gluose readings is Loop's predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why Loop is making decisions regarding high or low temporary basals. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal) section of LoopDocs.
+The purple line to the right of the blood glucose readings is Loop's predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why Loop is making decisions regarding high or low temporary basals. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal) section of LoopDocs.
 
 
 ### Loop pill
@@ -48,7 +48,7 @@ You can access the Reports tab from within your NS settings (the three horizonta
 
 ### Day to Day report
 
-The day-to-day report will show detailed overlay of boluses, basals, carbohydrates, CGM, and treatment notes. If you select the optional check boxes, you can also see information such as the insulin distribution pie graphs shown on the right of the figure below.
+The day-to-day report will show a detailed overlay of boluses, basals, carbohydrates, CGM, and treatment notes. If you select the optional check boxes, you can also see information such as the insulin distribution pie graphs shown on the right of the figure below.
 
 <p align="center">
 <img src="../img/day-to-day.png" width="700">
