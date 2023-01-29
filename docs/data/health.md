@@ -18,11 +18,13 @@ When you first install Loop onto your iPhone, you will be asked to setup Loop's 
 At a minimum, you will need these HealthKit settings:
 
 Loop
+
 * insulin data: read and write
 * carbohydrate data: read and write
 * blood glucose data: read and write
 
 Dexcom App
+
 * blood glucose data: write (if you have this disabled, Loop will still function but will not display blood glucose values older than 3 hours old)
 
 You can always check your HealthKit settings for by opening the Health App, clicking on *Sources* at the bottom bar, and then clicking on the app's name you are interested in, for example Loop.
