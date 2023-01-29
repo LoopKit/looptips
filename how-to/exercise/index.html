@@ -781,7 +781,7 @@
 <p>It goes both ways: exercise affects glucose control; glucose control affects exercise. Consistent physical activity produces consistent insulin sensitivity, which helps the body process glucose more evenly (avoid spikes), maybe even improving HbA1c.  </p>
 <p>Some considerations:</p>
 <ul>
-<li><font color=orange>Risk for hypoglycemia can be reduced by avoiding too much insulin on board (IOB) during and after exercise.</font></li>
+<li><font color=orange>Risk for hypoglycemia can be reduced by avoiding too much insulin on board (<abbr title="Insulin on Board, affects automated insulin delivery: the current active insulin (above or below the basal rate) that Loop calculates and uses for glucose prediction">IOB</abbr>) during and after exercise.</font></li>
 <li>Continuous glucose monitors (CGMs) or regular blood glucose testing provides critical information to preemptively minimize blood-sugar highs and lows.</li>
 <li>Plan ahead! Reduce insulin and add carbs for aerobic (longer duration, lower intensity) exercise, which causes blood sugar to drop, or increase for anaerobic (short duration, high intensity), which may cause spikes.</li>
 <li><font color=orange>After most exercise, insulin sensitivity is higher for 24 hours. Carbohydrates needed to replace liver glycogen levels must be balanced with decreased insulin levels.</font></li>
@@ -816,7 +816,7 @@
 <p>Caution: Delayed Onset Hypoglycemia can occur typically 6 to 12 hours (sometimes 24 hours) after exhaustive exercise, due to replenishment of muscle glycogen stores and enhances insulin sensitivity. It is possible to prevent this by:</p>
 <ul>
 <li>keeping records of your fitness regimen and the effects it has on your body</li>
-<li>using a CGM or frequent blood testing to monitor your body’s response to activity</li>
+<li>using a <abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr> or frequent blood testing to monitor your body’s response to activity</li>
 <li>decreasing basal insulin or meal boluses after activity</li>
 <li>consuming slow-acting carbohydrates after activity</li>
 </ul>
@@ -830,7 +830,7 @@
 </ul>
 <h2 id="loop-considerations">Loop Considerations<a class="headerlink" href="#loop-considerations" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>With all of that background laid out, your Loop can help with some of the techniques described above. Highlighted in <font color=orange>orange</font> above are parts of those recommendations and considerations that we should explore a little more for Loop in particular:</p>
-<p><font color=orange>Risk for hypoglycemia can be reduced by avoiding too much insulin on board (IOB) during and after exercise.</font> -- In Loop use, we can accomplish this through setting a workout target far enough ahead of the exercise to help decrease basal insulin on board going into exercise. Typically this means setting a workout target at least 1, if not 2, hours prior to exercise. Setting a workout target just as you begin a workout will not allow sufficient time to decrease IOB ahead of an aerobic workout. Loop workout targets are usually 50 mg/dL higher than your usual correction target, although that is a guide. Practice and observation of your typical exercise needs will help refine your optimal settings. And while not Loop specific, minimize heavy carb meals in the 3 hours before intense exercise that would require large boluses. If eating during that time, consider partial boluses and slower, lower carbohydrate snacks. If bolusing while workout targets are enacted, Loop will automatically recommend a smaller bolus than you would get with your normal correction target.</p>
+<p><font color=orange>Risk for hypoglycemia can be reduced by avoiding too much insulin on board (<abbr title="Insulin on Board, affects automated insulin delivery: the current active insulin (above or below the basal rate) that Loop calculates and uses for glucose prediction">IOB</abbr>) during and after exercise.</font> -- In Loop use, we can accomplish this through setting a workout target far enough ahead of the exercise to help decrease basal insulin on board going into exercise. Typically this means setting a workout target at least 1, if not 2, hours prior to exercise. Setting a workout target just as you begin a workout will not allow sufficient time to decrease <abbr title="Insulin on Board, affects automated insulin delivery: the current active insulin (above or below the basal rate) that Loop calculates and uses for glucose prediction">IOB</abbr> ahead of an aerobic workout. Loop workout targets are usually 50 mg/dL higher than your usual correction target, although that is a guide. Practice and observation of your typical exercise needs will help refine your optimal settings. And while not Loop specific, minimize heavy carb meals in the 3 hours before intense exercise that would require large boluses. If eating during that time, consider partial boluses and slower, lower carbohydrate snacks. If bolusing while workout targets are enacted, Loop will automatically recommend a smaller bolus than you would get with your normal correction target.</p>
 <p><font color=orange>After most exercise, insulin sensitivity is higher for up to 24 hours. Carbohydrates needed to replace liver glycogen levels must be balanced with decreased insulin levels.</font>-- For Loop use, this period of increased insulin sensitivity may require continuing or setting a workout target for some period of time after exercise is finished. This will help manage increased sensitivity by providing smaller boluses and less basal delivery to prevent hypoglycemia that could result from unadjusted settings under traditional therapy. The length of time to run a continued post-workout target will depend on the duration and intensity of exercise.</p>
                 
               
@@ -909,10 +909,16 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

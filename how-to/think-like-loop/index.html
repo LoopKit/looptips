@@ -818,7 +818,7 @@
 <p>If you are frustrated with Loop’s actions now...that means you told it the wrong info previously (or are lacking some patience that Loop has). Most often either your meal entry was wrong or your basals or...something else you’ve told Loop has ended up being incorrect.</p>
 <p>Fixing that miscommunication will allow Loop to do a better job.</p>
 <p>If you misjudged a meal, go back and edit that meal entry.</p>
-<p>If you misjudged your basal/ISF/carb ratio needs, correct those (testing to validate is good if you haven’t done that yet)</p>
+<p>If you misjudged your basal/<abbr title="Insulin Sensitivity Factor; how many points your blood sugar will drop for each unit of insulin; sometimes called correction factor">ISF</abbr>/carb ratio needs, correct those (testing to validate is good if you haven’t done that yet)</p>
 <p>If you aren’t patient, you can override Loop...but do expect that is not likely to solve the miscommunication you and Loop are having. That’s the relationship equivalent to just talking louder as opposed to talking smarter.</p>
 <p>Loop will try to save you when you rage bolus, which may just make you even more frustrated. If you can stop and think "What have I told Loop that might not be accurate right now?" that will be a good step to a meaningful improvement in outcomes. </p>
 <h2 id="tools-when-you-are-in-disagreement">Tools when you are in disagreement<a class="headerlink" href="#tools-when-you-are-in-disagreement" title="Anchor link to this Header on this Page">&para;</a></h2>
@@ -827,7 +827,7 @@
 <li>Add some patience to your practice. A little patience to give the already added insulin time to work can help with Loop.</li>
 <li>Edit your meal's carb entry. If you find your meal going crazy different than expected (did they forget you said "diet" coke?), you can always go back and edit your original carb guess to be more accurate based on what you're seeing. You can decrease the carbs or increase the carbs. You can change the absorption time. These edits can be done by tapping on the carb chart in Loop's main screen.</li>
 <li>Use overrides to tell Loop about overall insulin needs changing. Hormones...oh lordy the hormones are horrible. That's a good time to use an override to let Loop know that overall you need more than usual. Or if you're about to hike the Himalayas, use an override to let Loop know you will need far less insulin than an average day.</li>
-<li>Open Loop. This is a great tool. If you just had things go really wrong for a bit (bad cannula kink anyone?) then you can open loop until things settle down and you get squared away again. Give your manual injection, Afreeza, or whatever your desire is and wait until you've had 4-6 hours of regular basals going before closing loop again.</li>
+<li><abbr title="Loop will not make automated adjustments of insulin delivery but all prediction and recommendation features are available">Open Loop</abbr>. This is a great tool. If you just had things go really wrong for a bit (bad cannula kink anyone?) then you can open loop until things settle down and you get squared away again. Give your manual injection, Afreeza, or whatever your desire is and wait until you've had 4-6 hours of regular basals going before closing loop again.</li>
 <li>Give pending insulin. If you are really feeling the itch to rage bolus, you can meet Loop at the halfway mark. If you click on the bolus tool while Loop is high temping you, you will see a "pending insulin" value. That is the amount of insulin Loop is planning on giving you through temp basals over the next 30 minutes. If you give that pending insulin total as a bolus now, you will get the entire amount working faster AND Loop agrees you are safe to use it. In this way, Loop won't automatically suspend insulin when you give pending insulin...because your predicted BG curve had said it was needed anyways.  Win win...you got a mini-rage bolus and Loop won't be working against you. Good therapy and a good way to avoid post-rage lows.</li>
 </ol>
 <h2 id="predicted-bg-curve-is-everything">Predicted BG curve is everything<a class="headerlink" href="#predicted-bg-curve-is-everything" title="Anchor link to this Header on this Page">&para;</a></h2>
@@ -836,7 +836,7 @@
 <p class="admonition-title"><strong>Thinking like a Loop involves just three things</strong></p>
 <p></br></br>
     ➡️  Predicted BG curve</br></br>
-    ➡️  Correction Range</br></br>
+    ➡️  <abbr title="Loop recommends changes to basal and / or bolus to bring glucose predictions into this range">Correction Range</abbr></br></br>
     ➡️  Suspend Threshold</br></br></br></p>
 </div>
 </p>
@@ -883,7 +883,7 @@ D. Lower temp basal (between zero and scheduled)</i></br></br>
 <p></br></p>
 <p>This second case has a dramatic drop happening.  Suspend threshold is still at 60 mg/dL, correction range is still 90-110, the lowest value on the predicted BG chart is 75 mg/dL, and the eventual BG is 171 mg/dL for this example.  So, pretty similar to the first example except this precipitous drop going on right now.</p>
 <p>Let me tell you some of the common pitfalls we all can easily slip into when trying to answer these "Why is Loop giving me this basal?" questions.</p>
-<p>Wondering about IOB, COB, or DIA in order to answer...those aren't a factor to answering the question as they have already been used to make the predicted BG curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.
+<p>Wondering about <abbr title="Insulin on Board, affects automated insulin delivery: the current active insulin (above or below the basal rate) that Loop calculates and uses for glucose prediction">IOB</abbr>, <abbr title="Carbs on Board, affects automated insulin delivery: the g of carbohydrates that Loop expects to be absorbed and uses for glucose prediction">COB</abbr>, or <abbr title="Duration of Insulin Action, the full time insulin is active including a long, low-level tail">DIA</abbr> in order to answer...those aren't a factor to answering the question as they have already been used to make the predicted BG curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.
 Thinking about this as a human...humans tend to say "well, I'm on a rise/fall right now so...[insert Loop action based on that]" Loop isn't looking at the past BG movement alone, instead it's looking at the prediction curve ahead and applying its rules based on that.  Any drop or rise going on will have been added to the predicted curve through the BG momentum and retrospective correction components of the algorithm...so again they're already incorporated into the predicted curve.</p>
 <p>Restating for emphasis:  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.</p>
 <p>The answer is B:  Loop will give your scheduled basal in both situations shown above.  When your predicted BG curve (1) drops for a time below correction range but (2) all of the curve still above suspend threshold, and Eventual BG is (3) above range or within range...Loop will give your scheduled basal.</p>
@@ -967,10 +967,16 @@ If BGs were to rise enough such that the whole predicted curve comes back into o
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
