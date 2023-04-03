@@ -4,19 +4,21 @@ One of the easiest habits to help check your settings is to simply check-in on y
 
 This Looped group post started the conversation:
 
-!!! note ""
-    *I've been having more lows recently than I would like. Any help here would be really really appreciated.*</br></br>
-    *I took a screenshot of an example situation...LOOP is predicting that I'll eventually rise up to 124 and is therefore giving me my full regular basal rate EVEN THOUGH im currently way below my desired goal range. I have a better knowledge of my diabetes than LOOP does (sorry if that is heresy around here) and I would not like LOOP to be giving me basal right now OR ELSE I'LL GO LOW.*</br></br>
-    *QUESTION: Which parameter must I change on my loop settings in order to essentially tell LOOP to relax on the basal rates??*</br></br>
-    <p align="center">
-    <img src="../img/looped1.jpg" width="300">
-    </p>
+!!! note " "
 
-To illustrate how to use morning IOB and blood glucose to check your basal rates, we will walk through a series of screenshots from a recent Loop experience. When the Looper woke up, she was below her 95 mg/dL target, but relatively steady. At about 8:48am, Nightscout showed negative IOB of -1.33 units, blood glucose of 90 mg/dL and slightly rising but still below a target of 95 mg/dL. (Note: this situation is similar to what the original Facebook poster above was describing.)
+    *I've been having more lows recently than I would like. Any help here would be really really appreciated.*
+    
+    *I took a screenshot of an example situation...LOOP is predicting that I'll eventually rise up to 124 and is therefore giving me my full regular basal rate EVEN THOUGH im currently way below my desired goal range. I have a better knowledge of my diabetes than LOOP does (sorry if that is heresy around here) and I would not like LOOP to be giving me basal right now OR ELSE I'LL GO LOW.*
 
-<p align="center">
-<img src="../img/looped2.jpg" width="750">
-</p>
+    *QUESTION: Which parameter must I change on my loop settings in order to essentially tell LOOP to relax on the basal rates??*
+    
+    ![Looped1](img/looped1.jpg){width="300"}
+    {align="center"}
+
+To illustrate how to use morning IOB and blood glucose to check your basal rates, we will walk through a series of screenshots from a recent Loop experience. When the Looper woke up, she was below her 95 mg/dL target, but relatively steady. At about 8:48am, Nightscout showed negative IOB of -1.33 units, blood glucose of 90 mg/dL and slightly rising but still below a target of 95 mg/dL. (Note: this situation is similar to what the original Facebook poster above was describLooped2](ing.)
+
+![Looped2](../img/looped2.jpg){width="750"}
+{align="center"}
 
 Looking back on the night, blood glucose was pretty much below target the whole night and her scheduled basal delivery was turning off/on in an alternating pattern (the blue pattern area). Blood glucose wasn't concerning nor were alarms going off. *However*, this combination of data is a great indicator that basal rates need to be decreased. The tendency could be to let Loop just keep plodding along like this, but it can lead to certain less than desirable stress points on the algorithm.
 
@@ -25,10 +27,11 @@ Firstly, if the user were to bolus while carrying a lot of negative iob, they wo
 Secondly, if the user were to go above their correction range, they would begin to get high temporary basals for what is an inaccurate amount of negative iob (because basals really didn't need to be this high). And high temporary basals at this point in time and with these settings would be too aggressive. (If the maximum basal is set really high, the problem compounds with bad underlying settings. This is why it is a good idea to keep your maximum basal relatively low when you first start Loop and are testing your settings.)
 
 !!! info "Useful Summary"
-    You probably need to lower your overnight basal rates if you wake up:</br>
-        * Carrying negative IOB, and</br>
-        * Blood glucose is still below or just below target, and</br>
-        * Overnight basals were turning off/on.</br>
+    You probably need to lower your overnight basal rates if you wake up:
+    
+     * Carrying negative IOB, and
+     * Blood glucose is still below or just below target, and
+     * Overnight basals were turning off/on.
 
 So, what will you see after you adjust your basal lower? You will see some of the negative IOB disappear and, as a result, the predicted blood glucose curve will not so such an aggressive prediction for a blood glucose rebound.
 

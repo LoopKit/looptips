@@ -33,7 +33,8 @@ There are two methods for uploading different data to your Tidepool account:
 
 * **Tidepool Mobile** (app on your phone) - Tidepool Mobile is available for both Android and iOS/iPhone users. Tidepool Mobile is a companion app to Tidepool that lets you add notes about meals, exercise or anything else. See your CGM, pump, and meter data alongside any notes you add. Track your favorite meals and your regular exercise, and learn from what happens.  
 
-!!! info ""
+!!! info " "
+
     In summary, the Uploader is for uploading the numeric data from your various diabetes devices and the Mobile app is for adding the contextual information and notes-on-the-go to make your numeric data more useful.
 
 ### Does Tidepool Uploader work for Loop users?
@@ -55,7 +56,7 @@ There are two distinct viewing options for your Tidepool data, and they are not 
 1. Using a desktop computer using the Chrome browser and logging into your Tidepool account, or
 2. Using your Tidepool Mobile app **AND** associated notes.
 
-!!! info ""
+!!! info " "
     Currently, only the Chrome desktop browser is compatible with Tidepool. You will not be able to use Safari or other browsers to view the data, nor will you be able to use Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome browser. If you want to see your data on your phone, you must use the Tidepool Mobile app **<i>and</i>** use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.
 
 ### What Loop data will you see in desktop Chrome?
@@ -71,7 +72,8 @@ You will see your Loop's temporary basals, CGM readings, boluses, notes, carbohy
 {align="center"}
 
 ### What Loop data will you see in the Tidepool Mobile app?
-!!! info ""
+
+!!! info " "
     The Tidepool Mobile app is not a live-viewing app of looping data. For people coming from Nightscout, this may be a bit confusing but realize the intended purpose of the Tidepool Mobile app isn’t live-viewing. It is the place that you can (1) upload/sync HealthKit data, (2) easily add/edit/delete notes to the data set, and (3) search for notes and view Loop data surrounding that note.
 
 **In fact, you will basically see NO data in the Tidepool Mobile app unless you have Tidepool data uploaded <u>and</u> notes are added.** Once you add a note, you are basically placing a bookmark on the data set. You will be able to click on the note and see 7 hours of old data before the note, and then the note will continue to collect 7 hours of data to display after the note. So, technically, you’ll be able to refresh the app’s view to see current data for approximately 7 hours after a note is placed.
