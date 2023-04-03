@@ -14,9 +14,8 @@ The transition to Loop use may be confusing at first for these meals since you c
 
 For an example of Loop's bolus adjustments using carbohydrate absorption time, let's take a look at an example meal.  This is an example of a long absorption complex carbohydrate meal. This is a mushroom (arborio) risotto dish with heavy cream and cheese ingredients. While some white rice can be fairly quick acting, after several times eating this dish, the family has noticed that the meal tends to have a longer duration of impact on blood glucose. Using a "taco" icon (3 hours absorption) was causing slight low blood glucose soon after eating the meal. Therefore, they have been using the pizza icon to enter the meal's carbohydrate absorption time.
 
-<p align="center">
-<img src="../img/pizza_bolus.jpg" width="400">
-</p>
+![Pizza Bolus](../img/pizza_bolus.jpg){width="400"}
+{align="center"}
 
 The initial meal entry was 70g at a "pizza" icon aborption time (4 hours). Based on carbohydrate ratio of 8 g/U, the initial bowl of risotto at 60g should have been a bolus of 7.5 units. Loop recommended 5.3 units, or about 70% of the total bolus that would be needed to cover the total carbohydrates. Loop recommended the lower upfront bolus because a full bolus would have overwhelmed the slow absorption of carbohydrates, and the likelihood would be a low blood glucose shortly after eating. 
 

@@ -22,15 +22,13 @@ With all the excitement about automated insulin delivery, some people mistakenly
 
 Let's give some examples to help.  When you calculate a meal bolus, your math probably looks similar to this:
 
-<p align="center">
-<img src="../img/bolus-equation.jpg" width="450">
-</p>
+![Bolus Equation](../img/bolus-equation.jpg){width="450"}
+{align="center"}
 
 But many times you are probably adjusting that math based on any number of "factors" that you are aware could be affecting your blood glucose. [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) put together this great list of factors that affect blood glucose, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.
 
-<p align="center">
-<img src="../img/bg-factors.png" width="450">
-</p>
+![BG Factors](../img/bg-factors.png){width="450"}
+{align="center"}
 
 Some of those factors you are already used to making allowances for, such as:
 
