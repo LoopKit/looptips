@@ -28,9 +28,8 @@ There are three types of exercise:
 * Mixed
     * Mixed exercise is combination of the aerobic and anaerobic activity such as basketball or soccer. Managing blood glucose levels with mixed exercise is difficult, but using a tool like a continuous glucose monitor can help greatly.
 
-<p align="center">
-<img src="../img/3-types-of-exercise-chart.png" width="750">
-</p>
+![3 Types of Exercise Chart](../img/3-types-of-exercise-chart.png){width="750"}
+{align="center"}
 
 Glucose levels during sports affect performance in many ways: strength, stamina, speed, agility, flexibility, safety and mental sharpness.
 

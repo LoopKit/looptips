@@ -8,9 +8,8 @@ LoopTips is a companion to LoopDocs.   LoopTips does not cover the build or inst
 
 The U.S. Food and Drug Administration (FDA) has a general definition of an "artificial pancreas device system" (aka closed loop system) [on their website](https://www.fda.gov/medicaldevices/productsandmedicalprocedures/homehealthandconsumer/consumerproducts/artificialpancreas/ucm259548.htm#illustration), quoted below.
 
-<p align="center">
-<img src="img/fda-image.png" width="450">
-</p>
+![FDA Image](img/fda-image.png){width="450"}
+{align="center"}
 
 >*"Most Artificial Pancreas Device Systems consists of three types of devices already familiar to many people with diabetes: a continuous glucose monitoring system (CGM) and an insulin infusion pump. A blood glucose device (such as a glucose meter) is used to calibrate the CGM.*
 

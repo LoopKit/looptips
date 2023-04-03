@@ -14,9 +14,9 @@ Tidepool has [announced](https://tidepool.org/loop/) that they are embarking on 
 ## Tidepool Data
 Once you start uploading data into your Tidepool account, you'll see some of the benefits pretty quickly. Tidepool's data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
 
-<p align="center">
-<img src="../img/tidepool_sample.png" width="750">
-</p>
+
+![Tidepool Sample](../img/tidepool_sample.png){width="750"}
+{align="center"}
 
 To use Tidepool's services, the process is pretty standard:
 
@@ -44,9 +44,9 @@ However, there has been a very exciting development! Tidepool's Mobile iOS app h
 ### How can I share my Tidepool data?
 Sharing the data is simple. You can click on your account’s Share option and enter in the email addresses for those that you want to share with. Those people will need a Tidepool account. If they don’t have one currently, they will follow easy prompts for an account setup after they’ve received your share invitation. Clinics using Tidepool will have a Tidepool account email that you can add to your account, enabling the clinic to easily view your data. You can also remove access for anyone with a simple click.
 
-<p align="center">
-<img src="../img/share_tidepool.png" width="550">
-</p>
+
+![Share Tidepool](../img/share_tidepool.png){width="550"}
+{align="center"}
 
 ## Viewing your Tidepool data
 
@@ -61,17 +61,14 @@ There are two distinct viewing options for your Tidepool data, and they are not 
 ### What Loop data will you see in desktop Chrome?
 You will see your Loop's temporary basals, CGM readings, boluses, notes, carbohydrates and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to Tidepool, those will also overlay.
 
-<p align="center">
-<img src="../img/loop_in_tidepool.png" width="750">
-</p>
+![Loop in Tidepool](../img/loop_in_tidepool.png){width="750"}
+{align="center"}
 
-<p align="center">
-<img src="../img/loop_in_tidepool2.png" width="750">
-</p>
+![Loop in Tidepool 2](../img/loop_in_tidepool2.png){width="750"}
+{align="center"}
 
-<p align="center">
-<img src="../img/loop_in_tidepool3.png" width="750">
-</p>
+![Loop in Tidepool 3](../img/loop_in_tidepool3.png){width="750"}
+{align="center"}
 
 ### What Loop data will you see in the Tidepool Mobile app?
 !!! info ""
@@ -81,9 +78,8 @@ You will see your Loop's temporary basals, CGM readings, boluses, notes, carbohy
 
 For example, here’s a sample note+data set below from my Tidepool Mobile app.  Over the last couple hours, my daughter noticed that she was staying above target (unusual for her on Loop with the meal she had) for quite a while. She had given a couple small corrections (see the two 1 unit correction boluses?) without result. She started her secondary troubleshooting…if it’s not the food, maybe it’s the infusion site? She realized it has been 4.5 days since changing her site. She changed the site, and logged a note using the Tidepool Mobile app. That note shows on my phone's Tidepool Mobile app, shows up on her Tidepool data for her endo to see too, and we can refresh the view to see how blood glucose trends for the next 7 hours after the site change.
 
-<p align="center">
-<img src="../img/ios_tidepool_example.png" width="250">
-</p>
+![iOS Tidepool Example](../img/ios_tidepool_example.png){width="250"}
+{align="center"}
 
 ## Tidepool's Mobile app for iOS/iPhone
 As part of Tidepool Loop development, Tidepool updated its Tidepool Mobile iOS app to integrate with Loop user's data stored in Apple's HealthKit database. This update also supports the [Jaeb Center observational study](jaeb.org/loopstudy) of Loop.
@@ -102,9 +98,8 @@ You mean what OTHER cool thing can Tidepool Mobile app do *besides uploading Loo
 
 For an easy example, search for the word burrito (doesn’t have to be a hashtag) and any notes with the word “burrito” will be available for review, as well as any added comments.
 
-<p align="center">
-<img src="../img/ios_tidepool_example2.png" width="450">
-</p>
+![iOS Tidepool Example 2](../img/ios_tidepool_example2.png){width="450"}
+{align="center"}
 
 Hormones can also be easily tracked with notes. *What day-of-the-month and how did I change the basals?* Looking to find patterns in those female hormones? This could be a really slick tracking tool to easily log periods of insulin resistance and what part of the cycle they are occurring at.
 
