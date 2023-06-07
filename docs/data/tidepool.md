@@ -1,11 +1,11 @@
 # Tidepool {: translate="no" }
 
 !!! info "Disclosure"
-    The original author of this page, *Katie DiSimone* 💚, was employed by *Tidepool* when this page was initially created. She used *Tidepool* before becoming an employee. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of <span class="notranslate">Tidepool</span>'s services.  
-    Questions related to <span class="notranslate">Tidepool</span> should be directed to [support@tidepool.org](mailto:support@tidepool.org).
+    The original author of this page, *Katie DiSimone* 💚, was employed by *Tidepool* when this page was initially created. She used *Tidepool* before becoming an employee. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of Tidepool&#39;s services.  
+    <span class="notranslate">Tidepool</span>-specific questions should be directed to [support@tidepool.org](mailto:support@tidepool.org).
 
-## Tidepool's mission
-In <span class="notranslate">Tidepool</span>'s own words, their commitment to diabetes data and accessibility is pretty clear:
+## Tidepool&#39;s mission
+In Tidepool&#39;s own words, their commitment to diabetes data and accessibility is pretty clear:
 
 !!! quote "&ZeroWidthSpace;"
     Tidepool&#39;s mission is to make diabetes data more accessible, actionable and meaningful for people with diabetes, their care teams and researchers.
@@ -15,13 +15,13 @@ In <span class="notranslate">Tidepool</span>'s own words, their commitment to di
 *Tidepool* has [announced](https://tidepool.org/loop/) that they are embarking on a project to build and support an FDA-regulated version of *Loop*, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
 
 ## <span class="notranslate">Tidepool</span>  Data
-Once you start uploading data into your *Tidepool* account, you'll see some of the benefits pretty quickly. <span class="notranslate">Tidepool</span>'s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
+Once you start uploading data into your *Tidepool* account, you'll see some of the benefits pretty quickly. Tidepool&#39;s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
 
 
 ![Tidepool Sample](../img/tidepool_sample.png){width="750"}
 {align="center"}
 
-To use <span class="notranslate">Tidepool</span>'s services, the process is pretty standard:
+To use Tidepool&#39;s services, the process is pretty standard:
 
 * Create a free *Tidepool* account to become the warehouse for your diabetes data.
 * Upload device data to your account.
@@ -43,7 +43,7 @@ There are two methods for uploading different data to your *Tidepool* account:
 ### Does Tidepool Uploader work for Loop users?
 There has been a lack of ability to get Loop data into *Tidepool* using the *Tidepool* Uploader. The only Loop-compatible pumps supported in *Tidepool* Uploader are the x23/x54 pumps, so users of the x15 and x22 pumps cannot upload their pump data. Furthermore, the Medtronic pump still suffers from the lack of internal storage sufficient to store more than 3-7 days worth of Looping data.
 
-However, there has been a very exciting development! <span class="notranslate">Tidepool</span>'s Mobile iOS app has been updated to upload Apple's HealthKit data into *Tidepool*. Since *Loop* uses *HealthKit* to store all of your insulin, carbohydrate, and CGM data, this means *Tidepool* can now upload the full suite of available *Loop* information. So, there's no need to use *Tidepool* Uploader for *Loop* users...their *Tidepool* Mobile app can take care of the needed connections. Read below for lots of details about this important development.
+However, there has been a very exciting development! Tidepool&#39;s Mobile iOS app has been updated to upload Apple's HealthKit data into *Tidepool*. Since *Loop* uses *HealthKit* to store all of your insulin, carbohydrate, and CGM data, this means *Tidepool* can now upload the full suite of available *Loop* information. So, there's no need to use *Tidepool* Uploader for *Loop* users...their *Tidepool* Mobile app can take care of the needed connections. Read below for lots of details about this important development.
 
 ### How can I share my Tidepool data?
 Sharing the data is simple. You can click on your account’s Share option and enter in the email addresses for those that you want to share with. Those people will need a *Tidepool* account. If they don’t have one currently, they will follow easy prompts for an account setup after they’ve received your share invitation. Clinics using *Tidepool* will have a *Tidepool* account email that you can add to your account, enabling the clinic to easily view your data. You can also remove access for anyone with a simple click.
@@ -66,7 +66,7 @@ There are two distinct viewing options for your *Tidepool* data, and they are no
         If you want to see your data on your phone, you must use the *Tidepool* Mobile app **<i>and</i>** use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.
 
 ### What Loop data will you see in desktop Chrome?
-You will see your <span class="notranslate">Loop</span>'s temporary basals, CGM readings, boluses, notes, carbohydrates, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to *Tidepool*, those will also overlay.
+You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, carbohydrates, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to *Tidepool*, those will also overlay.
 
 ![Loop in Tidepool](../img/loop_in_tidepool.png){width="750"}
 {align="center"}
@@ -89,11 +89,11 @@ For example, here’s a sample note+data set below from my *Tidepool* Mobile app
 ![iOS Tidepool Example](../img/ios_tidepool_example.png){width="250"}
 {align="center"}
 
-## Tidepool's Mobile app for iOS/iPhone
+## Tidepool&#39;s Mobile app for iOS/iPhone
 As part of *Tidepool* *Loop* development, *Tidepool* updated its *Tidepool* Mobile iOS app to integrate with *Loop* user's data stored in Apple's HealthKit database. This update also supports the [Jaeb Center observational study](jaeb.org/loopstudy) of Loop.
 
 ### How does the Loop data upload work?
-The *Tidepool* Mobile iOS app will sync <span class="notranslate">Loop</span>'s diabetes-related HealthKit data into your *Tidepool* account. The app will continuously upload that data so long as the *Tidepool* Mobile app is open, even if it is only open in the background. That data will then be viewable in two places: on the *Tidepool* Mobile app itself <u>when using notes</u>, or in your *Tidepool* account using desktop Chrome browser (note: the two options are not identical viewing platforms, see discussion above). This means you will not have to plug any of your devices into a USB cable in order to upload your information to *Tidepool*.
+The *Tidepool* Mobile iOS app will sync Loop&#39;s diabetes-related HealthKit data into your *Tidepool* account. The app will continuously upload that data so long as the *Tidepool* Mobile app is open, even if it is only open in the background. That data will then be viewable in two places: on the *Tidepool* Mobile app itself <u>when using notes</u>, or in your *Tidepool* account using desktop Chrome browser (note: the two options are not identical viewing platforms, see discussion above). This means you will not have to plug any of your devices into a USB cable in order to upload your information to *Tidepool*.
 
 ### Is the Tidepool Mobile app a replacement for Nightscout?
 Nope. This was not designed nor intended to be a replacement for your *Nightscout* site. They complement each other, rather than compete. This new upload of Loop data will allow you and your clinics to have a powerful tool to analyze Loop data through an easy-to-use, shared hub.

@@ -23,7 +23,7 @@ So...look at the objectives and info you both have at hand.
 
 *Loop* has the info from the settings you’ve given it, how you’ve described your meals, and how you’ve given insulin. *Loop* does not know if you are stressed. *Loop* does not know if you are sick. *Loop* is not a rage bolus machine and is predicting 6 hours out to safely bring you down without you needing to prevent a low while it does that. *Loop* is considerate partner. It respects your input and acts gentle and even-keeled.
 
-If you are frustrated with Loop's actions now...that means you told it the wrong info previously (or are lacking some patience that *Loop* has). Most often either your meal entry was wrong or your basals or...something else you’ve told *Loop* has ended up being incorrect.
+If you are frustrated with Loop’s actions now...that means you told it the wrong info previously (or are lacking some patience that *Loop* has). Most often either your meal entry was wrong or your basals or...something else you’ve told *Loop* has ended up being incorrect.
 
 Fixing that miscommunication will allow *Loop* to do a better job.
 
@@ -40,7 +40,7 @@ If you aren’t patient, you can override *Loop*...but do expect that is not lik
 Sure, even with the best therapist, you may still have disagreements. They happen. There are several options for recovering from times like that. The tool you choose may be situationally dependent. Seeing a huge quick BG climb after a meal may be better helped by a carb entry edit as opposed to added patience, but that will depend on your management style.
 
 1. Add some patience to your practice. A little patience to give the already added insulin time to work can help with *Loop*.
-2. Edit your meal's carb entry. If you find your meal going crazy different than expected (did they forget you said "diet" coke?), you can always go back and edit your original carb guess to be more accurate based on what you're seeing. You can decrease the carbs or increase the carbs. You can change the absorption time. These edits can be done by tapping on the carb chart in Loop's main screen.
+2. Edit your meal's carb entry. If you find your meal going crazy different than expected (did they forget you said "diet" coke?), you can always go back and edit your original carb guess to be more accurate based on what you're seeing. You can decrease the carbs or increase the carbs. You can change the absorption time. These edits can be done by tapping on the carb chart in Loop&#39;s main screen.
 3. Use overrides to tell *Loop* about overall insulin needs changing. Hormones...oh lordy the hormones are horrible. That's a good time to use an override to let *Loop* know that overall you need more than usual. Or if you're about to hike the Himalayas, use an override to let *Loop* know you will need far less insulin than an average day.
 4. Open Loop. This is a great tool. If you just had things go really wrong for a bit (bad cannula kink anyone?) then you can open loop until things settle down and you get squared away again. Give your manual injection, Afreeza, or whatever your desire is and wait until you've had 4-6 hours of regular basals going before closing loop again.
 5. Give pending insulin. If you are really feeling the itch to rage bolus, you can meet *Loop* at the halfway mark. If you click on the bolus tool while *Loop* is high temping you, you will see a "pending insulin" value. That is the amount of insulin *Loop* is planning on giving you through temp basals over the next 30 minutes. If you give that pending insulin total as a bolus now, you will get the entire amount working faster AND *Loop* agrees you are safe to use it. In this way, *Loop* won't automatically suspend insulin when you give pending insulin...because your predicted BG curve had said it was needed anyways.  Win win...you got a mini-rage bolus and *Loop* won't be working against you. Good therapy and a good way to avoid post-rage lows.
@@ -56,7 +56,7 @@ As you start to use *Loop* you will probably find yourself wondering at some poi
         ➡️  Suspend Threshold</br></br></br>
   </p>
 
-All of Loop's decisions are based on what your predicted BG curve is doing with respect to your correction range and suspend threshold. That's it. All the time. Everytime. It always comes down to that predicted BG curve.
+All of Loop&#39;s decisions are based on what your predicted BG curve is doing with respect to your correction range and suspend threshold. That's it. All the time. Everytime. It always comes down to that predicted BG curve.
 
 That predicted BG curve has four contributions to its shape:
 

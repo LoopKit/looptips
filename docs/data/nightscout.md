@@ -1,6 +1,6 @@
 # Nightscout { .notranslate }
 
-[Nightscout](https://nightscout.github.io/) (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view <span class="notranslate">Loop</span>'s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/) is free and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
+[Nightscout](https://nightscout.github.io/) (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view Loop&#39;s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/) is free and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
 
 ## Nightscout Display
 *Nightscout* is highly recommended for *Loop* users, especially those using *Loop* as caregivers. *Nightscout* displays are often the easiest way to troubleshoot *Loop* settings if you are having problems and seeking input from others.  Below is some discussion about the general *Nightscout* display, as well as some <span class="notranslate">Loop</span>-specific display information.
@@ -26,7 +26,7 @@ Within your NS profile, you will enter in the scheduled basal rates from your *L
 
 ### Predicted Blood Glucose
 
-The purple line to the right of the blood glucose readings is <span class="notranslate">Loop</span>'s predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal) section of *LoopDocs*.
+The purple line to the right of the blood glucose readings is Loop&#39;s predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal) section of *LoopDocs*.
 
 
 ### <span class="notranslate">Loop</span> pill
@@ -37,7 +37,7 @@ The *Loop* pill is the little display box that when hovered over or clicked, wil
 
 The SAGE, BAGE, and CAGE pills are for sensor age, pump battery age, and cannula age. These optional pills can track the time since your CGM sensor, pump battery, and pump site were last changed. You can set up custom alerts to remind you when it is time to change the devices, or simply use the visuals to keep track of your particular timing for site/sensor changes.
 
-## <span class="notranslate">Nightscout</span> Reports
+## <span translate="no">Nightscout </span> Reports
 
 You can access the Reports tab from within your NS settings (the three horizontal lines in the upper right corner of your NS site).  There are several types of reports which may be useful to you and/or your health care provider. The report types are listed in tabs at the top of the Reports section, and you can also select the range of dates you'd like any report to cover.
 
@@ -79,7 +79,7 @@ For the graph above, for example, the blood glucose control around 4-6 am is ver
 
 ### Treatments
 
-The treatments report will show a listing of all the temporary basal rates *Loop* sets, as well as boluses, carbohydrates, site changes, and any other "treatments" which have been entered into NS.
+The treatments report will show a listing of all the temporary basal rates set by *Loop*, as well as boluses, carbohydrates, site changes, and any other "treatments" which have been entered into NS.
 
 ![Treatments](../img/treatments.png){width="=700"}
 {align="center"}
