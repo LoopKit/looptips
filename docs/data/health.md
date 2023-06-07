@@ -16,22 +16,22 @@ When you first install Loop onto your iPhone, you will be asked to setup Loop's 
 
 At a minimum, you will need these HealthKit settings:
 
-Loop
+*Loop*
 
 * insulin data: read and write
 * carbohydrate data: read and write
 * blood glucose data: read and write
 
-Dexcom App
+*Dexcom* App
 
-* blood glucose data: write (if you have this disabled, Loop will still function but will not display blood glucose values older than 3 hours old)
+* blood glucose data: write (if you have this disabled, *Loop* will still function but will not display blood glucose values older than 3 hours old)
 
-You can always check your HealthKit settings for by opening the Health App, clicking on *Sources* at the bottom bar, and then clicking on the app's name you are interested in, for example Loop.
+You can always check your HealthKit settings by opening the Health App, clicking on *Sources* at the bottom bar, and then clicking on the app's name you are interested in, for example, Loop.
 
 ![Health App](../img/healthapp.jpg){width="350"}
 {align="center"}
 
-Potential conflicts can arise when third-party apps are granted access to HealthKit permissions that may interfer with Loop's specified data permissions. For example, carbohydrate data is stored in Nightscout and Spike for some users...you wouldn't want to enable Spike app to write duplicate carbohydrate entries that Loop would be reading. Therefore, you should disable other apps from writing carbohydrate data to HealthKit so that Loop does not read those other entries unintentionally.  Also good practice, because carbohydrate entries in HealthKit that were created by non-Loop apps will not be able to customize carbohydrate absorption times nor be edited later if you needed.
+Potential conflicts can arise when third-party apps are granted access to HealthKit permissions that may interfere with Loop's specified data permissions. For example, carbohydrate data is stored in *Nightscout* and Spike for some users...you wouldn't want to enable *Spike* app to write duplicate carbohydrate entries that Loop would be reading. Therefore, you should disable other apps from writing carbohydrate data to HealthKit so that Loop does not read those other entries unintentionally.  Also, good practice, because carbohydrate entries in HealthKit that were created by non-Loop apps will not be able to customize carbohydrate absorption times nor be edited later if needed.
 
 ## Your use of Health App
 
@@ -46,13 +46,13 @@ If you toggle on the "add to favorites" slider for the individual data categorie
 ![Today Health](../img/todayhealth.jpg){width="500"}
 {align="center"}
 
-The summary data for the categories can help you follow monthly trends, help identify periods of insulin sensitivity/resistance, evaluate total daily insulin use, breakdown of basal vs bolus insulin, and carbohydrate consumptions. You can sort your data trends by day, week, month, or year views and scroll back through time in each of those data trends.  You can even quickly use these data for endocrinology appointments discussions...as they provide the endocrinologist with a very quick and useful set of data points directly from your Loop.
+The summary data for the categories can help you follow monthly trends, help identify periods of insulin sensitivity/resistance, evaluate total daily insulin use, breakdown of basal rate vs bolus insulin, and carbohydrate consumption. You can sort your data trends by day, week, month, or year views and scroll back through time in each of those data trends.  You can even quickly use these data for endocrinology appointment discussions...as they provide the endocrinologist with a very quick and useful set of data points directly from your *Loop*.
 
 
 ![Health 1](../img/health1.jpg){width="750"}
 {align="center"}
 
-If you drag two fingers separately, like you are spreading them apart, you can get averages for the data set your fingers are covering, as shown below.
+If you drag two fingers separately like you are spreading them apart, you can get averages for the data set your fingers are covering, as shown below.
 
 
 ![Health Average](../img/health-avg.jpg){width="350"}

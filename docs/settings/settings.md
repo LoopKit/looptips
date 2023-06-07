@@ -6,7 +6,7 @@ Here's how 90% of Loopers start:
 2. Within hours, they begin closed loop use of Loop
 3. When blood glucose isn't as smooth as hoped for, Looper begins to try to adjust settings while still in closed loop
 
-The problem with this sequence is that adjusting settings on the fly while in closed loop can be difficult as a new user. As you become more experienced there are some great tips for adjusting settings while in closed loop, like [Loop and Learn: Basal Testing in Closed Loop](https://www.loopandlearn.org/basal-testing-in-closed-loop/), but as a new Looper, you should start with the basics. Here are some recommendations to help make the transition to closed loop easier.  The first place to start is with getting the best initial settings as you can.
+The problem with this sequence is that adjusting settings on the fly while in closed loop can be difficult as a new user. As you become more experienced there are some great tips for adjusting settings while in closed loop, like [*Loop and Learn: Basal Testing in Closed Loop*](https://www.loopandlearn.org/basal-testing-in-closed-loop/), but as a new Looper, you should start with the basics. Here are some recommendations to help make the transition to closed loop easier.  The first place to start is with getting the best initial settings as you can.
 
 ## Try Open Looping first
 

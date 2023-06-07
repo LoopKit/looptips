@@ -7,9 +7,9 @@ As a person with diabetes, you’re probably carrying around a lot of different 
 
 Then your clinic staff has the less-than-efficient process of trying to overlay all those different devices into some sort of cohesive strategy for how your diabetes may need some tweaks. Because of Loop use, a clinic currently has to look at separate reports from Medtronic pump, Contour Next Link BG meter, Dexcom CGM/Clarity, and our iPhone Health app, as a typical example. There are also a couple of issues with Loop when using this separate downloads method:
 
-* Medtronic’s pump gets so clogged up by the numerous temp basal records being recorded that the clinic can only pull about 7 days of data from the pump at most.
+* Medtronic’s pump gets so clogged up by the numerous temporary basal rate records being recorded that the clinic can only pull about 7 days of data from the pump at most.
 
-* Clinic basically lacks an overlay of basal/bolus actions with blood glucose from Dexcom, which really limits their ability to recommend any settings changes.  
+* Clinic basically lacks an overlay of basal rate/bolus actions with blood glucose from Dexcom, which really limits their ability to recommend any settings changes.  
 
 * DIY solutions could fill some of the gaps as far as overall management, but the problem was with the actual gathering of the reports. It’s a little hard for the clinic to bring up reports live time, and sometimes remembering to print them out ahead of time just doesn't happen.
 
