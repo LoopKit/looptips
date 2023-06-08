@@ -13,7 +13,7 @@ For these questions, you'll go really far in Looping if you can remember these t
 
 I'll challenge you to "pretend you're at the marriage therapist" as you learn how to use *Loop* as a partner.
 
-Why are you in disagreement with your partner? What would a therapist tell you? Usually therapy is because of miscommunications with each other. You aren't on the same expectations or priorities. Same applies for *Loop*. For example, you'd be at the therapist chair tell her "*Loop* just isn't treating my high BG as fast as I want. This is so frustrating. I correct and *Loop* just suspends." That right there is the definition of miscommunications and different priorities. Why?
+Why are you in disagreement with your partner? What would a therapist tell you? Usually, therapy is because of miscommunications with each other. You aren't on the same expectations or priorities. The same applies to *Loop*. For example, you'd be at the therapist's chair telling her "*Loop* just isn't treating my high BG as fast as I want. This is so frustrating. I correct and *Loop* just suspends." That right there is the definition of miscommunications and different priorities. Why?
 
 ➡️ *Loop* thinks you have enough insulin to be at target later.
 
@@ -40,14 +40,14 @@ If you aren’t patient, you can override *Loop*...but do expect that is not lik
 Sure, even with the best therapist, you may still have disagreements. They happen. There are several options for recovering from times like that. The tool you choose may be situationally dependent. Seeing a huge quick BG climb after a meal may be better helped by a carb entry edit as opposed to added patience, but that will depend on your management style.
 
 1. Add some patience to your practice. A little patience to give the already added insulin time to work can help with *Loop*.
-2. Edit your meal's carb entry. If you find your meal going crazy different than expected (did they forget you said "diet" coke?), you can always go back and edit your original carb guess to be more accurate based on what you're seeing. You can decrease the carbs or increase the carbs. You can change the absorption time. These edits can be done by tapping on the carb chart in Loop&#39;s main screen.
+2. Edit your meal's carb entry. If you find your meal going crazy different than expected (did they forget you said "diet" coke?), you can always go back and edit your original carb guess to be more accurate based on what you're seeing. You can decrease the carbs or increase the carbs. You can change the absorption time. These edits can be done by tapping on the carb chart on Loop&#39;s main screen.
 3. Use overrides to tell *Loop* about overall insulin needs changing. Hormones...oh lordy the hormones are horrible. That's a good time to use an override to let *Loop* know that overall you need more than usual. Or if you're about to hike the Himalayas, use an override to let *Loop* know you will need far less insulin than an average day.
-4. Open Loop. This is a great tool. If you just had things go really wrong for a bit (bad cannula kink anyone?) then you can open loop until things settle down and you get squared away again. Give your manual injection, Afreeza, or whatever your desire is and wait until you've had 4-6 hours of regular basals going before closing loop again.
-5. Give pending insulin. If you are really feeling the itch to rage bolus, you can meet *Loop* at the halfway mark. If you click on the bolus tool while *Loop* is high temping you, you will see a "pending insulin" value. That is the amount of insulin *Loop* is planning on giving you through temp basals over the next 30 minutes. If you give that pending insulin total as a bolus now, you will get the entire amount working faster AND *Loop* agrees you are safe to use it. In this way, *Loop* won't automatically suspend insulin when you give pending insulin...because your predicted BG curve had said it was needed anyways.  Win win...you got a mini-rage bolus and *Loop* won't be working against you. Good therapy and a good way to avoid post-rage lows.
+4. Open Loop. This is a great tool. If you just had things go really wrong for a bit (bad cannula kink anyone?) then you can open the loop until things settle down and you get squared away again. Give your manual injection, Afreeza, or whatever your desire is, and wait until you've had 4-6 hours of regular basals going before closing the loop again.
+5. Give pending insulin. If you are really feeling the itch to rage bolus, you can meet *Loop* at the halfway mark. If you click on the bolus tool while *Loop* is high temping you, you will see a "pending insulin" value. That is the amount of insulin *Loop* is planning on giving you through temp basals over the next 30 minutes. If you give that pending insulin total as a bolus now, you will get the entire amount working faster AND *Loop* agrees you are safe to use it. In this way, *Loop* won't automatically suspend insulin when you give pending insulin...because your predicted BG curve had said it was needed anyways.  Win-win...you got a mini-rage bolus and *Loop* won't be working against you. Good therapy and a good way to avoid post-rage lows.
 
 ## Predicted BG curve is everything
 
-As you start to use *Loop* you will probably find yourself wondering at some point "why is it suspending insulin right now?" or "Why isn't it giving me increased basals right now?" You might find yourself reverting to a bunch of old-school habits like looking at your carbs on board or insulin on board and trying to calculate a bunch of numbers. Stop there...that's so 1990s. You're a looper now and there is actually an easier way to assess things.
+As you start to use *Loop* you will probably find yourself wondering at some point "Why is it suspending insulin right now?" or "Why isn't it giving me increased basals right now?" You might find yourself reverting to a bunch of old-school habits like looking at your carbs on board or insulin on board and trying to calculate a bunch of numbers. Stop there...that's so 1990s. You're a looper now and there is actually an easier way to assess things.
 
 !!! danger "**Thinking like a Loop involves just three things**"
     </br></br>
@@ -61,7 +61,7 @@ All of Loop&#39;s decisions are based on what your predicted BG curve is doing w
 That predicted BG curve has four contributions to its shape:
 
 1. Carbs (the ones you've told it about)</br></br>
-2. Insulin (the ones you've given through your pump or recorded in Health app)</br></br>
+2. Insulin (the ones you've given through your pump or recorded in the Health app)</br></br>
 3. Blood glucose momentum (how fast your BG has been changing recently)</br></br>
 4. Retrospective correction (how accurate/inaccurate *Loop* has been recently in predicting your BGs)</br></br>
 
@@ -78,15 +78,15 @@ That predicted BG curve has four contributions to its shape:
 *Loop* will set your scheduled basal rate when:
 
 1. All the predicted BG curve is within the correction range, including the very last value which is called your "eventual BG", or when
-2. If the eventual BG is above your correction range in 6 hours, but there's a dip below correction range earlier in the curve.
+2. If the eventual BG is above your correction range in 6 hours, but there's a dip below the correction range earlier in the curve.
 
 **Action 3: Increased basal rate**
 
-If eventual BG and all the predicted BG curve is above your correction range, *Loop* will give you a high (increased) temp basal.
+If the eventual BG and all the predicted BG curve is above your correction range, *Loop* will give you a high (increased) temp basal.
 
 **Action 4: Decreased basal rate**
 
-If your eventual BG in 6 hours is below correction range, you'll get a decreased basal.
+If your eventual BG in 6 hours is below the correction range, you'll get a decreased basal.
 
 ## What would Loop do?
 
@@ -109,18 +109,18 @@ What would your answer be?  Before you give your final answer...consider this 
 <img src="../img/wwld2.jpg" width="650">
 </p></br>
 
-This second case has a dramatic drop happening.  Suspend threshold is still at 60 mg/dL, correction range is still 90-110, the lowest value on the predicted BG chart is 75 mg/dL, and the eventual BG is 171 mg/dL for this example.  So, pretty similar to the first example except this precipitous drop going on right now.
+This second case has a dramatic drop happening.  Suspend threshold is still at 60 mg/dL, the correction range is still 90-110, the lowest value on the predicted BG chart is 75 mg/dL, and the eventual BG is 171 mg/dL for this example.  So, pretty similar to the first example except for this precipitous drop going on right now.
 
 Let me tell you some of the common pitfalls we all can easily slip into when trying to answer these "Why is *Loop* giving me this basal?" questions.
 
-Wondering about IOB, COB, or DIA in order to answer...those aren't a factor to answering the question as they have already been used to make the predicted BG curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.
-Thinking about this as a human...humans tend to say "well, I'm on a rise/fall right now so...[insert Loop action based on that]" *Loop* isn't looking at the past BG movement alone, instead it's looking at the prediction curve ahead and applying its rules based on that.  Any drop or rise going on will have been added to the predicted curve through the BG momentum and retrospective correction components of the algorithm...so again they're already incorporated into the predicted curve.
+Wondering about IOB, COB, or DIA in order to answer...those aren't a factor in answering the question as they have already been used to make the predicted BG curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.
+Thinking about this as a human...humans tend to say "Well, I'm on a rise/fall right now so...[insert Loop action based on that]" *Loop* isn't looking at the past BG movement alone, instead, it's looking at the prediction curve ahead and applying its rules based on that.  Any drop or rise going on will have been added to the predicted curve through the BG momentum and retrospective correction components of the algorithm...so again they're already incorporated into the predicted curve.
 
 Restating for emphasis:  All you need to answer this question is provided by the predicted BG curve, your suspend threshold, and your correction range.
 
-The answer is B:  *Loop* will give your scheduled basal in both situations shown above.  When your predicted BG curve (1) drops for a time below correction range but (2) all of the curve still above suspend threshold, and Eventual BG is (3) above range or within range...*Loop* will give your scheduled basal.
+The answer is B:  *Loop* will give your scheduled basal in both situations shown above.  When your predicted BG curve (1) drops for a time below the correction range but (2) all of the curve is still above suspend threshold, and Eventual BG is (3) above range or within range...*Loop* will give your scheduled basal.
 
-The logic is a bit of a wait and see.  Scheduled basal will maintain the delivery of insulin.  Your settings haven't told it this is an "oh my gosh...stop the insulin!" moment (you're predicted to still stay above suspend threshold), but we also don't want to give high temps yet (to correct the eventual BG) because we'd like to safely make it through the part that is below correction range coming up.
+The logic is a bit of a wait-and-see.  Scheduled basal will maintain the delivery of insulin.  Your settings haven't told it this is an "oh my gosh...stop the insulin!" moment (you're predicted to still stay above suspend threshold), but we also don't want to give high temps yet (to correct the eventual BG) because we'd like to safely make it through the part that is below correction range coming up.
 
-If BGs were to drop (enough) or keep dropping (enough), your predicted BG curve would likely slip to your suspend threshold and then *Loop* would suspend. (One important take away is to not to set your suspend threshold so low that it no longer acts as a safety in these situations.)
-If BGs were to rise enough such that the whole predicted curve comes back into or above the correction range completely, you'd then get high temp basals to correct for that eventual BG that is above correction range.
+If BGs were to drop (enough) or keep dropping (enough), your predicted BG curve would likely slip to your suspend threshold and then *Loop* would suspend. (One important take away is to not set your suspend threshold so low that it no longer acts as a safety in these situations.)
+If BGs were to rise enough such that the whole predicted curve comes back into or above the correction range completely, you'd then get high temp basals to correct for that eventual BG that is above the correction range.
