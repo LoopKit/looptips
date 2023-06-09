@@ -1,11 +1,11 @@
 # Tidepool {: translate="no" }
 
 !!! info "Disclosure"
-    The original author of this page, *Katie DiSimone* 💚, was employed by *Tidepool* when this page was initially created. She used *Tidepool* before becoming an employee. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of Tidepool&#39;s services.  
-    Specific questions related to <span class="notranslate">Tidepool</span> should be directed to [support@tidepool.org](mailto:support@tidepool.org).
+    The original author of this page, *Katie DiSimone* 💚, was employed by *Tidepool* when this page was initially created. She used *Tidepool* before becoming an employee. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of <span class="notranslate">Tidepool</span>'s services.  
+    Questions related to <span class="notranslate">Tidepool</span> should be directed to [support@tidepool.org](mailto:support@tidepool.org).
 
-## Tidepool&#39;s mission
-In Tidepool&#39;s own words, their commitment to diabetes data and accessibility is pretty clear:
+## Tidepool's mission
+In <span class="notranslate">Tidepool</span>'s own words, their commitment to diabetes data and accessibility is pretty clear:
 
 !!! quote "&ZeroWidthSpace;"
     Tidepool&#39;s mission is to make diabetes data more accessible, actionable and meaningful for people with diabetes, their care teams and researchers.
@@ -36,9 +36,9 @@ There are two methods for uploading different data to your *Tidepool* account:
 
 * **Tidepool Mobile** (app on your phone) - *Tidepool* Mobile is available for both Android and iOS/iPhone users. *Tidepool* Mobile is a companion app to *Tidepool* that lets you add notes about meals, exercise, or anything else. See your CGM, pump, and meter data alongside any notes you add. Track your favorite meals and your regular exercise, and learn from what happens.  
 
-!!! info " "
+!!! abstract " "
 
-    In summary, the Uploader is for uploading the numeric data from your various diabetes devices and the Mobile app is for adding the contextual information and notes-on-the-go to make your numeric data more useful.
+    In summary, the **Uploader** is for uploading the numeric data from your various diabetes devices and the **Mobile app** is for adding the contextual information and notes-on-the-go to make your numeric data more useful.
 
 ### Does Tidepool Uploader work for Loop users?
 There has been a lack of ability to get Loop data into *Tidepool* using the *Tidepool* Uploader. The only Loop-compatible pumps supported in *Tidepool* Uploader are the x23/x54 pumps, so users of the x15 and x22 pumps cannot upload their pump data. Furthermore, the Medtronic pump still suffers from the lack of internal storage sufficient to store more than 3-7 days worth of Looping data.
@@ -59,8 +59,11 @@ There are two distinct viewing options for your *Tidepool* data, and they are no
 1. Using a desktop computer using the Chrome browser and logging into your *Tidepool* account, or
 2. Using your *Tidepool* Mobile app **AND** associated notes.
 
-!!! info " "
-    Currently, only the Chrome desktop browser is compatible with *Tidepool*. You will not be able to use Safari or other browsers to view the data, nor will you be able to use Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome browser. If you want to see your data on your phone, you must use the *Tidepool* Mobile app **<i>and</i>** use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.
+    !!! info "Supported Desktop Browser"
+        Currently, only the Chrome desktop browser is compatible with *Tidepool*. You will not be able to use Safari or other browsers to view the data, nor will you be able to use the Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome browser. 
+
+    !!! info "Viewing Data on your Phone"
+        If you want to see your data on your phone, you must use the *Tidepool* Mobile app **<i>and</i>** use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.
 
 ### What Loop data will you see in desktop Chrome?
 You will see your <span class="notranslate">Loop</span>'s temporary basals, CGM readings, boluses, notes, carbohydrates, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to *Tidepool*, those will also overlay.
