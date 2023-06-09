@@ -1,9 +1,9 @@
-# Nightscout { .notranslate }
+# Nightscout {: translate="no" }
 
 [Nightscout](https://nightscout.github.io/) (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view Loop&#39;s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/) is free and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
 
 ## Nightscout Display
-*Nightscout* is highly recommended for *Loop* users, especially those using *Loop* as caregivers. *Nightscout* displays are often the easiest way to troubleshoot *Loop* settings if you are having problems and seeking input from others.  Below is some discussion about the general *Nightscout* display, as well as some <span class="notranslate">Loop</span>-specific display information.
+*Nightscout* is highly recommended for *Loop* users, especially those using *Loop* as caregivers. *Nightscout* displays are often the easiest way to troubleshoot *Loop* settings if you are having problems and seeking input from others.  Below is some discussion about the general *Nightscout* display, as well as some <span translate="no">Loop</span>-specific display information.
 
 ![Example](../img/example.jpg){width="700"}
 {align="center"}
@@ -29,7 +29,7 @@ Within your NS profile, you will enter in the scheduled basal rates from your *L
 The purple line to the right of the blood glucose readings is Loop&#39;s predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal) section of *LoopDocs*.
 
 
-### <span class="notranslate">Loop</span> pill
+### <span translate="no">L&#8203;oop</span> pill
 
 The *Loop* pill is the little display box that when hovered over or clicked, will provide additional information about recent *Loop* activities and status. The information included is the last time *Loop* ran, the temporary basal rate set, `IOB`, and `COB`. Looking at the *Loop* pill is a quick method for assessing if your *Loop* is currently active, as well.  The small symbols to the right of the word `Loop` have a specific meaning. The small horizontal lightning bolt, shown in this example, is an active loop that recently enacted a temporary basal rate.
 

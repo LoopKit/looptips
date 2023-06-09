@@ -2,7 +2,7 @@
 
 [Perceptus](http://perceptus.org/) is a website and set of free tools developed by *Kenneth Stack* and *Gustavo Munoz*, two active members of the DIY community. *Perceptus* provides two tools particularly helpful for *Loop* users; *Dash* and *GlucoDyn*. As a side note, *Gustavo* has an excellent Spanish [Tedx Talk](https://youtu.be/K1C4xEWipOo) about building his own DIY looping algorithm. *Kenneth* is also the brains behind [NSApple watch app](https://github.com/Kdisimone/nsapple/tree/nsapple-units).
 
-## Dash { .notranslate }
+## Dash {: translate="no" }
 For *Loop* users with *Nightscout* integration running, *Dash* can provide an alternate view and data analysis for the *Loop* data stored in your Nightscout&#39;s mLab database. (Note: *mLab* used to be called *MongoLab*, still the same intended reference)
 
 To set up your *Dash* integration, you will need to:  
@@ -30,7 +30,7 @@ The format for the *MongoLab* API URL string is: `https://api.mlab.com/api/1/dat
 ![Dash 7](../img/dash7.png){width="750"}
 {align="center"}
 
-### <span class="notranslate">Dash</span> data presentation
+### <span translate="no">Dash</span> data presentation
 
 *Dash* provides multiple views of your *mlab* information, and the data is updated live as your *Nightscout* data updates too.  While there are some constraints (cannot set your own low/high range limits), the data views are very useful for identifying difficult times of the day or difficult days of the week.
 

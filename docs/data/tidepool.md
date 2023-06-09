@@ -1,8 +1,8 @@
-# Tidepool { .notranslate }
+# Tidepool {: translate="no" }
 
 !!! info "Disclosure"
     The original author of this page, *Katie DiSimone* 💚, was employed by *Tidepool* when this page was initially created. She used *Tidepool* before becoming an employee. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of Tidepool&#39;s services.  
-    Specific questions related to <span class="notranslate">Tidepool</span> should be directed to [support@tidepool.org](mailto:support@tidepool.org).
+    Specific questions related to <span translate="no">Tidepool</span> should be directed to [support@tidepool.org](mailto:support@tidepool.org).
 
 ## Tidepool&#39;s mission
 In Tidepool&#39;s own words, their commitment to diabetes data and accessibility is pretty clear:
@@ -14,7 +14,7 @@ In Tidepool&#39;s own words, their commitment to diabetes data and accessibility
 
 *Tidepool* has [announced](https://tidepool.org/loop/) that they are embarking on a project to build and support an FDA-regulated version of *Loop*, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
 
-## <span class="notranslate">Tidepool</span>  Data
+## <span translate="no">Tidepool </span>  Data
 Once you start uploading data into your *Tidepool* account, you'll see some of the benefits pretty quickly. Tidepool&#39;s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
 
 
@@ -99,7 +99,7 @@ The *Tidepool* Mobile iOS app will sync Loop&#39;s diabetes-related HealthKit da
 Nope. This was not designed nor intended to be a replacement for your *Nightscout* site. They complement each other, rather than compete. This new upload of Loop data will allow you and your clinics to have a powerful tool to analyze Loop data through an easy-to-use, shared hub.
 
 ### Are there any known issues with Loop and Tidepool Mobile app?
-*Loop* settings do not show up in Device Settings in *Tidepool* Web. This is because this info can't be uploaded from Apple Health. If you used *Tidepool* Web for your Medtronic or Omnipod before, you will still see the pump settings from before you started looping.
+<span translate="no">Loop</span> settings do not show up in Device Settings in *Tidepool* Web. This is because this info can't be uploaded from Apple Health. If you used *Tidepool* Web for your Medtronic or Omnipod before, you will still see the pump settings from before you started looping.
 
 ### What cool thing can you use this Tidepool Mobile app for?
 You mean, what OTHER cool thing can the *Tidepool* Mobile application do *besides automatically uploading <span translate="no">Loop</span> data*? The <span translate="no">Tidepool</span> Mobile application also provides an easily searchable log of meal boluses. If you are still learning new meals in Loop…how much to bolus, how long of a carb absorption…these notes are searchable and super easy to add. Learning how to bolus for that Tofu Breakfast Burrito? Simply record a note of how you bolused for it. If you want to, come back afterwards and leave yourself some suggestions for the next time to try. This searchable information can also help teens learn and exercise independent skills. If they aren’t sure of how to bolus for a meal, this could give them easy tips from past success without necessarily having to stop and ask a parent. As much as a parent might scoff at the idea of a kid looking up a meal, if the alternative is asking a parent…that might be all the motivation it takes. How about co-parenting? Want to leave a note that another parent or caregiver can look up? *"How were the last Chicken McNuggets bolused?"* or *"When was the last site change?"* can easily be tracked and retrieved with notes.
@@ -112,7 +112,7 @@ For an easy example, search for the word burrito (doesn’t have to be a hashtag
 Hormones can also be easily tracked with notes. *What day-of-the-month and how did I change the basals?* Looking to find patterns in those female hormones? This could be a really slick tracking tool to easily log periods of insulin resistance and what part of the cycle they are occurring at.
 
 ### Is the Tidepool Mobile app only for Loop users?
-The *Tidepool* Mobile app uploads diabetes-related HealthKit data regardless of the source. Loop users store their data in HealthKit, so this is a nice fit. Other diabetes devices (e.g., OneDrop BG meter) and apps (e.g., Spike and Dexcom) also store their data in HealthKit. Some people even manually enter their diabetes data into HealthKit. For all those uses, the *Tidepool Mobile* app will upload the HealthKit data. OpenAPS does not store its data in HealthKit, so this will not upload OpenAPS-related data. However, if OpenAPS users are using Spike app, some integration of information through Nightscout is possible. Currently, OpenAPS SMBs, boluses, and carbohydrates can be uploaded to HealthKit for OpenAPS+Spike+Nightscout+iPhone users.  Spike does plan to add temporary basal integration to HealthKit at some time in the future.
+The *Tidepool* Mobile app uploads diabetes-related HealthKit data regardless of the source. Loop users store their data in HealthKit, so this is a nice fit. Other diabetes devices (e.g., OneDrop BG meter) and apps (e.g., Spike and Dexcom) also store their data in HealthKit. Some people even manually enter their diabetes data into HealthKit. For all those uses, the <span translate="no">Tidepool Mobile</span> application will upload the HealthKit data. OpenAPS does not store its data in HealthKit, so this will not upload OpenAPS-related data. However, if OpenAPS users are using Spike app, some integration of information through Nightscout is possible. Currently, OpenAPS SMBs, boluses, and carbohydrates can be uploaded to HealthKit for OpenAPS+Spike+Nightscout+iPhone users.  Spike does plan to add temporary basal integration to HealthKit at some time in the future.
 
 ### How can you get the Tidepool Mobile app?
 *Tidepool Mobile* is available in the [iOS App Store](https://apps.apple.com/us/app/tidepool-mobile/id1026395200) on your Loop device.
