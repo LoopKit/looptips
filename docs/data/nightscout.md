@@ -37,7 +37,7 @@ The *Loop* pill is the little display box that when hovered over or clicked, wil
 
 The SAGE, BAGE, and CAGE pills are for sensor age, pump battery age, and cannula age. These optional pills can track the time since your CGM sensor, pump battery, and pump site were last changed. You can set up custom alerts to remind you when it is time to change the devices, or simply use the visuals to keep track of your particular timing for site/sensor changes.
 
-## <span translate="no">Nightscout </span> Reports
+## <span translate="no">N&#8203;ightscout </span> Reports
 
 You can access the Reports tab from within your NS settings (the three horizontal lines in the upper right corner of your NS site).  There are several types of reports which may be useful to you and/or your health care provider. The report types are listed in tabs at the top of the Reports section, and you can also select the range of dates you'd like any report to cover.
 
