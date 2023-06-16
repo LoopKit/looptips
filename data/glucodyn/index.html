@@ -423,7 +423,7 @@
   
     <li class="md-nav__item">
       <a href="../nightscout/" class="md-nav__link">
-        Nightscout
+        <span translate="no">Nightscout</span>
       </a>
     </li>
   
@@ -437,7 +437,7 @@
   
     <li class="md-nav__item">
       <a href="../tidepool/" class="md-nav__link">
-        Tidepool
+        <span translate="no">Tidepool</span>
       </a>
     </li>
   
@@ -816,39 +816,39 @@
 
 
 <h1 id="perceptus">Perceptus<a class="headerlink" href="#perceptus" title="Anchor link to this Header on this Page">&para;</a></h1>
-<p><a href="http://perceptus.org/">Perceptus</a> is a website and set of free tools developed by Kenneth Stack and Gustavo Munoz, two active members of the DIY community. Perceptus provides two tools particularly helpful for Loop users; Dash and GlucoDyn. As a side note, Gustavo has an excellent Spanish <a href="https://youtu.be/K1C4xEWipOo">Tedx Talk</a> about building his own DIY looping algorithm. Kenneth is also the brains behind <a href="https://github.com/Kdisimone/nsapple/tree/nsapple-units">NSApple watch app</a>.</p>
-<h2 id="dash">Dash<a class="headerlink" href="#dash" title="Anchor link to this Header on this Page">&para;</a></h2>
-<p>For Loop users with Nightscout integration running, Dash can provide an alternate view and data analysis for the Loop data stored in your Nightscout's mLab database. (Note: mLab used to be called MongoLab, still the same intended reference)</p>
-<p>To set up your Dash integration, you will need to:  </p>
+<p><a href="http://perceptus.org/">Perceptus</a> is a website and set of free tools developed by <em>Kenneth Stack</em> and <em>Gustavo Munoz</em>, two active members of the DIY community. <em>Perceptus</em> provides two tools particularly helpful for <em>Loop</em> users; <em>Dash</em> and <em>GlucoDyn</em>. As a side note, <em>Gustavo</em> has an excellent Spanish <a href="https://youtu.be/K1C4xEWipOo">Tedx Talk</a> about building his own DIY looping algorithm. <em>Kenneth</em> is also the brains behind <a href="https://github.com/Kdisimone/nsapple/tree/nsapple-units">NSApple watch app</a>.</p>
+<h2 id="dash" translate="no">Dash<a class="headerlink" href="#dash" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>For <em>Loop</em> users with <em>Nightscout</em> integration running, <em>Dash</em> can provide an alternate view and data analysis for the <em>Loop</em> data stored in your Nightscout&#39;s mLab database. (Note: <em>mLab</em> used to be called <em>MongoLab</em>, still the same intended reference)</p>
+<p>To set up your <em>Dash</em> integration, you will need to:  </p>
 <ul>
 <li>
-<p>Signup for a Perceptus account <a href="http://perceptus.org/">here</a>  </p>
+<p>Signup for a <em>Perceptus</em> account <a href="http://perceptus.org/">here</a>  </p>
 </li>
 <li>
-<p>Provide your mLab database information</p>
+<p>Provide your <em>mLab</em> database information</p>
 </li>
 </ul>
 <h3 id="mlab-database-information">mLab database information<a class="headerlink" href="#mlab-database-information" title="Anchor link to this Header on this Page">&para;</a></h3>
-<p>Assuming you have a basic Heroku account to host your Nightscout website, you can access your mLab information as shown in the screenshots below.  (Users who manually setup their own mLab databases as part of Azure accounts will need to access their mLab database manually using their login and account information.)</p>
-<p>Login to your Heroku account to start the process, and then that will take you to your mLab information.</p>
+<p>Assuming you have a basic Heroku account to host your <em>Nightscout</em> website, you can access your <em>mLab</em> information as shown in the screenshots below.  (Users who manually setup their own mLab databases as part of <em>Azure</em> accounts will need to access their <em>mLab</em> database manually using their login and account information.)</p>
+<p>Login to your <em>Heroku</em> account to start the process, and then that will take you to your <em>mLab</em> information.</p>
 <p align="center"><img alt="Dash 8" src="../img/dash8.png" width="750" /></p>
 <p align="center"><br/>
 <img alt="Dash 6" src="../img/dash6.png" width="750" /></p>
-<p>Your mLab database name and API Key can be found on the same page, as shown below.  Copy and paste these bits of information into your User Settings in Dash.</p>
-<p>The format for the MongoLab API <abbr title="website address (Uniform Resource Locator)">URL</abbr> string is: <code>https://api.mlab.com/api/1/databases/your-database-name/collections/entries</code> where you are replacing the <code>your-database-name</code> part with your info from the first circled area shown below.</p>
+<p>Your <em>mLab</em> database name and API Key can be found on the same page, as shown below.  Copy and paste these bits of information into your User Settings in <em>Dash</em>.</p>
+<p>The format for the <em>MongoLab</em> API <abbr title="website address (Uniform Resource Locator)">URL</abbr> string is: <code>https://api.mlab.com/api/1/databases/your-database-name/collections/entries</code> where you are replacing the <code>your-database-name</code> part with your info from the first circled area shown below.</p>
 <p align="center"><img alt="Dash 7" src="../img/dash7.png" width="750" /></p>
-<h3 id="dash-data-presentation">Dash data presentation<a class="headerlink" href="#dash-data-presentation" title="Anchor link to this Header on this Page">&para;</a></h3>
-<p>Dash provides multiple views of your mlab information, and the data is updated live as your Nightscout data updates too.  While there are some constraints (cannot set your own low/high range limits), the data views are very useful for identifying difficult times of day or difficult days of the week.</p>
+<h3 id="dash-data-presentation"><span translate="no">Dash</span> data presentation<a class="headerlink" href="#dash-data-presentation" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p><em>Dash</em> provides multiple views of your <em>mlab</em> information, and the data is updated live as your <em>Nightscout</em> data updates too.  While there are some constraints (cannot set your own low/high range limits), the data views are very useful for identifying difficult times of the day or difficult days of the week.</p>
 <p align="center"><img alt="Dash 1" src="../img/dash1.png" width="750" /></p>
 <p align="center"><img alt="Dash 2" src="../img/dash2.png" width="750" /></p>
 <p align="center"><img alt="Dash 3" src="../img/dash3.png" width="750" /></p>
 <p align="center"><img alt="Dash 4" src="../img/dash4.png" width="750" /></p>
 <p align="center"><img alt="Dash 5" src="../img/dash5.png" width="750" /></p>
 <h2 id="glucodyn">GlucoDyn<a class="headerlink" href="#glucodyn" title="Anchor link to this Header on this Page">&para;</a></h2>
-<p>GlucoDyn was created to educate people with T1D and their caregivers about blood glucose dynamics. Each day people with T1D make decisions about what and when to eat, and how much insulin to use to cover carbohydrates effect. It can be difficult to visualize what is happening throughout the day as carbohydrate absorption raises blood glucose and insulin reduces it – particularly when multiple events interact with one another.</p>
-<p>GlucoDyn uses calculations similar to an insulin pump’s bolus wizard to create graphs of blood glucose versus time, based on your inputs of carb and insulin events. The user can enter carbohydrates, boluses, and temporary basals, and GlucoDyn calculates the effect on blood glucose over time. GlucoDyn also allows the user to “slide” the events around once they have been entered – allowing you to see what would have happened to your blood glucose curve if you had bloused earlier or eaten a different amount of carbohydrates “on the fly” – the curves change as you move the sliders.</p>
+<p><em>GlucoDyn</em> was created to educate people with T1D and their caregivers about blood glucose dynamics. Each day people with T1D make decisions about what and when to eat, and how much insulin to use to cover carbohydrates effect. It can be difficult to visualize what is happening throughout the day as carbohydrate absorption raises blood glucose and insulin reduces it – particularly when multiple events interact with one another.</p>
+<p><em>GlucoDyn</em> uses calculations similar to an insulin pump’s bolus wizard to create graphs of blood glucose versus time, based on your inputs of carb and insulin events. The user can enter carbohydrates, boluses, and temporary basals, and <em>GlucoDyn</em> calculates the effect on blood glucose over time. <em>GlucoDyn</em> also allows the user to “slide” the events around once they have been entered – allowing you to see what would have happened to your blood glucose curve if you had bolused earlier or eaten a different amount of carbohydrates “on the fly” – the curves change as you move the sliders.</p>
 <p>Seeing the curves and understanding the effects of bolus timing, carbohydrate absorption rate glycemic index (GI) value, temporary basal timing and rates, etc. can help users with their overall understanding of T1D and its management.</p>
-<p>Originally, Loop used the same carbohydrate absorption and insulin models as Glucodyn uses. Those have since been updated in Loop with dynamic carbohydrate absorption and exponential curves for insulin. Even with those changes, the GlucoDyn tool can still provide users an excellent tool to visualize how small changes in bolusing can affect trends in blood glucose. For example, it’s quite interesting to see the effect of pre-bolusing. By delaying the carb intake by say 20 minutes, you can visualize the reduction of the maximum blood glucose. But, you have to be careful – before the carbohydrates have time to absorb insulin is working, and the minimum blood glucose will also drop. These are the kinds of tradeoffs that are critical to the management of T1D, and thankfully are automated by Loop's smart bolusing based on carbohydrate absorption estimates.</p>
+<p>Originally, <em>Loop</em> used the same carbohydrate absorption and insulin models as <em>Glucodyn</em> uses. Those have since been updated in <em>Loop</em> with dynamic carbohydrate absorption and exponential curves for insulin. Even with those changes, the <em>GlucoDyn</em> tool can still provide users an excellent tool to visualize how small changes in bolusing can affect trends in blood glucose. For example, it’s quite interesting to see the effect of pre-bolusing. By delaying the carb intake by say 20 minutes, you can visualize the reduction of the maximum blood glucose. But, you have to be careful – before the carbohydrates have time to absorb insulin is working, and the minimum blood glucose will also drop. These are the kinds of tradeoffs that are critical to the management of T1D, and thankfully are automated by Loop&#39;s smart bolusing based on carbohydrate absorption estimates.</p>
 <p align="center"><img alt="Dash 9" src="../img/dash9.png" width="750" /></p>
 
 
