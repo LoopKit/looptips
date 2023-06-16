@@ -1,6 +1,6 @@
 # Adjusting Your Settings
 
-There will be times when you need to adjust your settings in order to keep your blood glucose within your correction range. The degree to which you adjust your settings will depend on a variety of personal decisions about how active you engage with your diabetes, how comfortable your endocrinologist may feel with patient-adjusted settings, and what the underlying reason for the change is.
+There will be times when you need to adjust your settings in order to keep your blood glucose within your correction range. The degree to which you adjust your settings will depend on a variety of personal decisions about how active you engage with your diabetes, how comfortable your endocrinologist may feel with patient-adjusted settings and the underlying reason for the change.
 
 ## Troubleshooting before a change
 
@@ -13,10 +13,10 @@ Before considering a change to your settings, the usual laundry list of possible
 * Unexpected food impacts (that diet coke wasn't diet, kid sneaking food?)
 * CGM damaged (poor calibration, damaged sensor site?)
 
-Some signs that the issue is actually the result of equipment failure include failure of blood glucose to decrease despite repeated bolus corrections. Often during equipment failure troubleshooting, you've blamed the food (and adjusted a carbohydrate count), given corrections, checked for hidden food wrappers, and maybe even open-looped rage bolused.  Breathe deep, it is super frustrating to have equipment failure. One of the benefits of Loop can be that equipment failures can become a little easier to identify over time because blood glucose control becomes more predictable and reliable.
+Some signs that the issue is actually the result of equipment failure include the failure of blood glucose to decrease despite repeated bolus corrections. Often during equipment failure troubleshooting, you've blamed the food (and adjusted a carbohydrate count), given corrections, checked for hidden food wrappers, and maybe even open-looped rage bolused.  Breathe deep, it is super frustrating to have equipment failure. One of the benefits of Loop can be that equipment failures can become a little easier to identify over time because blood glucose control becomes more predictable and reliable.
 
 ## Assess the duration
-Once you have eliminated equipment failures as a source of the unexpected blood glucose control problems, it is time to determine if this is a short-term or long-term issue. This assessment tends to be a skill that people will get better with practice. 
+Once you have eliminated equipment failures as a source of unexpected blood glucose control problems, it is time to determine if this is a short-term or long-term issue. This assessment tends to be a skill that people will get better with practice. 
 
 Before considering a change to your settings, you should assess if you expect the issue to resolve on its own soon or if the issue might be caused by a more long(er) term issue that should be addressed.
 

@@ -61,8 +61,8 @@ nav:
 - Data Tools:
     - 'Overview': 'data/overview.md'
     - 'Health': 'data/health.md'
-    - 'Nightscout': 'data/nightscout.md'
-    - 'Tidepool': 'data/tidepool.md'
+    - '<span translate="no">Nightscout</span>': 'data/nightscout.md'
+    - '<span translate="no">Tidepool</span>': 'data/tidepool.md'
     - 'Perceptus': 'data/glucodyn.md'
 - How To:
     - 'Think Like a Loop': 'how-to/think-like-loop.md'
