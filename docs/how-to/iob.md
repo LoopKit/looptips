@@ -4,7 +4,7 @@ One of the easiest habits to help check your settings is to simply check-in on y
 
 This Looped group post started the conversation:
 
-!!! note " "
+!!! note "&nbsp;"
 
     *I've been having more lows recently than I would like. Any help here would be really really appreciated.*
     
