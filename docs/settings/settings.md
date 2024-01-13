@@ -58,7 +58,7 @@ It's a pretty easy test. Turn off your loop or open loop. Don't eat food, don't 
 
 Many people, especially little kids, are not enthusiastic about fasting basal testing...so look for opportunities to make it less cumbersome if you have to eat during the test. For example, use a low carb meal/snack that you know how to bolus for (or doesn't need a bolus at all) and generally needs no corrections. For us, that's two extra large scrambled eggs (or three small ones) with cheese bolused at 8g. If she eats that meal, the blood glucose response is slow and measured. Three hours after that meal, the bolus and food effects are really muted and we can start watching to see if blood glucose stayed pretty steady.  For example, here's some of a recent open-loop basal testing we did and confirmed that blood glucose could stay pretty steady without the involvement of temporary basal help from looping.
 
-![Basal Open Loop](../img/basal-open-loop.png){width="650"}
+![Basal Open Loop](img/basal-open-loop.png){width="650"}
 
 
 ### Insulin Sensitivity Factor
@@ -77,11 +77,11 @@ In order to avoid the confusion that surrounds the words "weak" and "strong", in
 
 If your ISF is set to a value that is too low compared to what it really should be, one of the most common symptoms you'll see is a roller coaster of blood glucose where the insulin adjustments are cycling between zero basal and strong high temporary rates (or automatic boluses). Here are some example graphs from Looped group. These are examples where too low of ISF is more than likely a large factor in the roller coaster (doesn't mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph). Lightning bolt high temporary basals followed by very quick blood glucose drops and zero temps is usually too low of ISF value...raise the ISF value (e.g., go from 50 to 55) to help Loop know that each unit of insulin is actually having more impact than you'd previously thought. Making changes of about 10% for a setting is reasonable to try; just make sure you are changing it in the correct direction - remember: a lower number = more insulin; a higher number = less insulin.
 
-![ISF 1](../img/isf1.jpg){width="650"}
+![ISF 1](img/isf1.jpg){width="650"}
 
-![ISF 2](../img/isf2.jpg){width="650"}
+![ISF 2](img/isf2.jpg){width="650"}
 
-![ISF 3](../img/isf3.png){width="650"}
+![ISF 3](img/isf3.png){width="650"}
 
 ### Carb Ratios
 
@@ -93,6 +93,6 @@ A bad carb ratio will leave you higher or lower than the starting point of the m
 
 For example, this graph shows too aggressive of a carb ratio (value too low).  Three hours after the meal, there's nearly 0.50 units of active insulin, blood glucose is well below where the meal started, and definitely low treatments needed.
 
-![Carb Ratio 2](../img/carbratio2.png){width="350"}
+![Carb Ratio 2](img/carbratio2.png){width="350"}
 
 If you are finding that a correct carb ratio is yielding good blood glucose 3 hours later, but you aren't happy with the peak blood glucose during the meal, then it may be time to explore increasing or adding prebolusing time to your meal or implementing "eating soon" targets an hour before meals to help control the post-meal blood glucose spike. Artificially strengthening carb ratios to help control post-meal blood glucose spike will likely yield lows 2-3 hours after a meal.
