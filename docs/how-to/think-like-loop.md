@@ -98,16 +98,15 @@ Test your new found skills...let's play a game where you try to guess the action
     B. Scheduled basal from your settings</br></br>
     C. High temp basal</br></br>
     D. Lower temp basal (between zero and scheduled)</i></br></br>
-    <p align="center">
-    <img src="../img/wwld1.png" width="650">
-    </p></br>
+    ![wwld1](img/wwld1.png){width="650"}
+    {align="center"}
+
 </br></br>
 
 What would your answer be?  Before you give your final answer...consider this next twist.  Would you give the same answer to this graph as you gave the graph above?  If not, what would the answer be for this graph and why? (ignore the timestamp mismatch</br></br>
 
-<p align="center">
-<img src="../img/wwld2.jpg" width="650">
-</p></br>
+![wwld2](img/wwld2.jpg){width="650"}
+{align="center"}
 
 This second case has a dramatic drop happening.  Suspend threshold is still at 60 mg/dL, the correction range is still 90-110, the lowest value on the predicted BG chart is 75 mg/dL, and the eventual BG is 171 mg/dL for this example.  So, pretty similar to the first example except for this precipitous drop going on right now.
 

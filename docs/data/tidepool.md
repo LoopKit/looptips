@@ -18,7 +18,7 @@ In Tidepool&#39;s own words, their commitment to diabetes data and accessibility
 Once you start uploading data into your *Tidepool* account, you'll see some of the benefits pretty quickly. Tidepool&#39;s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
 
 
-![Tidepool Sample](../img/tidepool_sample.png){width="750"}
+![Tidepool Sample](img/tidepool_sample.png){width="750"}
 {align="center"}
 
 To use Tidepool&#39;s services, the process is pretty standard:
@@ -49,7 +49,7 @@ However, there has been a very exciting development! Tidepool&#39;s Mobile iOS a
 Sharing the data is simple. You can click on your account’s Share option and enter in the email addresses for those that you want to share with. Those people will need a *Tidepool* account. If they don’t have one currently, they will follow easy prompts for an account setup after they’ve received your share invitation. Clinics using *Tidepool* will have a *Tidepool* account email that you can add to your account, enabling the clinic to easily view your data. You can also remove access for anyone with a simple click.
 
 
-![Share Tidepool](../img/share_tidepool.png){width="550"}
+![Share Tidepool](img/share_tidepool.png){width="550"}
 {align="center"}
 
 ## Viewing your Tidepool data
@@ -68,13 +68,13 @@ There are two distinct viewing options for your *Tidepool* data, and they are no
 ### What Loop data will you see in desktop Chrome?
 You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, carbohydrates, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to *Tidepool*, those will also overlay.
 
-![Loop in Tidepool](../img/loop_in_tidepool.png){width="750"}
+![Loop in Tidepool](img/loop_in_tidepool.png){width="750"}
 {align="center"}
 
-![Loop in Tidepool 2](../img/loop_in_tidepool2.png){width="750"}
+![Loop in Tidepool 2](img/loop_in_tidepool2.png){width="750"}
 {align="center"}
 
-![Loop in Tidepool 3](../img/loop_in_tidepool3.png){width="750"}
+![Loop in Tidepool 3](img/loop_in_tidepool3.png){width="750"}
 {align="center"}
 
 ### What Loop data will you see in the Tidepool Mobile app?
@@ -86,7 +86,7 @@ You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, car
 
 For example, here’s a sample note+data set below from my *Tidepool* Mobile app.  Over the last couple of hours, my daughter noticed that she was staying above target (unusual for her on *Loop* with the meal she had) for quite a while. She had given a couple of small corrections (see the two 1-unit correction boluses?) without result. She started her secondary troubleshooting…if it’s not the food, maybe it’s the infusion site? She realized it has been 4.5 days since changing her site. She changed the site and logged a note using the *Tidepool* Mobile app. That note appears in the <span>*Tidepool Mobile* application</span>, on my phone. It also shows up on her Tidepool&#39;s data, for her endocrinologist to see too, and we can refresh the view to see how blood glucose trends for the next 7 hours after the site change.
 
-![iOS Tidepool Example](../img/ios_tidepool_example.png){width="250"}
+![iOS Tidepool Example](img/ios_tidepool_example.png){width="250"}
 {align="center"}
 
 ## Tidepool&#39;s Mobile app for iOS/iPhone
@@ -106,7 +106,7 @@ You mean, what OTHER cool thing can the *Tidepool* Mobile application do besides
 
 For an easy example, search for the word burrito (doesn’t have to be a hashtag), and any notes with the word “burrito” will be available for review, as well as any added comments.
 
-![iOS Tidepool Example 2](../img/ios_tidepool_example2.png){width="450"}
+![iOS Tidepool Example 2](img/ios_tidepool_example2.png){width="450"}
 {align="center"}
 
 Hormones can also be easily tracked with notes. *What day-of-the-month and how did I change the basals?* Looking to find patterns in those female hormones? This could be a really slick tracking tool to easily log periods of insulin resistance and what part of the cycle they are occurring at.

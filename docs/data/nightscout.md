@@ -5,7 +5,7 @@
 ## Nightscout Display
 *Nightscout* is highly recommended for *Loop* users, especially those using *Loop* as caregivers. *Nightscout* displays are often the easiest way to troubleshoot *Loop* settings if you are having problems and seeking input from others.  Below is some discussion about the general *Nightscout* display, as well as some <span translate="no">Loop</span>-specific display information.
 
-![Example](../img/example.jpg){width="700"}
+![Example](img/example.jpg){width="700"}
 {align="center"}
 
 ### Blood Glucose
@@ -42,7 +42,7 @@ The SAGE, BAGE, and CAGE pills are for sensor age, pump battery age, and cannula
 You can access the Reports tab from within your NS settings (the three horizontal lines in the upper right corner of your NS site).  There are several types of reports which may be useful to you and/or your health care provider. The report types are listed in tabs at the top of the Reports section, and you can also select the range of dates you'd like any report to cover.
 
 
-![Reports](../img/reports.png){width="700"}
+![Reports](img/reports.png){width="700"}
 {align="center"}
 
 ### Day to Day report
@@ -50,14 +50,14 @@ You can access the Reports tab from within your NS settings (the three horizonta
 The day-to-day report will show a detailed overlay of boluses, basal rates, carbohydrates, CGM, and treatment notes. If you select the optional check boxes, you can also see information such as the insulin distribution pie graphs shown on the right of the figure below.
 
 
-![Day to Day](../img/day-to-day.png){width="700"}
+![Day to Day](img/day-to-day.png){width="700"}
 {align="center"}
 
 ### Daily Stats report
 
 The daily stats report is a pie chart showing the daily breakdown of your low, in-range, and high time in target, as well as other statistical analysis of your BG trends.
 
-![Daily Stats](../img/daily-stats.png){width="700"}
+![Daily Stats](img/daily-stats.png){width="700"}
 {align="center"}
 
 ### Distribution report
@@ -65,14 +65,14 @@ The daily stats report is a pie chart showing the daily breakdown of your low, i
 The distribution report is a combination of all the individual daily stats reports all into one pie chart for the date range selected.
 
 
-![Distribution](../img/distribution.png){width="700"}
+![Distribution](img/distribution.png){width="700"}
 {align="center"}
 
 ### Glucose Percentile report
 
 The glucose percentile report will help you see just how consistent your blood glucose is at various times of the day.  The average blood glucose is shown as a dark black line in the center of the colored bars.  The wider the colored areas spread out from the center black line, the more scattered and variable your blood glucose values at that time have tended to be.
 
-![Percentile](../img/percentile.png){width="700"}
+![Percentile](img/percentile.png){width="700"}
 {align="center"}
 
 For the graph above, for example, the blood glucose control around 4-6 am is very consistent.  The most variable time appears to be near lunchtime.  The time of day, when low blood glucose seems to be the most problematic, is between 4-6 pm, which happens to be this person's exercise time.  Based on the data in this graph, the person may benefit from setting a higher target about 2 hours before exercise time in order to help with the pattern of low blood glucose that occurs most often during that time.
@@ -81,5 +81,5 @@ For the graph above, for example, the blood glucose control around 4-6 am is ver
 
 The treatments report will show a listing of all the temporary basal rates set by *Loop*, as well as boluses, carbohydrates, site changes, and any other "treatments" which have been entered into NS.
 
-![Treatments](../img/treatments.png){width="=700"}
+![Treatments](img/treatments.png){width="=700"}
 {align="center"}

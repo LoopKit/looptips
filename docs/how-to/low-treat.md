@@ -23,10 +23,10 @@ If you are roller coastering blood glucose after treating lows (going low, quick
 
 If your ISF is set to a value that is too low compared to what it really should be, one of the most common symptoms you'll see is a roller coaster of blood glucose where the temporary basals are cycling between zero and strong high temporary rates. Here are some example graphs from Looped group. These are examples where too low of ISF is more than likely a large factor in the roller coaster (doesn't mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temporary basals followed by very quick blood glucose drops and zero temps is usually too low of ISF value...raise the ISF value (e.g., go from 50 to 55) to help Loop know that each unit of insulin is actually having more impact than you'd previously thought.
 
-![ISF 1](../img/isf1.jpg){width="650"}
+![ISF 1](img/isf1.jpg){width="650"}
 
-![ISF 2](../img/isf2.jpg){width="650"}
+![ISF 2](img/isf2.jpg){width="650"}
 
-![ISF 3](../img/isf3.png){width="650"}
+![ISF 3](img/isf3.png){width="650"}
 
 
