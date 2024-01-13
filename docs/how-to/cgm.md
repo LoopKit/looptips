@@ -26,14 +26,13 @@ We similarly see an increase in sensor noise at the end of a sensor's useful lif
 
 ![noisy old G6 sensor](img/end_of_sensor.jpeg)
 
-There is a marked increase in sensor noise and scatter, as well as several periods of sensor error that lead to lost CGM data. We opted to pull this sensor just shy of the 10 days due to this noise. However, as you can see, the Loop was still doing an aequate job controling overall blood glucose fluctuations despite the erratic CGM data.
+There is a marked increase in sensor noise and scatter, as well as several periods of sensor error that lead to lost CGM data. We opted to pull this sensor just shy of the 10 days due to this noise. However, as you can see, the Loop was still doing an adequate job controlling overall blood glucose fluctuations despite the erratic CGM data.
 
 ## Compression lows
-A frequent question from people before starting Loop is "*How does Loop deal with compression lows?*"  If you aren't familiar with compression lows, they are false low blood glucose alarms caused by sustained pressure on the sensor area. In effect, the phenomenom is much like resting on an arm for too long and causing it to fall asleep from poor blood flow.
+A frequent question from people before starting Loop is "*How does Loop deal with compression lows?*"  If you aren't familiar with compression lows, they are false low blood glucose alarms caused by sustained pressure on the sensor area. In effect, the phenomenon is much like resting on an arm for too long and causing it to fall asleep from poor blood flow.
 
-<p align="center">
-<img src="../img/compression-low.jpg" width="300">
-</p>
+![compression low](img/compression-low.jpg){width="300"}
+{align="center"}
 
 The figure above showing an example of a compression low. CGM data shows blood glucose dropping low, but finger checks on a meter would confirm that the CGM data is falsely low. Often, Dexcom G5 and G6 will stop providing CGM values for awhile when their algorithm detects a suspected compression low. Once the person rolls off the sensor area and blood starts flowing well again, the CGM values come back online to a more reasonable tracking again. 
 
