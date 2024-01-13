@@ -4,7 +4,7 @@ One of the easiest habits to help check your settings is to simply check-in on y
 
 This Looped group post started the conversation:
 
-!!! note " "
+!!! note "&nbsp;"
 
     *I've been having more lows recently than I would like. Any help here would be really really appreciated.*
     
@@ -26,7 +26,7 @@ Firstly, if the user were to bolus while carrying a lot of negative iob, they wo
 
 Secondly, if the user were to go above their correction range, they would begin to get high temporary basals for what is an inaccurate amount of negative iob (because basals really didn't need to be this high). And high temporary basals at this point in time and with these settings would be too aggressive. (If the maximum basal is set really high, the problem compounds with bad underlying settings. This is why it is a good idea to keep your maximum basal relatively low when you first start Loop and are testing your settings.)
 
-!!! info "Useful Summary"
+!!! abstract "Useful Summary"
     You probably need to lower your overnight basal rates if you wake up:
     
      * Carrying negative IOB, and

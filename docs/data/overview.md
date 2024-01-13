@@ -5,7 +5,7 @@ In order to assess your Loop's performance and more specifically your settings, 
 ## Problem with traditional methods
 As a person with diabetes, you’re probably carrying around a lot of different devices that are holding a lot of different data; a blood glucose meter for your finger sticks, a pump for insulin delivery, a continuous glucose monitor for real-time glucose measurements, phone app for tracking meals, etc. When you go to your endocrinology office, you probably start the process by dropping many of those devices at the front desk to be individually downloaded and then having to pack all of them away 20 minutes later.
 
-Then your clinic staff has the less-than-efficient process of trying to overlay all those different devices into some sort of cohesive strategy for how your diabetes may need some tweaks. Because of Loop use, a clinic currently has to look at separate reports from Medtronic pump, Contour Next Link BG meter, Dexcom CGM/Clarity, and our iPhone Health app, as a typical example. There are also a couple of issues with Loop when using this separate downloads method:
+Then your clinic staff has the less-than-efficient process of trying to overlay all those different devices into some sort of cohesive strategy for how your diabetes may need some tweaks. Because of Loop use, a clinic currently has to look at separate reports from Medtronic pump, Contour Next Link BG meter, Dexcom CGM/Clarity, and our iPhone Health app, as a typical example. There are also a couple of issues with Loop when using this separate download method:
 
 * Medtronic’s pump gets so clogged up by the numerous temporary basal rate records being recorded that the clinic can only pull about 7 days of data from the pump at most.
 
