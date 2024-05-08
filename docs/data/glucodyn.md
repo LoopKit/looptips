@@ -1,13 +1,13 @@
 # Perceptus
 
-[Perceptus](http://perceptus.org/) is a website and set of free tools developed by *Kenneth Stack* and *Gustavo Munoz*, two active members of the DIY community. *Perceptus* provides two tools particularly helpful for *Loop* users; *Dash* and *GlucoDyn*. As a side note, *Gustavo* has an excellent Spanish [Tedx Talk](https://youtu.be/K1C4xEWipOo) about building his own DIY looping algorithm. *Kenneth* is also the brains behind [NSApple watch app](https://github.com/Kdisimone/nsapple/tree/nsapple-units).
+[Perceptus](http://perceptus.org/){: target="_blank" } is a website and set of free tools developed by *Kenneth Stack* and *Gustavo Munoz*, two active members of the DIY community. *Perceptus* provides two tools particularly helpful for *Loop* users; *Dash* and *GlucoDyn*. As a side note, *Gustavo* has an excellent Spanish [Tedx Talk](https://youtu.be/K1C4xEWipOo){: target="_blank" } about building his own DIY looping algorithm. *Kenneth* is also the brains behind [NSApple watch app](https://github.com/Kdisimone/nsapple/tree/nsapple-units){: target="_blank" }.
 
 ## Dash {: translate="no" }
 For *Loop* users with *Nightscout* integration running, *Dash* can provide an alternate view and data analysis for the *Loop* data stored in your Nightscout&#39;s mLab database. (Note: *mLab* used to be called *MongoLab*, still the same intended reference)
 
 To set up your *Dash* integration, you will need to:  
 
-* Signup for a *Perceptus* account [here](http://perceptus.org/)  
+* Signup for a *Perceptus* account [here](http://perceptus.org/){: target="_blank" }  
 
 * Provide your *mLab* database information
 

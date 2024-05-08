@@ -1,6 +1,6 @@
 # Nightscout {: translate="no" }
 
-[Nightscout](https://nightscout.github.io/) (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view Loop&#39;s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/) is free and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
+[Nightscout](https://nightscout.github.io/){: target="_blank" } (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view Loop&#39;s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/){: target="_blank" } is free and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
 
 ## Nightscout Display
 *Nightscout* is highly recommended for *Loop* users, especially those using *Loop* as caregivers. *Nightscout* displays are often the easiest way to troubleshoot *Loop* settings if you are having problems and seeking input from others.  Below is some discussion about the general *Nightscout* display, as well as some <span translate="no">Loop</span>-specific display information.
@@ -26,7 +26,7 @@ Within your NS profile, you will enter in the scheduled basal rates from your *L
 
 ### Predicted Blood Glucose
 
-The purple line to the right of the blood glucose readings is Loop&#39;s predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal) section of *LoopDocs*.
+The purple line to the right of the blood glucose readings is Loop&#39;s predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal){: target="_blank" } section of *LoopDocs*.
 
 
 ### <span translate="no">L&#8203;oop</span> pill
