@@ -12,7 +12,7 @@ In Tidepool&#39;s own words, their commitment to diabetes data and accessibility
     
     We believe that connected data leads to better decision-making. Tidepool&#39;s free software liberates data from diabetes devices, and places it in context of the real world. Tidepool is designed to help you discover insights and bring context to your diabetes management. And, to help make your data more actionable, we allow you to share your data with anyone you choose: caregivers, clinicians, endocrinologists, friends, researchers – anyone.
 
-*Tidepool* has [announced](https://tidepool.org/loop/) that they are embarking on a project to build and support an FDA-regulated version of *Loop*, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
+*Tidepool* has [announced](https://tidepool.org/loop/){: target="_blank" } that they are embarking on a project to build and support an FDA-regulated version of *Loop*, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
 
 ## <span translate="no">Tidepool&nbsp;</span>  Data
 Once you start uploading data into your *Tidepool* account, you'll see some of the benefits pretty quickly. Tidepool&#39;s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
@@ -32,7 +32,7 @@ Children with type 1 diabetes can have their own data account, and parents can h
 
 There are two methods for uploading different data to your *Tidepool* account:
 
-* **Tidepool Uploader** (program on your computer) -   *Tidepool* Uploader supports a large variety of current diabetes devices in the market; Animas, T-slim, Medtronic, Omnipod, Dexcom, and more. The full list of devices is [here](https://tidepool.org/products/tidepool-uploader/#devices). To upload the data from these devices, you download the free *Tidepool* Uploader program, connect your device to the computer according to the instructions provided in the Uploader, and your data is then securely uploaded and stored in your *Tidepool* account. Most users will perform uploads on a semi-regular basis; weekly, monthly, or prior to each clinic visit.  
+* **Tidepool Uploader** (program on your computer) -   *Tidepool* Uploader supports a large variety of current diabetes devices in the market; Animas, T-slim, Medtronic, Omnipod, Dexcom, and more. The full list of devices is [here](https://tidepool.org/products/tidepool-uploader/#devices){: target="_blank" }. To upload the data from these devices, you download the free *Tidepool* Uploader program, connect your device to the computer according to the instructions provided in the Uploader, and your data is then securely uploaded and stored in your *Tidepool* account. Most users will perform uploads on a semi-regular basis; weekly, monthly, or prior to each clinic visit.  
 
 * **Tidepool Mobile** (app on your phone) - *Tidepool* Mobile is available for both Android and iOS/iPhone users. *Tidepool* Mobile is a companion app to *Tidepool* that lets you add notes about meals, exercise, or anything else. See your CGM, pump, and meter data alongside any notes you add. Track your favorite meals and your regular exercise, and learn from what happens.  
 
@@ -90,7 +90,7 @@ For example, here’s a sample note+data set below from my *Tidepool* Mobile app
 {align="center"}
 
 ## Tidepool&#39;s Mobile app for iOS/iPhone
-As part of *Tidepool* *Loop* development, *Tidepool* updated its *Tidepool* Mobile iOS app to integrate with *Loop* user's data stored in Apple's HealthKit database. This update also supports the [Jaeb Center observational study](jaeb.org/loopstudy) of Loop.
+As part of *Tidepool* *Loop* development, *Tidepool* updated its *Tidepool* Mobile iOS app to integrate with *Loop* user's data stored in Apple's HealthKit database. This update also supports the [Jaeb Center observational study](https://www.jaeb.org/projects/){: target="_blank" } of Loop.
 
 ### How does the Loop data upload work?
 The *Tidepool* Mobile iOS app will sync Loop&#39;s diabetes-related HealthKit data into your *Tidepool* account. The app will continuously upload that data so long as the *Tidepool* Mobile app is open, even if it is only open in the background. That data will then be viewable in two places: on the *Tidepool* Mobile app itself <u>when using notes</u>, or in your *Tidepool* account using the desktop Chrome browser (note: the two options are not identical viewing platforms, see discussion above). This means you will not have to plug any of your devices into a USB cable in order to upload your information to *Tidepool*.
@@ -115,4 +115,4 @@ Hormones can also be easily tracked with notes. *What day-of-the-month and how d
 The *Tidepool Mobile* application uploads diabetes-related HealthKit data regardless of the source. Loop users store their data in HealthKit, so this is a nice fit. Other diabetes devices (e.g., OneDrop BG meter) and apps (e.g., Spike and Dexcom) also store their data in HealthKit. Some people even manually enter their diabetes data into HealthKit. For all those uses, the <span>*Tidepool Mobile* application</span> will upload the HealthKit data. OpenAPS does not store its data in HealthKit, so this will not upload OpenAPS-related data. However, if OpenAPS users are using Spike app, some integration of information through Nightscout is possible. Currently, OpenAPS SMBs, boluses, and carbohydrates can be uploaded to HealthKit for OpenAPS+Spike+Nightscout+iPhone users.  Spike does plan to add temporary basal integration to HealthKit at some time in the future.
 
 ### How can you get the Tidepool Mobile app?
-*Tidepool Mobile* is available in the [iOS App Store](https://apps.apple.com/us/app/tidepool-mobile/id1026395200) on your Loop device.
+*Tidepool Mobile* is available in the [iOS App Store](https://apps.apple.com/us/app/tidepool-mobile/id1026395200){: target="_blank" } on your Loop device.

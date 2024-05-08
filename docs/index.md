@@ -1,12 +1,13 @@
 # Introduction
 
-Welcome to LoopTips!  The purpose of these pages is to help you make the most of your DIY closed-looping experience.  In particular, these pages support users of the [Loop app](https://loopkit.github.io/loopdocs/).  These documents have been a long time in the making and as always, your feedback is welcome.  If you have comments, please feel free to provide input at the [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) or in [Loop's Zulipchat](https://loop.zulipchat.com).
+Welcome to LoopTips!  The purpose of these pages is to help you make the most of your DIY closed-looping experience.  In particular, these pages support users of the [Loop app](https://loopkit.github.io/loopdocs/){: target="_blank" }.  These documents have been a long time in the making and as always, your feedback is welcome.  If you have comments, please feel free to provide input at the [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf){: target="_blank" } or in [Loop's Zulipchat](https://loop.zulipchat.com){: target="_blank" }
+.
 
-LoopTips is a companion to LoopDocs.   LoopTips does not cover the build or installation of Loop app.  If you have problems with building your Loop app or troubleshooting the technical aspects of Loop operations, please head over to [LoopDocs](https://loopkit.github.io/loopdocs/) for help.  The LoopTips pages are specifically related to understanding how your loop is recommending the actions being taken, and how you can improve your blood glucose outcomes on Loop. Some of the pages that originated in LoopTips are now included in LoopDocs. Don't be surprised when you find links between the sites. (The color bar is deliberately a different shade to help you know where you are.)
+LoopTips is a companion to LoopDocs.   LoopTips does not cover the build or installation of Loop app.  If you have problems with building your Loop app or troubleshooting the technical aspects of Loop operations, please head over to [LoopDocs](https://loopkit.github.io/loopdocs/){: target="_blank" } for help.  The LoopTips pages are specifically related to understanding how your loop is recommending the actions being taken, and how you can improve your blood glucose outcomes on Loop. Some of the pages that originated in LoopTips are now included in LoopDocs. Don't be surprised when you find links between the sites. (The color bar is deliberately a different shade to help you know where you are.)
 
 ## What is a closed loop?
 
-The U.S. Food and Drug Administration (FDA) has a general definition of an "artificial pancreas device system" (aka closed loop system) [on their website](https://www.fda.gov/medicaldevices/productsandmedicalprocedures/homehealthandconsumer/consumerproducts/artificialpancreas/ucm259548.htm#illustration), quoted below.
+The U.S. Food and Drug Administration (FDA) has a general definition of an "artificial pancreas device system" (aka closed loop system) [on their website](https://www.fda.gov/medicaldevices/productsandmedicalprocedures/homehealthandconsumer/consumerproducts/artificialpancreas/ucm259548.htm#illustration){: target="_blank" }, quoted below.
 
 ![FDA Image](img/fda-image.png){width="450"}
 {align="center"}
@@ -21,7 +22,7 @@ The U.S. Food and Drug Administration (FDA) has a general definition of an "arti
 
 The Loop app is a do-it-yourself closed loop algorithm and user interface, developed through the work of community volunteers. You can read about the history of Loop development in LoopDocs. Loop predicts future blood glucose based on basals, carbohydrate intake, insulin deliveries, and current CGM readings. These blood glucose predictions provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future. The system can either operate as an “open loop” by making recommendations to the user for their approval before enacting or as a “closed loop” by automatically setting the recommended temporary basal rate.
 
-As exciting as this sounds...we should first get the caveats out of the way.  There are some limitations on what kind of pumps/equipment are required.  This system doesn't work with most pumps and requires you to do some work. The pumps that are supported and the directions for building are thoroughly covered in [LoopDocs](https://loopkit.github.io/loopdocs/).
+As exciting as this sounds...we should first get the caveats out of the way.  There are some limitations on what kind of pumps/equipment are required.  This system doesn't work with most pumps and requires you to do some work. The pumps that are supported and the directions for building are thoroughly covered in [LoopDocs](https://loopkit.github.io/loopdocs/){: target="_blank" }.
 
 ## Disclaimer
 
