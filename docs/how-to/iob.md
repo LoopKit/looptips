@@ -33,7 +33,7 @@ Secondly, if the user were to go above their correction range, they would begin 
      * Blood glucose is still below or just below target, and
      * Overnight basals were turning off/on.
 
-So, what will you see after you adjust your basal lower? You will see some of the negative IOB disappear and, as a result, the predicted blood glucose curve will not so such an aggressive prediction for a blood glucose rebound.
+So, what will you see after you adjust your basal lower? You will see some of the negative IOB disappear and, as a result, the predicted blood glucose curve will not show such an aggressive prediction for a blood glucose rebound.
 
 In this example,  the user's basal rates were lowered across the board. All of the basal rates went down about 0.2 U/hr. It works out to about a 15% decrease, and is pretty standard adjustment for this user due to her monthly hormone changes.
 

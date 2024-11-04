@@ -12,10 +12,8 @@ In Tidepool&#39;s own words, their commitment to diabetes data and accessibility
     
     We believe that connected data leads to better decision-making. Tidepool&#39;s free software liberates data from diabetes devices, and places it in context of the real world. Tidepool is designed to help you discover insights and bring context to your diabetes management. And, to help make your data more actionable, we allow you to share your data with anyone you choose: caregivers, clinicians, endocrinologists, friends, researchers – anyone.
 
-*Tidepool* has [announced](https://tidepool.org/loop/){: target="_blank" } that they are embarking on a project to build and support an FDA-regulated version of *Loop*, to be available in the iOS App Store, intended to work with commercially available insulin pumps and CGMs.
-
 ## <span translate="no">Tidepool&nbsp;</span>  Data
-Once you start uploading data into your *Tidepool* account, you'll see some of the benefits pretty quickly. Tidepool&#39;s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
+Once you start uploading data into your [*Tidepool* account](https://www.tidepool.org/){: target="_blank" }, you'll see some of the benefits pretty quickly. Tidepool&#39;s data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.
 
 
 ![Tidepool Sample](img/tidepool_sample.png){width="750"}
@@ -23,50 +21,58 @@ Once you start uploading data into your *Tidepool* account, you'll see some of t
 
 To use Tidepool&#39;s services, the process is pretty standard:
 
-* Create a free *Tidepool* account to become the warehouse for your diabetes data.
-* Upload device data to your account.
+* Create a free [*Tidepool* account](https://www.tidepool.org/){: target="_blank" } if you don't already have one
+* In the *Loop* app, go to Settings, Services and tap on the + sign to add a service
+    * Choose *Tidepool* and log into your  *Tidepool* account
+    * As soon as you do this, *Loop* will upload the last 7 days of data to Tidepool
 
-Children with type 1 diabetes can have their own data account, and parents can have a caregiver account. Users can also choose to share data with their endocrinology clinic. You can also choose to share your diabetes data anonymously for the support of type 1 diabetes researchers if desired.
+If both you and someone that you provide care for has diabetes, you should set up an account for each person. [Tidepool Docs](https://support.tidepool.org/hc/en-us/articles/360038567672-What-To-Do-If-You-and-Your-Child-Have-Diabetes){: target="_blank" }.
+
+Users can also choose to share data with their endocrinology clinic. You can also choose to share your diabetes data anonymously for the support of type 1 diabetes researchers if desired.
 
 ### How do you upload data into Tidepool account?
 
-There are two methods for uploading different data to your *Tidepool* account:
+Follow these directions to upload Automated Insulin Delivery data from *Loop* to your *Tidepool* account:
 
-* **Tidepool Uploader** (program on your computer) -   *Tidepool* Uploader supports a large variety of current diabetes devices in the market; Animas, T-slim, Medtronic, Omnipod, Dexcom, and more. The full list of devices is [here](https://tidepool.org/products/tidepool-uploader/#devices){: target="_blank" }. To upload the data from these devices, you download the free *Tidepool* Uploader program, connect your device to the computer according to the instructions provided in the Uploader, and your data is then securely uploaded and stored in your *Tidepool* account. Most users will perform uploads on a semi-regular basis; weekly, monthly, or prior to each clinic visit.  
+* **Tidepool Uploader**
+    * There are a lot of uploaders, but we assume  you are using the *Loop* app
+    * In Loop, Settings, Add Service and log into your *Tidepool* account
 
-* **Tidepool Mobile** (app on your phone) - *Tidepool* Mobile is available for both Android and iOS/iPhone users. *Tidepool* Mobile is a companion app to *Tidepool* that lets you add notes about meals, exercise, or anything else. See your CGM, pump, and meter data alongside any notes you add. Track your favorite meals and your regular exercise, and learn from what happens.  
+* **Tidepool Mobile** (app on your phone)
+    * This companion app is optional but many people use it to take notes
+    * *Tidepool* Mobile is available for both Android and iOS/iPhone users. *Tidepool* Mobile is a companion app to *Tidepool* that lets you add notes about meals, exercise, or anything else. You can see your CGM, pump, and meter data alongside any notes you add. Track your favorite meals and your regular exercise, and learn from what happens. These notes are uploaded to the *Tidepool* web display so you can view those same notes in either location.
 
-!!! abstract " "
+!!! abstract "**Tidepool Mobile** and *Loop*"
 
-    In summary, the **Uploader** is for uploading the numeric data from your various diabetes devices, and the **Mobile app** is for adding contextual information and notes-on-the-go to make your numeric data more useful.
-
-### Does Tidepool Uploader work for Loop users?
-There has been a lack of ability to get Loop data into *Tidepool* using the *Tidepool* Uploader. The only pumps compatible with *Loop* and supported in *Tidepool* Uploader are the x23/x54 pumps, so users of the x15 and x22 pumps cannot upload their pump data. Furthermore, the Medtronic pump still suffers from the lack of internal storage sufficient to store more than 3-7 days' worth of Looping data.
-
-However, there has been a very exciting development! Tidepool&#39;s Mobile iOS app has been updated to upload Apple's HealthKit data into *Tidepool*. Since *Loop* uses *HealthKit* to store all of your insulin, carbohydrate, and CGM data, this means *Tidepool* can now upload the full suite of available *Loop* information. So, there's no need to use *Tidepool* Uploader for *Loop* users...their *Tidepool* Mobile app can take care of the needed connections. Read below for lots of details about this important development.
+    * Adding *Tidepool* service to Loop uploads data from your Automated Insulin Delivery system to the *Tidepool* web display
+        * This initial upload includes the full 7-day history stored in the *Loop* app
+    * The companion app, *Tidepool Mobile* is for adding contextual information and notes-on-the-go to make your stored data more useful
+        * Be sure to [disable Apple Health access for the *Tidepool Mobile* app](https://loopkit.github.io/loopdocs/loop-3/services/#tidepool) when using the *Loop* *Tidepool* service to avoid duplicate uploads
+    * If you have duplicate uploads from *Loop* and *Tidepool Mobile*, you can apply a filter to show only one on the web display
 
 ### How can I share my Tidepool data?
-Sharing the data is simple. You can click on your account’s Share option and enter in the email addresses for those that you want to share with. Those people will need a *Tidepool* account. If they don’t have one currently, they will follow easy prompts for an account setup after they’ve received your share invitation. Clinics using *Tidepool* will have a *Tidepool* account email that you can add to your account, enabling the clinic to easily view your data. You can also remove access for anyone with a simple click.
 
+Sharing the data is simple. You can click on your account’s Share option and enter in the email addresses for those that you want to share with. Those people will need a *Tidepool* account. If they don’t have one currently, they will follow easy prompts for an account setup after they’ve received your share invitation. Clinics using *Tidepool* will have a *Tidepool* account email that you can add to your account, enabling the clinic to easily view your data. You can also remove access for anyone with a simple click.
 
 ![Share Tidepool](img/share_tidepool.png){width="550"}
 {align="center"}
 
-## Viewing your Tidepool data
+## View your Tidepool data
 
-There are two distinct viewing options for your *Tidepool* data, and they are not identical. You can either view your data:
+There are two distinct viewing options for your *Tidepool* data, and they are not identical. You can use both view your data:
 
-1. Using a desktop computer using the Chrome browser and logging into your *Tidepool* account, or
-2. Using your *Tidepool* Mobile app **AND** associated notes.
+1. Using a [desktop computer](#view-your-loop-data-using-tidepool-browser) using the Chrome or Edge browser and logging into your *Tidepool* account, or
+2. Using your [*Tidepool* Mobile app **AND** associated notes](#view-your-loop-data-using-tidepool-mobile-app).
 
     !!! info "Supported Desktop Browser"
-        Currently, only the Chrome desktop browser is compatible with *Tidepool*. You will not be able to use Safari or other browsers to view the data, nor will you be able to use the Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome browser. 
+        Currently, only the Chrome or Edge desktop browser is compatible with *Tidepool*. You will not be able to use Safari or other browsers to view the data, nor will you be able to use the Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome or Edge browser. 
 
-    !!! info "Viewing Data on your Phone"
+    !!! info "View Data on your Phone"
         If you want to see your data on your phone, you must use the *Tidepool* Mobile app **<i>and</i>** use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.
 
-### What Loop data will you see in desktop Chrome?
-You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, carbohydrates, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to *Tidepool*, those will also overlay.
+## View your *Loop* data using *Tidepool* Browser?
+
+You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, carbohydrates, and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to *Tidepool*, those will also overlay. You can choose to upload some CGM data from the *Loop* app. There is a feature in *Loop* for a given CGM to enable *Upload Readings*. This feature is disabled by default.
 
 ![Loop in Tidepool](img/loop_in_tidepool.png){width="750"}
 {align="center"}
@@ -77,7 +83,45 @@ You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, car
 ![Loop in Tidepool 3](img/loop_in_tidepool3.png){width="750"}
 {align="center"}
 
-### What Loop data will you see in the Tidepool Mobile app?
+### Updates to *Tidepool* Browser
+
+!!! tips "*Tidepool* Updates"
+    The *Tidepool* browser has some recent (2024) enhancements.
+    
+    These require you to use the *Loop* *Tidepool* service uploader to have access to this information
+
+### View Manual and Automated Details
+
+If you hover over an item on the *Tidepool* web display, information is revealed indicating
+
+* automatic (the word Automated is included) or manual (no notation) entry
+
+    ![automatic bolus](img/tidepool-hover-automatic-bolus.png)
+
+* details about a manual bolus:
+    * the recommended value with notation if this recommendation was modified (override or underride)
+    * if this was a meal entry: Carbs and IC (insulin to carb ratio, called CR in Loop) are shown
+    * in all manual bolus, the Glucose, IOB, ISF and correction target range are shown
+    * in the graphic below, the left image is from meal entry and the right from a bolus added after the meal
+
+    ![meal entry details](img/tidepool-hover-meal-postmeal.png)
+
+* information about manual or automatic temp basal (TB) rates
+    * the graphic below shows 3 views of a full day of basal rates
+        * top is without hovering
+        * middle: cursor hovers over an automatic TB
+        * bottom hovers over a manual TB
+
+    ![automatic and manual temp basal](img/tidepool-basal-3-views.png)
+
+## View your Therapy History
+
+Tap on the Device Settings icon to see your historical therapy settings. You can select your history (after March 2023) by date when you use the *Tidepool Service* uploader associated wtih *Loop* version 3 or later. If you tap on *Copy as Text*, you can paste a nice version into a document.
+
+![therapy setting history](img/tidepool-therapy-settings.svg)
+
+
+## View your *Loop* data using *Tidepool Mobile* app?
 
 !!! info " "
     The *Tidepool* Mobile app is not a live-viewing app for looping data. For people coming from *Nightscout*, this may be a bit confusing but realize the intended purpose of the *Tidepool* Mobile app isn’t live-viewing. It is the place where you can (1) upload/sync *HealthKit* data, (2) easily add/edit/delete notes to the data set, and (3) search for notes and view *Loop* data surrounding that note.
@@ -88,18 +132,6 @@ For example, here’s a sample note+data set below from my *Tidepool* Mobile app
 
 ![iOS Tidepool Example](img/ios_tidepool_example.png){width="250"}
 {align="center"}
-
-## Tidepool&#39;s Mobile app for iOS/iPhone
-As part of *Tidepool* *Loop* development, *Tidepool* updated its *Tidepool* Mobile iOS app to integrate with *Loop* user's data stored in Apple's HealthKit database. This update also supports the [Jaeb Center observational study](https://www.jaeb.org/projects/){: target="_blank" } of Loop.
-
-### How does the Loop data upload work?
-The *Tidepool* Mobile iOS app will sync Loop&#39;s diabetes-related HealthKit data into your *Tidepool* account. The app will continuously upload that data so long as the *Tidepool* Mobile app is open, even if it is only open in the background. That data will then be viewable in two places: on the *Tidepool* Mobile app itself <u>when using notes</u>, or in your *Tidepool* account using the desktop Chrome browser (note: the two options are not identical viewing platforms, see discussion above). This means you will not have to plug any of your devices into a USB cable in order to upload your information to *Tidepool*.
-
-### Is the Tidepool Mobile app a replacement for Nightscout?
-Nope. This was not designed nor intended to be a replacement for your *Nightscout* site. They complement each other, rather than compete. This new upload of Loop data will allow you and your clinics to have a powerful tool to analyze Loop data through an easy-to-use, shared hub.
-
-### Are there any known issues with Loop and Tidepool Mobile app?
-The settings for *Loop* do not show up in `Device Settings` in *Tidepool Web*. This is because this info can't be uploaded from Apple Health. If you used *Tidepool* Web for your Medtronic or Omnipod before, you will still see the pump settings from before you started looping.
 
 ### What cool thing can you use this Tidepool Mobile app for?
 You mean, what OTHER cool thing can the *Tidepool* Mobile application do besides automatically uploading the data from *Loop*? <span translate="no">Tidepool Mobile</span> also provides an easily searchable log of meal boluses. If you are still learning new meals in Loop…how much to bolus, how long of a carb absorption…these notes are searchable and super easy to add. Learning how to bolus for that Tofu Breakfast Burrito? Simply record a note of how you bolused for it. If you want to, come back afterwards and leave yourself some suggestions for the next time to try. This searchable information can also help teens learn and exercise independent skills. If they aren’t sure of how to bolus for a meal, this could give them easy tips from past success without necessarily having to stop and ask a parent. As much as a parent might scoff at the idea of a kid looking up a meal, if the alternative is asking a parent…that might be all the motivation it takes. How about co-parenting? Want to leave a note that another parent or caregiver can look up? *"How were the last Chicken McNuggets bolused?"* or *"When was the last site change?"* can easily be tracked and retrieved with notes.
