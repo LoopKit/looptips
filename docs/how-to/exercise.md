@@ -39,7 +39,7 @@ Glucose levels during sports affect performance in many ways: strength, stamina,
 
 **Balancing Act: Finding your blood glucose zone and peak fitness zone**
 
-Caution: Delayed Onset Hypoglycemia can occur typically 6 to 12 hours (sometimes 24 hours) after exhaustive exercise, due to replenishment of muscle glycogen stores and enhances insulin sensitivity. It is possible to prevent this by:
+Caution: Delayed Onset Hypoglycemia can occur 6 to 12 hours (sometimes 24 hours) after exhaustive exercise, due to replenishment of muscle glycogen stores and enhanced insulin sensitivity. It is possible to prevent this by:
 
 * keeping records of your fitness regimen and the effects it has on your body
 * using a CGM or frequent blood testing to monitor your body’s response to activity
