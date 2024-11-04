@@ -1020,21 +1020,40 @@
 <li><strong>Health App</strong> -- Apple allows <abbr title="operating system used by Apple Mobile devices (iPhone, iPod)">iOS</abbr> users to manage HealthKit permissions and view stored HealthKit data through the use of Apple's Health app (standard on iPhones and iPods, but not available on iPads).  </li>
 </ul>
 <h2 id="loops-use-of-healthkit">Loop's use of HealthKit<a class="headerlink" href="#loops-use-of-healthkit" title="Anchor link to this Header on this Page">&para;</a></h2>
-<p>When you first install Loop onto your iPhone, you will be asked to setup Loop's access to the HealthKit database. Loop uses the iPhone's HealthKit to read and write blood glucose, insulin, and carbohydrate data depending on how you initially setup this section. </p>
-<p>At a minimum, you will need these HealthKit settings:</p>
-<p><em>Loop</em></p>
+<div class="admonition info">
+<p class="admonition-title">Loop and HealthKit</p>
+<p>Older versions of Loop, before version 3.0 was released, required the use of <em>Apple</em> Health for data storage older than 3 hours. This is no longer true.</p>
+<p>Loop version 3.x uses internal core storage of 7 days of data independent of <em>Apple</em> Health.</p>
+</div>
+<p>When you first install Loop onto your iPhone, you will be asked to setup Loop's access to the HealthKit database. It is recommended that you enable iPhone's HealthKit for these interfaces</p>
+<p><em>Loop</em> App</p>
 <ul>
-<li>insulin data: read and write</li>
-<li>carbohydrate data: read and write</li>
-<li>blood glucose data: read and write</li>
+<li>write to:<ul>
+<li>Blood Glucose, Carbohydrate and Insulin Delivery</li>
 </ul>
-<p><em>Dexcom</em> App</p>
+</li>
+<li>read from:<ul>
+<li>Blood Glucose, Insulin Delivery and Sleep</li>
+</ul>
+</li>
+</ul>
+<p><em><abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr></em> App</p>
+<p>There are a number of <em><abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr></em> apps. If the option is available, configure them with these permissions:</p>
 <ul>
-<li>blood glucose data: write (if you have this disabled, <em>Loop</em> will still function but will not display blood glucose values older than 3 hours old)</li>
+<li>write to:<ul>
+<li>Blood Glucose</li>
 </ul>
-<p>You can always check your HealthKit settings by opening the Health App, clicking on <em>Sources</em> at the bottom bar, and then clicking on the app's name you are interested in, for example, Loop.</p>
-<p align="center"><img alt="Health App" src="../img/healthapp.jpg" width="350" /></p>
-<p>Potential conflicts can arise when third-party apps are granted access to HealthKit permissions that may interfere with Loop's specified data permissions. For example, carbohydrate data is stored in <em>Nightscout</em> and Spike for some users...you wouldn't want to enable <em>Spike</em> app to write duplicate carbohydrate entries that Loop would be reading. Therefore, you should disable other apps from writing carbohydrate data to HealthKit so that Loop does not read those other entries unintentionally.  Also, good practice, because carbohydrate entries in HealthKit that were created by non-Loop apps will not be able to customize carbohydrate absorption times nor be edited later if needed.</p>
+</li>
+</ul>
+<p>Depending on the app, there may be other items you want to have the app read from <em>Apple</em> Health. That depends on the <abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr>.</p>
+<div class="admonition warning">
+<p class="admonition-title"><em>Dexcom</em> <abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr></p>
+<p>If you use one of the <em>Dexcom</em> Apps, enable it to write Blood Glucose to Apple Health.</p>
+<p>If that is not enabled, <em>Loop</em> will still function but it will not display blood glucose values older than 3 hours old.</p>
+</div>
+<p>You can always check your HealthKit settings by opening the Health App, clicking on <em>Sharing</em> at the bottom bar, scroll down and tap on the row labeled <strong>Apps</strong> and then clicking on the app's name you are interested in, for example, Loop.</p>
+<p>Potential conflicts can arise when third-party apps are granted access to HealthKit permissions that may interfere with Loop's specified data permissions.</p>
+<p>With <abbr title="Latest release with major updates">Loop 3</abbr>, it is no longer the default that the <em>Loop</em> app reads carbohydrate from Apple Health. This prevents a problem that used to happen where third-party food apps were used to record meals. You can customize your <em>Loop</em> app to change this setting, but be aware that carbohydrate entries in HealthKit that were created by non-Loop apps will not be able to customize carbohydrate absorption times nor be edited later if needed. Refer to <a href="https://loopkit.github.io/loopdocs/faqs/apple-health-faqs/#carbohydrates-and-apple-healthkit" target="_blank">LoopDocs: Carbohydrates and Apple HealthKit</a>.</p>
 <h2 id="your-use-of-health-app">Your use of Health App<a class="headerlink" href="#your-use-of-health-app" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>Summaries of your carbohydrates, insulin, and blood glucose results can be found by clicking on the <em>Health Data</em> at the bottom bar, and then selecting either the large <em>Nutrition</em> box (for carbohydrates) or smaller <em>Results</em> line (for insulin deliveries and blood glucose results).</p>
 <p align="center"><img alt="Health Data" src="../img/health_data.jpg" width="350" /></p>
