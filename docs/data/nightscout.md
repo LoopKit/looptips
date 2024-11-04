@@ -28,7 +28,7 @@ The dashed blue line represents the scheduled basal profile (as entered in your 
 
 ### Predicted Blood Glucose
 
-The purple line to the right of the blood glucose readings is Loop&#39;s predicted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal){: target="_blank" } section of *LoopDocs*.
+The purple line to the right of the blood glucose readings is Loop&#39;s forecasted blood glucose curve.  Watching the behavior of that purple line can help you understand why *Loop* is making decisions regarding high or low temporary basal rates. You can read more on that topic in the [Algorithm](https://loopkit.github.io/loopdocs/operation/algorithm/temp-basal){: target="_blank" } section of *LoopDocs*.
 
 
 ### <span translate="no">L&#8203;oop</span> pill

@@ -26,7 +26,7 @@ To use Tidepool&#39;s services, the process is pretty standard:
     * Choose *Tidepool* and log into your  *Tidepool* account
     * As soon as you do this, *Loop* will upload the last 7 days of data to Tidepool
 
-If both you and someone that you provide care for has diabetes, you should set up an account for each person. [Tidepool Docs](https://support.tidepool.org/hc/en-us/articles/360038567672-What-To-Do-If-You-and-Your-Child-Have-Diabetes){: target="_blank" }.
+If both you and someone that you provide care for has diabetes, you should set up an account for each person. Refer to the [Tidepool Docs](https://support.tidepool.org/hc/en-us/articles/360038567672-What-To-Do-If-You-and-Your-Child-Have-Diabetes){: target="_blank" }.
 
 Users can also choose to share data with their endocrinology clinic. You can also choose to share your diabetes data anonymously for the support of type 1 diabetes researchers if desired.
 
@@ -94,7 +94,7 @@ You will see your Loop&#39;s temporary basals, CGM readings, boluses, notes, car
 
 If you hover over an item on the *Tidepool* web display, information is revealed indicating
 
-* automatic (the word Automated is included) or manual (no notation) entry
+* automatic (the word Automated is included) or manual (no notation)
 
     ![automatic bolus](img/tidepool-hover-automatic-bolus.png)
 
@@ -143,8 +143,6 @@ For an easy example, search for the word burrito (doesn’t have to be a hashtag
 
 Hormones can also be easily tracked with notes. *What day-of-the-month and how did I change the basals?* Looking to find patterns in those female hormones? This could be a really slick tracking tool to easily log periods of insulin resistance and what part of the cycle they are occurring at.
 
-### Is the Tidepool Mobile app only for Loop users?
-The *Tidepool Mobile* application uploads diabetes-related HealthKit data regardless of the source. Loop users store their data in HealthKit, so this is a nice fit. Other diabetes devices (e.g., OneDrop BG meter) and apps (e.g., Spike and Dexcom) also store their data in HealthKit. Some people even manually enter their diabetes data into HealthKit. For all those uses, the <span>*Tidepool Mobile* application</span> will upload the HealthKit data. OpenAPS does not store its data in HealthKit, so this will not upload OpenAPS-related data. However, if OpenAPS users are using Spike app, some integration of information through Nightscout is possible. Currently, OpenAPS SMBs, boluses, and carbohydrates can be uploaded to HealthKit for OpenAPS+Spike+Nightscout+iPhone users.  Spike does plan to add temporary basal integration to HealthKit at some time in the future.
-
 ### How can you get the Tidepool Mobile app?
+
 *Tidepool Mobile* is available in the [iOS App Store](https://apps.apple.com/us/app/tidepool-mobile/id1026395200){: target="_blank" } on your Loop device.
