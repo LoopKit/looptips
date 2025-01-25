@@ -1,6 +1,6 @@
 # Nightscout {: translate="no" }
 
-[Nightscout](https://nightscout.github.io/){: target="_blank" } (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view Loop&#39;s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/){: target="_blank" } is low cost and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
+[Nightscout](https://nightscout.github.io/){: target="_blank" } (NS) is a cornerstone of the DIY type 1 community. It is an excellent tool to remotely view Loop&#39;s actions and access insulin and blood glucose data. It allows for easy remote monitoring of *Loop* activities, troubleshooting of *Loop* errors, history of CGM, carbs, boluses, & temporary basal rates, and reports to analyze data trends and patterns. There is a *Nightscout* app in your iPhone App Store, or you can use a web browser to view the data.  [Setting up Nightscout for Loop](https://loopkit.github.io/loopdocs/nightscout/new_user/){: target="_blank" } is low-cost and fairly quick. Once set up, the site can be accessed by anyone that you share your unique *Nightscout* URL with.
 
 ## Nightscout Display
 *Nightscout* is highly recommended for *Loop* users, especially those using *Loop* as caregivers. *Nightscout* displays are often the easiest way to troubleshoot *Loop* settings if you are having problems and seeking input from others.  Below is some discussion about the general *Nightscout* display, as well as some <span translate="no">Loop</span>-specific display information.
@@ -41,7 +41,7 @@ The SAGE, BAGE, and CAGE pills are for sensor age, pump battery age, and cannula
 
 ## <span translate="no">N&#8203;ightscout </span> Reports
 
-You can access the Reports tab from within your NS settings (the three horizontal lines in the upper right corner of your NS site).  There are several types of reports which may be useful to you and/or your health care provider. The report types are listed in tabs at the top of the Reports section, and you can also select the range of dates you'd like any report to cover.
+You can access the Reports tab from within your NS settings (the three horizontal lines in the upper right corner of your NS site).  There are several types of reports which may be useful to you and/or your healthcare provider. The report types are listed in tabs at the top of the Reports section, and you can also select the range of dates you'd like any report to cover.
 
 
 ![Reports](img/reports.png){width="700"}
@@ -81,7 +81,7 @@ For the graph above, for example, the blood glucose control around 4-6 am is ver
 
 ### Treatments
 
-The treatments report will show a listing of all the temporary basal rates set by *Loop*, as well as boluses, carbohydrates, site changes, and any other "treatments" which have been entered into NS.
+The treatments report will show a listing of all the temporary basal rates set by *Loop*, as well as boluses, carbohydrates, site changes, and any other "treatments" that have been entered into NS.
 
 ![Treatments](img/treatments.png){width="=700"}
 {align="center"}
