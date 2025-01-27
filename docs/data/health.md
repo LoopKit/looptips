@@ -18,7 +18,7 @@ There's often confusion over the terminology surrounding Apple's health data sto
 
     Loop version 3.x uses internal core storage of 7 days of data independent of *Apple* Health.
 
-When you first install Loop onto your iPhone, you will be asked to setup Loop's access to the HealthKit database. It is recommended that you enable iPhone's HealthKit for these interfaces
+When you first install Loop onto your iPhone, you will be asked to setup  Loop&#39;s access to the HealthKit database. It is recommended that you enable iPhone's HealthKit for these interfaces
 
 *Loop* App
 
@@ -43,7 +43,7 @@ Depending on the app, there may be other items you want to have the app read fro
 
 You can always check your HealthKit settings by opening the Health App, clicking on *Sharing* at the bottom bar, scroll down and tap on the row labeled **Apps** and then clicking on the app's name you are interested in, for example, Loop.
 
-Potential conflicts can arise when third-party apps are granted access to HealthKit permissions that may interfere with Loop's specified data permissions.
+Potential conflicts can arise when third-party apps are granted access to HealthKit permissions that may interfere with  Loop&#39;s specified data permissions.
 
 With Loop 3, it is no longer the default that the *Loop* app reads carbohydrate from Apple Health. This prevents a problem that used to happen where third-party food apps were used to record meals. You can customize your *Loop* app to change this setting, but be aware that carbohydrate entries in HealthKit that were created by non-Loop apps will not be able to customize carbohydrate absorption times nor be edited later if needed. Refer to [LoopDocs: Carbohydrates and Apple HealthKit](https://loopkit.github.io/loopdocs/faqs/apple-health-faqs/#carbohydrates-and-apple-healthkit){: target="_blank"}.
 

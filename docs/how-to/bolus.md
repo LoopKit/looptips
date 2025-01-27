@@ -12,7 +12,7 @@ The transition to Loop use may be confusing at first for these meals since you c
 
 ### Example long absorption time bolus
 
-For an example of Loop's bolus adjustments using carbohydrate absorption time, let's take a look at an example meal.  This is an example of a long absorption complex carbohydrate meal. This is a mushroom (arborio) risotto dish with heavy cream and cheese ingredients. While some white rice can be fairly quick acting, after several times eating this dish, the family has noticed that the meal tends to have a longer duration of impact on blood glucose. Using a "taco" icon (3 hours absorption) was causing slight low blood glucose soon after eating the meal. Therefore, they have been using the pizza icon to enter the meal's carbohydrate absorption time.
+For an example of  Loop&#39;s bolus adjustments using carbohydrate absorption time, let's take a look at an example meal.  This is an example of a long absorption complex carbohydrate meal. This is a mushroom (arborio) risotto dish with heavy cream and cheese ingredients. While some white rice can be fairly quick acting, after several times eating this dish, the family has noticed that the meal tends to have a longer duration of impact on blood glucose. Using a "taco" icon (3 hours absorption) was causing slight low blood glucose soon after eating the meal. Therefore, they have been using the pizza icon to enter the meal's carbohydrate absorption time.
 
 ![Pizza Bolus](img/pizza_bolus.jpg){width="400"}
 {align="center"}

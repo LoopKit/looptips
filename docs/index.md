@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to LoopTips!  The purpose of these pages is to help you make the most of your DIY closed-looping experience.  In particular, these pages support users of the [Loop app](https://loopkit.github.io/loopdocs/){: target="_blank" }.  These documents have been a long time in the making and as always, your feedback is welcome.  If you have comments, please feel free to provide input at the [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup){: target="_blank" }, [Loop and Learn Facebook Group](https://www.facebook.com/groups/LoopandLearn){: target="_blank" } or in [Loop's Zulipchat](https://loop.zulipchat.com/#narrow/channel/270362-documentation/topic/LoopTips){: target="_blank" }.
+Welcome to LoopTips!  The purpose of these pages is to help you make the most of your DIY closed-looping experience.  In particular, these pages support users of the [Loop app](https://loopkit.github.io/loopdocs/){: target="_blank" }.  These documents have been a long time in the making and as always, your feedback is welcome.  If you have comments, please feel free to provide input at the [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup){: target="_blank" }, [Loop and Learn Facebook Group](https://www.facebook.com/groups/LoopandLearn){: target="_blank" } or in [ Loop&#39;s Zulipchat](https://loop.zulipchat.com/#narrow/channel/270362-documentation/topic/LoopTips){: target="_blank" }.
 
 LoopTips is a companion to LoopDocs.   LoopTips does not cover the build or installation of Loop app.  If you have problems with building your Loop app or troubleshooting the technical aspects of Loop operations, please head over to [LoopDocs](https://loopkit.github.io/loopdocs/){: target="_blank" } for help.  The LoopTips pages are specifically related to understanding how your loop is recommending the actions being taken, and how you can improve your blood glucose outcomes on Loop. Some of the pages that originated in LoopTips are now included in LoopDocs. Don't be surprised when you find links between the sites. (The color bar is deliberately a different shade to help you know where you are.)
 
@@ -25,5 +25,5 @@ As exciting as this sounds...we should first get the caveats out of the way.  Th
 
 ## Disclaimer
 
-While it may seem obvious, please consult with your health care professional regarding your diabetes management.  The suggestions and discussion in LoopTips are not a one-size-fits-all nor intended to replace the input from your doctor.  You take full responsibility for building and running this system and do so at your own risk.
+While it may seem obvious, please consult with your healthcare professional regarding your diabetes management.  The suggestions and discussion in LoopTips are not a one-size-fits-all nor intended to replace the input from your doctor.  You take full responsibility for building and running this system and do so at your own risk.
 
