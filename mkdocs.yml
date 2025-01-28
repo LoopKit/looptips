@@ -25,6 +25,9 @@ plugins:
   - htmlproofer:
       enabled: !ENV [CHECK_BROKEN_LINKS, False]
       raise_error_after_finish: true
+  - redirects:
+      redirect_maps:
+    #            'how-to/overrides.md': 'how-to/presets.md'
 
 use_directory_urls: !ENV [CHECK_BROKEN_LINKS, True]
 
