@@ -1,86 +1,83 @@
 site_name: LoopTips
 
-
 theme:
-    name: material
-    language: en
-    features:
-        - navigation.tabs
-        - navigation.tabs.sticky
-        - navigation.tracking
-        - navigation.top
-        - search.suggest
-        - search.highlight
-        - content.code.annotate
-        - content.tooltips
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tooltips
 #    logo: loop-logo.png
 #    favicon: loop-logo.png
 
 extra_css:
-#    - css/admonitions.css
-    - css/extra.css
-    - css/primary-color.css
+  #    - css/admonitions.css
+  - css/extra.css
+  - css/primary-color.css
 
 plugins:
-    - search
-    - htmlproofer:
-        enabled: !ENV [CHECK_BROKEN_LINKS, False]
-        raise_error_after_finish: true
+  - search
+  - htmlproofer:
+      enabled: !ENV [CHECK_BROKEN_LINKS, False]
+      raise_error_after_finish: true
 
 use_directory_urls: !ENV [CHECK_BROKEN_LINKS, True]
 
 markdown_extensions:
-    - meta
-    - abbr
-    - admonition
-    - attr_list
-    - pymdownx.arithmatex:
-          generic: true
-    - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
-    - pymdownx.highlight
-    - pymdownx.inlinehilite
-    - pymdownx.superfences
-    - pymdownx.snippets:
-        auto_append:
-            - includes/tooltip-list.txt
-    - toc:
-        permalink: true
-        permalink_title: Anchor link to this Header on this Page
-        toc_depth: 3
-        title: Headers on this Page
+  - meta
+  - abbr
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      auto_append:
+        - includes/tooltip-list.txt
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this Header on this Page
+      toc_depth: 3
+      title: Headers on this Page
 
 extra_javascript:
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 validation:
-    anchors: warn # Check for the existence of anchors present in links
+  anchors: warn # Check for the existence of anchors present in links
 
 nav:
-- Home: 'index.md'
-- Settings:
-    - 'Why Settings Matter': 'settings/overview.md'
-    - 'Initial Settings': 'settings/settings.md'
-    - 'Adjust Your Settings': 'settings/adjust.md'
-- Data Tools:
-    - 'Overview': 'data/overview.md'
-    - 'Health': 'data/health.md'
-    - '<span translate="no">Nightscout</span>': 'data/nightscout.md'
-    - '<span translate="no">Tidepool</span>': 'data/tidepool.md'
-    - 'Perceptus': 'data/glucodyn.md'
-- How To:
-    - 'Think Like a Loop': 'how-to/think-like-loop.md'
-    - 'CGM habits': 'how-to/cgm.md'
-    - 'Use morning IOB': 'how-to/iob.md'
-    - 'Override Targets': 'how-to/overrides.md'
-    - 'Low Treatments': 'how-to/low-treat.md'
-    - 'Shower & Swimming': 'how-to/disconnect.md'
-    - 'Exercise': 'how-to/exercise.md'
-    - 'Extended Bolus': 'how-to/bolus.md'
-    - 'Site Failure': 'how-to/site-fail.md'
-    - 'Stuck on High': 'how-to/high-bg.md'
-    - 'Talk with Endo': 'how-to/endo.md'
-- Translation: 'translate.md'
-
-
+  - Home: "index.md"
+  - Settings:
+      - "Why Settings Matter": "settings/overview.md"
+      - "Initial Settings": "settings/settings.md"
+      - "Adjust Your Settings": "settings/adjust.md"
+  - Data Tools:
+      - "Overview": "data/overview.md"
+      - "Health": "data/health.md"
+      - '<span translate="no">Nightscout</span>': "data/nightscout.md"
+      - '<span translate="no">Tidepool</span>': "data/tidepool.md"
+      - "Perceptus": "data/glucodyn.md"
+  - How To:
+      - "Think Like a Loop": "how-to/think-like-loop.md"
+      - "CGM habits": "how-to/cgm.md"
+      - "Use morning IOB": "how-to/iob.md"
+      - "Override Targets": "how-to/overrides.md"
+      - "Low Treatments": "how-to/low-treat.md"
+      - "Shower & Swimming": "how-to/disconnect.md"
+      - "Exercise": "how-to/exercise.md"
+      - "Extended Bolus": "how-to/bolus.md"
+      - "Site Failure": "how-to/site-fail.md"
+      - "Stuck on High": "how-to/high-bg.md"
+      - "Talk with Endo": "how-to/endo.md"
+  - Translation: "translate.md"
