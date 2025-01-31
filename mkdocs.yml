@@ -27,7 +27,7 @@ plugins:
       raise_error_after_finish: true
   - redirects:
       redirect_maps:
-    #            'how-to/overrides.md': 'how-to/presets.md'
+        "how-to/overrides.md": "how-to/presets.md"
 
 use_directory_urls: !ENV [CHECK_BROKEN_LINKS, True]
 
@@ -75,7 +75,7 @@ nav:
       - "Think Like a Loop": "how-to/think-like-loop.md"
       - "CGM habits": "how-to/cgm.md"
       - "Use morning IOB": "how-to/iob.md"
-      - "Override Targets": "how-to/overrides.md"
+      - "Presets": "how-to/presets.md"
       - "Low Treatments": "how-to/low-treat.md"
       - "Shower & Swimming": "how-to/disconnect.md"
       - "Exercise": "how-to/exercise.md"
