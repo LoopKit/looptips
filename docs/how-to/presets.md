@@ -1,9 +1,6 @@
 # Presets
 
 Your Loop has a built-in preset you can activate: *`Pre-meal`*.   
-You can also define custom presets, like a *Workout* preset.
-
-When activated, a preset will "override" or take the place of your usual correction range, affecting Loop's insulin delivery decisions.
 
 ## Configuring the Pre-Meal Preset
 
@@ -31,17 +28,3 @@ The original intent of the pre-meal preset was to help give a gentle, easy pre-b
 * During stressful events where adrenaline might be causing increased blood glucose
 * During exercise that may tend to increase blood glucose
 * During illness that is causing high blood glucose
-
-
-## Creating a Custom Preset
-
-You can also [create a custom override preset](https://loopkit.github.io/loopdocs/operation/features/overrides/#create-an-override-preset){: target="_blank" } (like `Workout`, for instance) by pressing the blue heart pulse icon :material-heart-pulse:.
-When activated, your `Workout` Preset could set a target greater than your usual correction range for a specific duration to help in situations where *Loop* needs to be less aggressive with insulin delivery
-The most common use of a *Workout* Preset is to set it in advance and during exercise to help minimize IOB going into a workout. 
-There are other times when it can be helpful, such as:
-
-- Helping to recover from low blood glucose treatment
-- Helping after workouts when still experiencing increased insulin sensitivity
-- Helping during illness which tends to lower blood glucose or increase insulin sensitivity
-
-The  [Exercise](exercise.md) page of these tips provides more information about the timing and use of a Workout Preset before, during, and after exercise.
