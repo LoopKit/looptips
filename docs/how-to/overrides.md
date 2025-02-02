@@ -2,6 +2,10 @@
 
 Your Loop has a built-in [Override](https://loopkit.github.io/loopdocs/operation/features/overrides/) preset you can activate: *`Pre-meal`*.   
 
+!!! note "Pre-Meal Preset = Pre-Meal Override preset"
+    
+    The *Loop* app uses the term **Pre-Meal Preset** to denote what the documentation refers to as the **Pre-Meal Override** preset.  
+    They both denote the same thing.
 ## Configuring the Pre-Meal Override
 
 You can set the value for this *Pre-Meal* Override preset from the Correction Range area of *Loop* settings. Generally speaking, the *Pre-Meal* is set to value(s) lower than your correction range. 
