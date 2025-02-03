@@ -1,4 +1,5 @@
 site_name: LoopTips
+site_url: https://loopkit.github.io/looptips/
 
 theme:
   name: material
@@ -72,7 +73,7 @@ nav:
       - "Think Like a Loop": "how-to/think-like-loop.md"
       - "CGM habits": "how-to/cgm.md"
       - "Use morning IOB": "how-to/iob.md"
-      - "Overrides": "how-to/overrides.md"
+      - "Override Targets": "how-to/overrides.md"
       - "Low Treatments": "how-to/low-treat.md"
       - "Shower & Swimming": "how-to/disconnect.md"
       - "Exercise": "how-to/exercise.md"
