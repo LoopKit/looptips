@@ -1,3 +1,6 @@
+
+# Overrides
+
 !!! info "`Override` (in the documentation) = `Preset` (in the application)"
     The Loop application and its documentation sometimes refer to the same concept in different ways:
     
@@ -8,8 +11,6 @@
     Pre-Meal Target | $$ = $$  | Pre-Meal Preset
         
     For example, the *Loop* application uses the term **Pre-Meal Preset** to denote what the documentation refers to as the **Pre-Meal Override** (or **Pre-Meal Target**). They represent the same concept.
-
-# Overrides
 
 Your Loop has a built-in [Override](https://loopkit.github.io/loopdocs/operation/features/overrides/) preset you can activate: *`Pre-meal`*.   
 ## Configuring the Pre-Meal Override
