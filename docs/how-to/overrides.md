@@ -1,5 +1,5 @@
 
-# Overrides
+# Override Targets
 
 !!! info "`Override` (in the documentation) = `Preset` (in the application)"
     The Loop application and its documentation sometimes refer to the same concept in different ways:
