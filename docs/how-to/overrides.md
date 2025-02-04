@@ -3,9 +3,9 @@
     
     In Documentation  |       | In Application
     ---            | ---   | ---
-     `Override`        | $$ = $$ | `Preset`
-    `Override Preset` | $$ = $$  | `Custom Preset`
-    `Pre-Meal Target` | $$ = $$  | `Pre-Meal Preset`
+     Override        | $$ = $$ | Preset
+    Override Preset | $$ = $$  | Custom Preset
+    Pre-Meal Target | $$ = $$  | Pre-Meal Preset
         
     For example, the *Loop* application uses the term **Pre-Meal Preset** to denote what the documentation refers to as the **Pre-Meal Override** (or **Pre-Meal Target**). They represent the same concept.
 
