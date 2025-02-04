@@ -1,11 +1,17 @@
+!!! info "`Override` (in the documentation) = `Preset` (in the application)"
+    The Loop application and its documentation sometimes refer to the same concept in different ways:
+    
+    In Documentation  |       | In Application
+    ---            | ---   | ---
+     `Override`        | $$ = $$ | `Preset`
+    `Override Preset` | $$ = $$  | `Custom Preset`
+    `Pre-Meal Target` | $$ = $$  | `Pre-Meal Preset`
+        
+    For example, the *Loop* application uses the term **Pre-Meal Preset** to denote what the documentation refers to as the **Pre-Meal Override** (or **Pre-Meal Target**). They represent the same concept.
+
 # Overrides
 
 Your Loop has a built-in [Override](https://loopkit.github.io/loopdocs/operation/features/overrides/) preset you can activate: *`Pre-meal`*.   
-
-!!! note "Pre-Meal Preset = Pre-Meal Override preset"
-    
-    The *Loop* app uses the term **Pre-Meal Preset** to denote what the documentation refers to as the **Pre-Meal Override** preset.  
-    They both denote the same thing.
 ## Configuring the Pre-Meal Override
 
 You can set the value for this *Pre-Meal* Override preset from the Correction Range area of *Loop* settings. Generally speaking, the *Pre-Meal* is set to value(s) lower than your correction range. 
