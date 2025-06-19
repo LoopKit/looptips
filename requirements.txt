@@ -92,7 +92,7 @@ soupsieve==2.6
     # via beautifulsoup4
 typing-extensions==4.12.2
     # via beautifulsoup4
-urllib3==2.3.0
+urllib3==2.5.0
     # via requests
 watchdog==6.0.0
     # via mkdocs
