@@ -22,6 +22,40 @@ extra_css:
   - css/extra.css
   - css/primary-color.css
 
+markdown_extensions:
+    - meta
+    - abbr
+    - admonition
+    - attr_list
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji 
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+        custom_fences:
+          - name:  mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.snippets:
+        auto_append:
+            - includes/tooltip-list.txt
+    - toc:
+        permalink: true
+        permalink_title: Anchor link to this Header on this Page
+        toc_depth: 3
+        title: Headers on this Page
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 plugins:
   - open-in-new-tab
   - search
@@ -30,31 +64,6 @@ plugins:
       raise_error_after_finish: true
 
 use_directory_urls: !ENV [CHECK_BROKEN_LINKS, True]
-
-markdown_extensions:
-  - meta
-  - abbr
-  - admonition
-  - attr_list
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.snippets:
-      auto_append:
-        - includes/tooltip-list.txt
-  - toc:
-      permalink: true
-      permalink_title: Anchor link to this Header on this Page
-      toc_depth: 3
-      title: Headers on this Page
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 validation:
   anchors: warn # Check for the existence of anchors present in links
