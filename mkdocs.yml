@@ -5,6 +5,7 @@ theme:
   name: material
   language: en
   features:
+    - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
@@ -22,6 +23,7 @@ extra_css:
   - css/primary-color.css
 
 plugins:
+  - open-in-new-tab
   - search
   - htmlproofer:
       enabled: !ENV [CHECK_BROKEN_LINKS, False]
