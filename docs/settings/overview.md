@@ -12,42 +12,99 @@ Typically, most people with type 1 diabetes consult with their endocrinologist t
 
 ## Why settings matter
 
-Loop is primarily a set of math equations called an algorithm.  The recommendations and actions that Loop takes are based on that algorithm, and the settings you enter in your Loop app are the basis for that math.
+Loop is primarily a set of math equations called an algorithm. The recommendations and actions that Loop takes are based on that algorithm, and the settings you enter in your Loop app are the basis for that math.
 
-Let's start by thinking about basal rates.  A well-adjusted basal schedule is designed to keep your blood glucose steady throughout the day, everything else being equal. If you were to not eat, not exercise, and basically keep a mellow lifestyle...basals should keep your blood glucose steady.  
+### The Foundation: Basal Rates
 
-That is how Loop's math starts, and it's an important point to remember as you use and learn your Loop app.  Loop's math is based on the assumption that the basal schedule you have provided in your settings are capable of keeping your blood glucose steady in the absence of other stressors.  So as your blood glucose goes higher than your correction range for an unusual short-term influence like stress or unannounced carbs, you've been accustomed to delivering a "correction bolus" to get back to range. Or if blood glucose goes below your correction range, you may need to eat recovery carbohydrates.
+Let's start by thinking about basal rates. A well-adjusted basal schedule is designed to keep your blood glucose (BG) steady throughout the day, everything else being equal. If you were to not eat, not exercise, and basically keep a mellow lifestyle...basals should keep your BG steady.
 
-With all the excitement about automated insulin delivery, some people mistakenly assume that the user's settings don't matter anymore....that **_everything_** is automated. However, settings do still matter as they provide the basis for Loop's math.  Diabetes is not a static math equation. Loop does not adjust your settings for you, that responsibility still falls to the Loop user when needed.
+### Loop's Core Assumption
 
-Let's give some examples to help.  When you calculate a meal bolus, your math probably looks similar to this:
+That is how Loop's math starts, and it's an important point to remember as you use and learn your Loop app. **Loop's math is based on the assumption that the basal schedule you have provided in your settings are capable of keeping your BG steady in the absence of other stressors.**
+
+So as your BG goes higher than your correction range for an unusual short-term influence like stress or unannounced carbs, you've been accustomed to delivering a "correction bolus" to get back to range. Or if BG goes below your correction range, you may need to eat recovery carbohydrates.
+
+### Settings Still Matter with Automation
+
+With all the excitement about automated insulin delivery, some people mistakenly assume that the user's settings don't matter anymore....that **_everything_** is automated.
+
+**This is not true.** Settings do still matter as they provide the basis for Loop's math. Diabetes is not a static math equation. **Loop does not adjust your settings for you** - that responsibility still falls to the Loop user when needed.
+
+### Factors That Affect Blood Glucose
+
+When you calculate a meal bolus, your math probably looks similar to this:
 
 ![Bolus Equation](img/bolus-equation.jpg){width="450"}
 {align="center"}
 
-But many times you are probably adjusting that math based on any number of "factors" that you are aware could be affecting your blood glucose. [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) put together this great list of factors that affect blood glucose, and therefore could also affect how you'd adjust your insulin delivery from what they otherwise would normally be.
+But many times you are probably adjusting that math based on any number of "factors" that you are aware could be affecting your BG. [Diatribe](https://diabetesresearchconnection.org/42-factors-affect-blood-glucose/) identified 42+ factors that affect blood glucose, and therefore could also affect how you'd adjust your insulin delivery.
 
 ![BG Factors](img/bg-factors.png){width="450"}
 {align="center"}
 
-Some of those factors you are already used to making allowances for, such as:
+### Common Factors You Already Manage
 
-* Pizza boluses...You probably are accustomed to needing an extended bolus and/or higher temporary basal rate to help with the late blood glucose spike common after the initial bolus starts to wear off.  That pizza takes a long time to digest thanks to those slow-acting fats.  
-* Medications...How about that time that you had to take steroids for an achy joint?  Those steroids probably resulted in a dramatic overall increase in insulin needs for several days, and you had to set aggressive temporary basal increases or other settings adjustments.
-* Hormones...monthly hormone cycles have many women adjusting their basal rates and/or insulin sensitivity schedules for a week or so each month.
-* Exercise...always a tough one because some exercise may make your blood glucose rise (lifting weights) and other exercise may make your blood glucose drop (running).  Through repetition, most people have learned how to adjust for exercise by using temporary basal rates or timing of meals/boluses.
+Some of those factors you are already used to making allowances for:
 
-The degree to which *Loop* can deal with those stresses/factors largely depends on the duration of the "factor" itself and how well we can communicate to *Loop* that those factors are at play.  For things we know are coming, we can tell Loop in advance, and *Loop* has ways of dealing with them mathematically.  In the pizza example, Loop lets us mark the meal as long, slow digestion, and therefore better react to a potential late blood glucose rise.  For exercise, we can use temporary override blood glucose targets before/after exercise to help Loop administer less insulin for awhile.
+* **Pizza boluses** - You probably are accustomed to needing an extended bolus and/or higher temporary basal rate to help with the late BG spike common after the initial bolus starts to wear off. That pizza takes a long time to digest thanks to those slow-acting fats.
 
-If, however, your insulin needs are impacted by something more long-term such as hormone cycles, medications, or illness then sometimes your <span translate="no"> Loop </span> may not be able to consistently hold you at your desired blood glucose.  You may end up holding steady at a higher/lower blood glucose than you'd prefer.  This is because Loop's math is still using the inputs that were from before you got sick/stressed/hormone'd (new word).  Then the decision becomes "Do you adjust your settings now or just wait it out until the stressor goes away?" 
+* **Medications** - How about that time that you had to take steroids for an achy joint? Those steroids probably resulted in a dramatic overall increase in insulin needs for several days, and you had to set aggressive temporary basal increases or other settings adjustments.
+
+* **Hormones** - Monthly hormone cycles have many women adjusting their basal rates and/or insulin sensitivity schedules for a week or so each month.
+
+* **Exercise** - Always a tough one because some exercise may make your BG rise (lifting weights) and other exercise may make your BG drop (running). Through repetition, most people have learned how to adjust for exercise by using temporary basal rates or timing of meals/boluses.
+
+### How Loop Handles Different Duration Factors
+
+The degree to which *Loop* can deal with those stresses/factors largely depends on:
+
+1. **Duration of the factor** itself
+2. **How well we can communicate to Loop** that those factors are at play
+
+**Short-term factors** - For things we know are coming, we can tell Loop in advance, and *Loop* has ways of dealing with them mathematically:
+
+- Pizza example: Loop lets us mark the meal as long, slow digestion, and therefore better react to a potential late BG rise
+- Exercise: We can use [override targets](../how-to/overrides.md) before/after exercise to help Loop administer less insulin for awhile
+
+**Long-term factors** - If your insulin needs are impacted by something more long-term such as hormone cycles, medications, or illness, then sometimes *Loop* may not be able to consistently hold you at your desired BG. You may end up holding steady at a higher/lower BG than you'd prefer.
+
+This is because Loop's math is still using the inputs that were from before you got sick/stressed/hormone'd (new word). Then the decision becomes "Do you adjust your settings now or just wait it out until the stressor goes away?" 
 
 ## When do you need to change settings?
 
-If the inputs to those math equations (i.e., your settings) are not accurate, your blood glucose control results may also not be optimal.
+If the inputs to those math equations (i.e., your settings) are not accurate, your BG control results may also not be optimal.
 
-Your basic insulin settings are what keeps your blood glucose steady *without stressors* present.  For much of the time, the stressors in type 1 are short-lived and temporary (we just ride them out)...carbohydrate count is a little off, math test in algebra class, public speaking engagement, etc.  Loop does well helping with the short-term stressors.  They don't represent a prolonged need to change settings and the blood glucose impacts are short-lived as Loop corrects for them.
+### Short-Term Stressors: Use Loop's Tools
 
-However, the longer-term stressors are often helped by settings adjustments.  Examples of longer term stressors are medications, illness, hormones, travel, or altitude.   By letting Loop know that the status quo has changed (more/less insulin is needed overall) will help BGs get and stay in range.  If you have told Loop that your insulin need is 1 unit/hour, but in reality, you're needing 1.3 units/hour because you've traveled to a colder place and will be sedentary for days...you will likely find yourself steady but higher than your target range while Looping.  The high temporary basals that Loop will be providing in an attempt to bring you back to target will simply be going to fill the lack of adequate basal scheduled.  If you update your basal schedule to reflect 1.3 units/hour of basal needs, Loop would be better positioned to provide needed insulin delivery to keep you in the target range.
+Your basic insulin settings are what keeps your BG steady *without stressors* present. For much of the time, the stressors in type 1 are short-lived and temporary (we just ride them out):
+
+- Carbohydrate count is a little off
+- Math test in algebra class
+- Public speaking engagement
+
+**Loop does well helping with short-term stressors.** They don't represent a prolonged need to change settings and the BG impacts are short-lived as Loop corrects for them.
+
+### Long-Term Stressors: Adjust Settings
+
+However, **longer-term stressors are often helped by settings adjustments.** Examples include:
+
+- Medications
+- Illness
+- Hormones
+- Travel
+- Altitude
+
+### Example: When to Adjust Basal Settings
+
+By letting Loop know that the status quo has changed (more/less insulin is needed overall) will help BGs get and stay in range.
+
+**Scenario:** If you have told Loop that your insulin need is 1 unit/hour, but in reality, you're needing 1.3 units/hour because you've traveled to a colder place and will be sedentary for days...
+
+- **What happens**: You will likely find yourself steady but higher than your target range while Looping
+- **Why**: The high temporary basals that Loop will be providing in an attempt to bring you back to target will simply be going to fill the lack of adequate basal scheduled
+- **Solution**: If you update your basal schedule to reflect 1.3 units/hour of basal needs, Loop would be better positioned to provide needed insulin delivery to keep you in the target range
+
+See [Adjust Your Settings](adjust.md) for guidance on making these changes.
 
 ## Automated settings adjustments
 

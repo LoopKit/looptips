@@ -67,11 +67,20 @@ That predicted BG curve has four contributions to its shape:
 
 *Loop* models the inputs from those four contributions to form the final shape of the predicted BG curve. Once that curve is generated, *Loop* looks at where the entire curve will be for the next 6 hours relative to your suspend threshold and correction range, and take one of four actions:
 
+### Loop's Four Actions Summary
+
+| Predicted BG Scenario | Loop Action | Reasoning |
+|----------------------|-------------|-----------|
+| **Any part** below suspend threshold | **Suspend** (0 u/hr) | Safety first - prevent low BG |
+| **All** within range OR eventual BG above range but **dips below** correction range | **Scheduled basal** | Wait-and-see: maintain insulin but don't risk going low |
+| **All** above correction range | **Increased basal** | Bring BG down to target |
+| **Eventual BG** below correction range | **Decreased basal** | Prevent predicted low BG |
+
+**Important:** The remaining three actions all assume NONE of your predicted BG curve is below suspend threshold, otherwise you'd be in Action 1 (suspend).
+
 **Action 1: Set a 0 u/hr basal rate (aka suspend basals)**
 
 *Loop* will do this anytime your predicted BG curve has any portion that goes below your suspend threshold.
-
-<u>And the remaining three actions all assume NONE of your predicted BG curve is below suspend threshold, otherwise you'd be in Action 1.</u>
 
 **Action 2: Set scheduled basal rate**
 

@@ -1,9 +1,42 @@
 # Exercise
 
-Hands-down, exercise is the most commonly discussed topic of long-term Loop users. Exercise is highly specific to an individual and its impact on blood sugar is not always equal. For example, many people find anaerobic exercise such as weight lifting will raise blood glucose, and aerobic exercise such as running will lower blood glucose. The degree to which impacts are observed also depends on the insulin and carbohydrates on board going into the exercise. Blood glucose response in competition can be quite different than a regular training session due to the added adrenaline. Exercising with T1D does require extra preparation, but with preparation, things should go much easier.
+Hands-down, exercise is the most commonly discussed topic of long-term Loop users. Exercise is highly specific to an individual and its impact on blood sugar is not always equal. For example, many people find anaerobic exercise such as weight lifting will raise blood glucose (BG), and aerobic exercise such as running will lower BG. The degree to which impacts are observed also depends on the insulin and carbohydrates on board going into the exercise. Blood glucose response in competition can be quite different than a regular training session due to the added adrenaline. Exercising with T1D does require extra preparation, but with preparation, things should go much easier.
 
-## Exercise Basics
-A 2013 JDRF survey found that 36 percent of T1D patients, caregivers and healthcare professionals view exercise as a challenge and would like to learn more about exercising safely. The JDRF PEAK (T!D Performance in Exercise and Knowledge) education curriculum explores the environmental, dietary, physiological and psychosocial elements that impact physical activity with T1D ([source](https://www.jdrf.org/t1d-resources/peak/){: target="_blank" }). As part of JDRF's PEAK resources, they have published a helpful [article about exercise and T1D for athletes](https://www.jdrf.org/t1d-resources/living-with-t1d/exercise/){: target="_blank" }. Below is an excerpt from that article.  There are a couple key considerations (highlighted in orange) that be different in Loop use.  Those considerations are discussed further below.
+## Loop-Specific Exercise Tips (Start Here!)
+
+### Key Strategy: Use Override Targets Ahead of Time
+
+**Reduce insulin on board (IOB) before exercise** by setting an override with a higher target:
+
+- **When**: Start 1-2 hours BEFORE exercise (not when you start)
+- **Target increase**: Usually 50 mg/dL higher than normal (adjust based on your needs)
+- **Why**: Loop needs time to decrease basal insulin before aerobic exercise begins
+
+**Example**: If your normal target is 100 mg/dL, set an exercise override to 150 mg/dL.
+
+### After Exercise: Continue the Override
+
+**Insulin sensitivity stays elevated for up to 24 hours** after exercise:
+
+- Keep your override active for hours after you finish
+- Duration depends on exercise intensity and length
+- Prevents post-exercise lows from increased insulin sensitivity
+
+See the [Override Targets](overrides.md) page for detailed instructions on setting up and using overrides.
+
+### Pre-Exercise Meal Timing
+
+- Minimize heavy carb meals in the 3 hours before intense exercise
+- Large boluses create high IOB that increases low risk during exercise
+- Consider partial boluses and slower, lower-carb snacks if eating beforehand
+- Loop automatically recommends smaller boluses when override targets are active
+
+## Exercise Basics and Background
+
+For more comprehensive background on exercise and Type 1 diabetes, JDRF's PEAK (T1D Performance in Exercise and Knowledge) education curriculum provides excellent resources ([source](https://www.jdrf.org/t1d-resources/peak/){: target="_blank" }), including this [article about exercise and T1D for athletes](https://www.jdrf.org/t1d-resources/living-with-t1d/exercise/){: target="_blank" }).
+
+<details>
+<summary>Click to expand: Detailed JDRF Exercise Guidelines</summary>
 
 ***********************
 **With great exercise, comes great responsibility**
@@ -54,9 +87,13 @@ Similar recording and monitoring tactics can be used to prevent hyperglycemia (b
 * hydrating
 * administering rapid-acting insulin (only under certain conditions)
 
-## Loop Considerations
-With all of that background laid out, your Loop can help with some of the techniques described above. Highlighted in <font color=orange>orange</font> above are parts of those recommendations and considerations that we should explore a little more for Loop in particular:
+</details>
 
-<font color=orange>Risk for hypoglycemia can be reduced by avoiding too much insulin on board (IOB) during and after exercise.</font> -- In Loop use, we can accomplish this through setting a workout target far enough ahead of the exercise to help decrease basal insulin on board going into exercise. Typically this means setting a workout target at least 1, if not 2, hours prior to exercise. Setting a workout target just as you begin a workout will not allow sufficient time to decrease IOB ahead of an aerobic workout. Loop workout targets are usually 50 mg/dL higher than your usual correction target, although that is a guide. Practice and observation of your typical exercise needs will help refine your optimal settings. And while not Loop specific, minimize heavy carb meals in the 3 hours before intense exercise that would require large boluses. If eating during that time, consider partial boluses and slower, lower carbohydrate snacks. If bolusing while workout targets are enacted, Loop will automatically recommend a smaller bolus than you would get with your normal correction target.
+## Summary
 
-<font color=orange>After most exercise, insulin sensitivity is higher for up to 24 hours. Carbohydrates needed to replace liver glycogen levels must be balanced with decreased insulin levels.</font>-- For Loop use, this period of increased insulin sensitivity may require continuing or setting a workout target for some period of time after exercise is finished. This will help manage increased sensitivity by providing smaller boluses and less basal delivery to prevent hypoglycemia that could result from unadjusted settings under traditional therapy. The length of time to run a continued post-workout target will depend on the duration and intensity of exercise.
+Exercise with Loop requires planning ahead:
+
+1. **Before**: Set override target 1-2 hours early to reduce IOB
+2. **During**: Monitor CGM and adjust carbs/override as needed
+3. **After**: Keep override active for hours to manage increased insulin sensitivity
+4. **Learn**: Track what works for your specific exercise types and intensity levels

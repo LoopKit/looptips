@@ -1,11 +1,15 @@
 # Low Treatments
 
-Low blood glucose will still inevitably happen at some point, even with Loop use. A difficult carb count, illness, equipment malfunction, exercise...you name it, eventually something will help to cause a low blood glucose. 
+Low blood glucose (BG) will still inevitably happen at some point, even with Loop use. A difficult carb count, illness, equipment malfunction, exercise...you name it, eventually something will help to cause a low BG. 
 
 ## How to Treat
-Overall, most people find that they can treat low blood glucose with fewer rescue carbohydrates than they previously used to. Since typically Loop will have been suspending your basal insulin before a low has been reached, you will typically have less IOB to overcome with carbohydrates. In other words, Loop takes some of the momentum out of an upcoming blood glucose dip...which also makes it easier to pull up from declining blood glucose.
 
-If you notice that your old way of treating low blood glucose is leading to rebound blood glucose greater than you expect/desire, eventually consider decreasing the amount of carbohydrates you use to treat predicted/upcoming low blood glucose.
+Overall, most people find that they can treat low BG with **fewer rescue carbohydrates** than they previously used to. Since typically Loop will have been suspending your basal insulin before a low has been reached, you will typically have less insulin on board (IOB) to overcome with carbohydrates. In other words, Loop takes some of the momentum out of an upcoming BG dip...which also makes it easier to pull up from declining BG.
+
+If you notice that your old way of treating low BG is leading to rebound BG greater than you expect/desire, eventually consider decreasing the amount of carbohydrates you use to treat predicted/upcoming low BG.
+
+!!! tip "Why Loop Prevents Deeper Lows"
+    As explained in [Think Like a Loop](think-like-loop.md), Loop suspends insulin delivery (Action 1) when ANY part of your predicted BG curve goes below your suspend threshold. This early suspension is why you typically need fewer carbs to treat lows with Loop.
 
 ## Logging Low Treatments
 
@@ -15,11 +19,13 @@ For the most part, you do not *have* to enter low treatments. Not logging low tr
 
 ## Roller Coaster after Low Treatment
 
-If you are roller coastering blood glucose after treating lows (going low, quick rise from the treatment carbs, then drop again from Loop&#39;s high temporary basals during the rise, and then repeating pattern), here are some tips:
+If you are roller coastering BG after treating lows (going low, quick rise from the treatment carbs, then drop again from Loop's high temporary basals during the rise, and then repeating pattern), here are some tips:
 
-* While treating the low blood sugar, try setting a temporary workout target of an hour to help keep Loop from aggressively treating a rebound.  
-* Consider lowering your maximum basal rate in Loop (within the Delivery Limits setting). This will limit Loop's ability to aggressively treat the rebound rise and allow you to work on getting your settings adjusted if needed.  
-* Consider raising your ISF value (for example, if your ISF is set to 50, consider raising the value to 55) to help Loop understand that a smaller magnitude of insulin adjustment is needed. In other words, tell Loop that insulin is packing a bigger punch than you'd previously thought.  
+1. **While treating the low BG**, try setting a temporary [workout override target](overrides.md) of an hour to help keep Loop from aggressively treating a rebound.
+
+2. **Consider lowering your maximum basal rate** in Loop (within the Delivery Limits setting). This will limit Loop's ability to aggressively treat the rebound rise and allow you to work on getting your settings adjusted if needed.
+
+3. **Consider raising your ISF value** (for example, if your ISF is set to 50, consider raising the value to 55) to help Loop understand that a smaller magnitude of insulin adjustment is needed. In other words, tell Loop that insulin is packing a bigger punch than you'd previously thought. See [Adjust Your Settings](../settings/adjust.md) for more guidance.  
 
 If your ISF is set to a value that is too low compared to what it really should be, one of the most common symptoms you'll see is a roller coaster of blood glucose where the temporary basals are cycling between zero and strong high temporary rates. Here are some example graphs from *Looped* group. These are examples where too low of ISF is more than likely a large factor in the roller coaster (doesn't mean it is the only culprit and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temporary basals followed by very quick blood glucose drops and zero temps is usually too low of ISF value...raise the ISF value (e.g., go from 50 to 55) to help Loop know that each unit of insulin is actually having more impact than you'd previously thought.
 

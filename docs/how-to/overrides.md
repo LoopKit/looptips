@@ -1,8 +1,11 @@
 # Override Targets
 
-Your Loop has two override targets that you can set; *Pre-meal* and *Workout*. When activated, these targets will "override" or take the place of your usual correction range and therefore will affect Loop's decisions about insulin delivery.
+Your Loop has two override targets that you can set: *Pre-meal* and *Workout*. When activated, these targets will "override" or take the place of your usual correction range and therefore will affect Loop's decisions about insulin delivery.
 
-You can set the value for these override targets from the Correction Range area of Loop settings. Generally speaking, pre-meal targets are set to value(s) lower than your correction range, and workout targets are set to value(s) greater than your correction range. *Loop* will indicate that an override target is active by showing a darker blue bar on the blood glucose chart showing the duration and location of the target.
+You can set the value for these override targets from the Correction Range area of Loop settings. Generally speaking, pre-meal targets are set to value(s) lower than your correction range, and workout targets are set to value(s) greater than your correction range. *Loop* will indicate that an override target is active by showing a darker blue bar on the blood glucose (BG) chart showing the duration and location of the target.
+
+!!! tip "Why Override Targets Work"
+    Remember from [Think Like a Loop](think-like-loop.md): Loop makes all decisions based on your predicted BG curve relative to your correction range. By changing the correction range temporarily with an override, you change how Loop responds. Lower targets make Loop more aggressive; higher targets make Loop more conservative.
 
 ## Pre-Meal Targets
 

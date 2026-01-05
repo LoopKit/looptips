@@ -17,10 +17,12 @@ If I could offer one bit of really useful advice, it would be to open loop for a
 
 If you want extra help, you can read some excellent books about pump settings and what they mean.  For example, "*Think Like a Pancreas*" by Gary Scheiner is a great reference for understanding some of the guiding principles in pump therapy.  Let me summarize the important parts about pump settings:
 
-* Basal rates should keep your blood glucose steady in the absence of other influences (such as food, medications, etc).
-* Boluses should return your blood glucose to target after a meal.
-* Insulin Sensitivity Factor (ISF) is the amount one unit of insulin drops your blood glucose without other influences.
-* Carb Ratio (CR) is the meal entry in grams that requires one unit of insulin to cover
+* **Basal rates** should keep your blood glucose (BG) steady in the absence of other influences (such as food, medications, etc).
+* **Boluses** should return your BG to target after a meal.
+* **Insulin Sensitivity Factor (ISF)** is the amount one unit of insulin drops your BG without other influences.
+* **Carb Ratio (CR)** is the meal entry in grams that requires one unit of insulin to cover
+
+See [Why Settings Matter](overview.md) for more on how Loop uses these settings.
 
 !!! tip "Basal, ISF and CR"
     It's the way it was defined in the beginning, but it can be confusing.

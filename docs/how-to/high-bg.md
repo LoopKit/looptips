@@ -3,25 +3,50 @@
 !!! info "Safety consideration"
     If the continued delivery of corrective insulin fails to bring down high blood glucose, remember to follow your doctor's recommendations for ketone testing, hydration, and/or more frequent blood glucose monitoring. Check for equipment failure (infected pump site? blocked cannula?). Try fresh insulin. Contact your doctor immediately if you are experiencing sustained high blood glucose despite continued insulin delivery and corrections.
 
-*"How do I deal with high blood glucose that seems to be stuck?"* When you and your *Loop* are disagreeing about the effectiveness of high temporary basals to bring down blood glucose, take a deep breath. Unfortunately, most of the time our disagreement is rooted in the impatience that the pump's insulin works so dang slow.  We get tired of waiting another 4-6 hours until blood glucose will be back in range after a correction. So before we start overriding  Loop&#39;s predictions with manual actions, it may be useful to ask yourself some questions first to help guide potential corrective actions:
+*"How do I deal with high blood glucose (BG) that seems to be stuck?"* When you and your *Loop* are disagreeing about the effectiveness of high temporary basals to bring down BG, take a deep breath. Unfortunately, most of the time our disagreement is rooted in the impatience that the pump's insulin works so dang slow. We get tired of waiting another 4-6 hours until BG will be back in range after a correction.
 
-* Is this temporary or has this been going on for a long time?
-* Is this consistently only after meals?
-* Have you open loop tested your settings?
-* Are you sick or stressed?
-* Are you hormonal?
-* Are you taking medication?
-* Could this be caused by site failure or bad insulin?
+## Decision Guide: What to Try First
 
-Based on the answers to those questions, you may want to choose on of the potential solutions for delivering extra insulin to help:
+Before we start overriding Loop's predictions with manual actions, ask yourself these questions to help guide potential corrective actions:
 
-* Setting lower temporary blood glucose targets
-* Providing the "pending" insulin upfront via correction bolus
-* Adjusting meal entries
-* Fake carbohydrates
-* Priming in insulin
-* Open loop and correct manually
-* Adjust settings
+### 1. First, Rule Out Equipment Issues
+
+**Could this be caused by site failure or bad insulin?**
+
+- ✅ **Try first**: Check pump site, replace if needed, try fresh insulin
+- See [Site Failure](site-fail.md) for details
+
+### 2. Is This Meal-Related?
+
+**Is this consistently only after meals? Did I underestimate carbs?**
+
+- ✅ **Try first**: [Adjust meal entries](#adjusting-meal-entries) to reflect actual carbs
+- Alternative: [Provide pending insulin as bolus](#pending-insulin-as-bolus) to speed correction
+
+### 3. Is This Short-Term? (Hours to 1-2 days)
+
+**Are you sick or stressed? Acute illness? Anaerobic exercise?**
+
+- ✅ **Try first**: [Set lower temporary override targets](#lower-temporary-targets)
+- Alternative: [Pending insulin as bolus](#pending-insulin-as-bolus)
+
+### 4. Is This Medium-Term? (Several days)
+
+**Are you hormonal? Taking medication (like steroids)?**
+
+- ✅ **Try first**: [Adjust settings](#adjust-settings) - increase basal rates by ~10%
+- Can use overrides temporarily while testing new settings
+
+### 5. Is This Long-Term or Unexplained?
+
+**Has this been going on for a long time? Happens even overnight? Have you open loop tested your settings?**
+
+- ✅ **Try first**: [Adjust settings](#adjust-settings) - likely need basal increase
+- Consider: [Open loop testing](../settings/adjust.md) to validate settings
+
+---
+
+## Solutions in Detail (Ordered by Common Usage)
 
 ## Lower temporary targets
 
@@ -43,15 +68,16 @@ Carbohydrate, fat, and protein estimations for bolusing are frequently a guessin
 
 Some people use "fake" carbohydrate entries to push *Loop* to be more aggressive with correcting a high blood glucose. This can be effective for hyperglycemia due to short-term causes but is not the recommended way of repeatedly dealing with high blood glucose. If you find yourself regularly using fake carbohydrates often, you may want to consider whether one of your underlying settings needs adjusting.
 
-## Prime insulin
+## Prime insulin (Medtronic pumps only)
 
-If your Preferred Data Source is left on the default "Event History", *Loop* will not count insulin delivered from "prime" commands in the Medtronic pump. This means that any insulin you deliver through your infusion set while using the prime delivery will not count towards active insulin or insulin on board (IOB). 
+!!! warning "Medtronic-Specific Technique"
+    This technique only applies to Medtronic pump users. Omnipod users cannot use this method.
+
+If your Preferred Data Source is left on the default "Event History", *Loop* will not count insulin delivered from "prime" commands in the Medtronic pump. This means that any insulin you deliver through your infusion set while using the prime delivery will not count towards active insulin or insulin on board (IOB).
 
 If you think that you are being affected by a short-term influence that will last for at least 4-6 hours, a conservative amount of primed insulin may help control high blood sugar more aggressively than *Loop* would have otherwise provided during the stressful event.
 
-**If you choose to deliver insulin via prime command, remember that your active insulin or IOB will not be accurate for 6 hours after the delivery.**  Caution should be taken using this method because if the short-term stress suddenly ends and blood glucose begins to drop again, the drop may be more pronounced than *Loop* predicts due to the untracked primed insulin.
-
-Note:  For Omnipod users, *Loop* does not allow you to prime insulin in. 
+**If you choose to deliver insulin via prime command, remember that your active insulin or IOB will not be accurate for 6 hours after the delivery.** Caution should be taken using this method because if the short-term stress suddenly ends and BG begins to drop again, the drop may be more pronounced than *Loop* predicts due to the untracked primed insulin. 
 
 ## Open loop and correct manually
 
