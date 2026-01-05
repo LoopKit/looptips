@@ -18,7 +18,7 @@ If you haven't built Loop yet or need technical troubleshooting, visit [LoopDocs
 Think of these two resources as complementary guides:
 
 - **LoopDocs**: Building, installing, and technical troubleshooting
-- **LoopTips**: Understanding Loop's algorithm, optimizing settings, and improving blood glucose (BG) outcomes
+- **LoopTips**: Understanding Loop's algorithm, optimizing settings, and improving glucose outcomes
 
 Some pages that originated in LoopTips are now included in LoopDocs. Don't be surprised when you find links between the sites. The color bar is deliberately a different shade to help you know where you are.
 
@@ -36,7 +36,7 @@ Some pages that originated in LoopTips are now included in LoopDocs. Don't be su
 
 **Special Situations:**
 
-- Exercise, site failures, being stuck on high BG, showering/swimming
+- Exercise, site failures, being stuck on high (glucose), showering/swimming
 
 **Data & Analysis:**
 
@@ -76,11 +76,11 @@ Throughout LoopTips, we use standard abbreviations for common diabetes terms:
 - **BG** = Blood Glucose (also referred to as "blood sugar")
 - **IOB** = Insulin On Board (active insulin in your body)
 - **COB** = Carbs On Board (carbohydrates still being digested)
-- **ISF** = Insulin Sensitivity Factor (how much one unit of insulin lowers BG)
+- **ISF** = Insulin Sensitivity Factor (how much one unit of insulin lowers glucose)
 - **CR** = Carb Ratio (how many grams of carbs are covered by one unit of insulin)
 - **DIA** = Duration of Insulin Action (how long insulin remains active)
 
-When we say "correction range" or "target range," we're referring to the same thing - your desired BG range configured in Loop settings.
+When we say "correction range" or "target range," we're referring to the same thing - your desired glucose range configured in Loop settings.
 
 ## Disclaimer
 

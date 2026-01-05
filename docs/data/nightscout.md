@@ -57,7 +57,7 @@ The day-to-day report will show a detailed overlay of boluses, basal rates, carb
 
 ### Daily Stats report
 
-The daily stats report is a pie chart showing the daily breakdown of your low, in-range, and high time in target, as well as other statistical analysis of your BG trends.
+The daily stats report is a pie chart showing the daily breakdown of your low, in-range, and high time in target, as well as other statistical analysis of your glucose trends.
 
 ![Daily Stats](img/daily-stats.png){width="700"}
 {align="center"}

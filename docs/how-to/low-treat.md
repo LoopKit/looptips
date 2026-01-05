@@ -1,15 +1,15 @@
 # Low Treatments
 
-Low blood glucose (BG) will still inevitably happen at some point, even with Loop use. A difficult carb count, illness, equipment malfunction, exercise...you name it, eventually something will help to cause a low BG. 
+Low blood glucose will still inevitably happen at some point, even with Loop use. A difficult carb count, illness, equipment malfunction, exercise...you name it, eventually something will help to cause a low glucose. 
 
 ## How to Treat
 
-Overall, most people find that they can treat low BG with **fewer rescue carbohydrates** than they previously used to. Since typically Loop will have been suspending your basal insulin before a low has been reached, you will typically have less insulin on board (IOB) to overcome with carbohydrates. In other words, Loop takes some of the momentum out of an upcoming BG dip...which also makes it easier to pull up from declining BG.
+Overall, most people find that they can treat low glucose with **fewer rescue carbohydrates** than they previously used to. Since typically Loop will have been suspending your basal insulin before a low has been reached, you will typically have less insulin on board (IOB) to overcome with carbohydrates. In other words, Loop takes some of the momentum out of an upcoming glucose dip...which also makes it easier to pull up from declining glucose.
 
-If you notice that your old way of treating low BG is leading to rebound BG greater than you expect/desire, eventually consider decreasing the amount of carbohydrates you use to treat predicted/upcoming low BG.
+If you notice that your old way of treating low glucose is leading to rebound glucose greater than you expect/desire, eventually consider decreasing the amount of carbohydrates you use to treat predicted/upcoming low glucose.
 
 !!! tip "Why Loop Prevents Deeper Lows"
-    As explained in [Think Like a Loop](think-like-loop.md), Loop suspends insulin delivery (Action 1) when ANY part of your predicted BG curve goes below your suspend threshold. This early suspension is why you typically need fewer carbs to treat lows with Loop.
+    As explained in [Think Like a Loop](think-like-loop.md), Loop suspends insulin delivery (Action 1) when ANY part of your predicted glucose curve goes below your suspend threshold. This early suspension is why you typically need fewer carbs to treat lows with Loop.
 
 ## Logging Low Treatments
 
@@ -19,9 +19,9 @@ For the most part, you do not *have* to enter low treatments. Not logging low tr
 
 ## Roller Coaster after Low Treatment
 
-If you are roller coastering BG after treating lows (going low, quick rise from the treatment carbs, then drop again from Loop's high temporary basals during the rise, and then repeating pattern), here are some tips:
+If you are roller coastering glucose after treating lows (going low, quick rise from the treatment carbs, then drop again from Loop's high temporary basals during the rise, and then repeating pattern), here are some tips:
 
-1. **While treating the low BG**, try setting a temporary [workout override target](overrides.md) of an hour to help keep Loop from aggressively treating a rebound.
+1. **While treating the low glucose**, try setting a temporary [workout override target](overrides.md) of an hour to help keep Loop from aggressively treating a rebound.
 
 2. **Consider lowering your maximum basal rate** in Loop (within the Delivery Limits setting). This will limit Loop's ability to aggressively treat the rebound rise and allow you to work on getting your settings adjusted if needed.
 
