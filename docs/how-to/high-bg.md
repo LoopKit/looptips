@@ -3,7 +3,9 @@
 !!! info "Safety consideration"
     If the continued delivery of corrective insulin fails to bring down high blood glucose, remember to follow your doctor's recommendations for ketone testing, hydration, and/or more frequent blood glucose monitoring. Check for equipment failure (infected pump site? blocked cannula?). Try fresh insulin. Contact your doctor immediately if you are experiencing sustained high blood glucose despite continued insulin delivery and corrections.
 
-*"How do I deal with high blood glucose (BG) that seems to be stuck?"* When you and your *Loop* are disagreeing about the effectiveness of high temporary basals to bring down BG, take a deep breath. Unfortunately, most of the time our disagreement is rooted in the impatience that the pump's insulin works so dang slow. We get tired of waiting another 4-6 hours until BG will be back in range after a correction.
+*"How do I deal with high blood glucose (BG) that seems to be stuck?"* 
+
+> When you and your *Loop* are disagreeing about how much insulin you need to bring down a high glucose value, take a deep breath. Unfortunately, most of the time our disagreement is rooted in the impatience that the pump's insulin works so dang slow. We get tired of waiting another 4-6 hours until BG will be back in range after a correction.
 
 ## Decision Guide: What to Try First
 
@@ -14,7 +16,7 @@ Before we start overriding Loop's predictions with manual actions, ask yourself 
 **Could this be caused by site failure or bad insulin?**
 
 - ✅ **Try first**: Check pump site, replace if needed, try fresh insulin
-- See [Site Failure](site-fail.md) for details
+- See [Site Failure](site-fail.md){: target="_blank" } for details
 
 ### 2. Is This Meal-Related?
 
@@ -22,13 +24,15 @@ Before we start overriding Loop's predictions with manual actions, ask yourself 
 
 - ✅ **Try first**: [Adjust meal entries](#adjusting-meal-entries) to reflect actual carbs
 - Alternative: [Provide pending insulin as bolus](#pending-insulin-as-bolus) to speed correction
+- Alternative 2: If this happens frequently, you may need to [adjust your settings](../settings/adjust.md){: target="_blank" }
 
 ### 3. Is This Short-Term? (Hours to 1-2 days)
 
 **Are you sick or stressed? Acute illness? Anaerobic exercise?**
 
 - ✅ **Try first**: [Set lower temporary override targets](#lower-temporary-targets)
-- Alternative: [Pending insulin as bolus](#pending-insulin-as-bolus)
+- Alternative: [Provide pending insulin as bolus](#pending-insulin-as-bolus) to speed correction
+- Alternative 2: [Use an override](overrides.md){: target="_blank" } for the current situation
 
 ### 4. Is This Medium-Term? (Several days)
 
@@ -42,7 +46,15 @@ Before we start overriding Loop's predictions with manual actions, ask yourself 
 **Has this been going on for a long time? Happens even overnight? Have you open loop tested your settings?**
 
 - ✅ **Try first**: [Adjust settings](#adjust-settings) - likely need basal increase
-- Consider: [Open loop testing](../settings/adjust.md) to validate settings
+- Consider: you may need to [adjust your settings](../settings/adjust.md){: target="_blank" }
+
+### 6. Is IRC Enabled?
+
+**The Integral Retrospective Correction (IRC) option can handle some glucose excursions.**
+
+- ✅ **Safety first**: [LoopDocs IRC](https://loopkit.github.io/loopdocs//loop-3/features/#integral-retrospective-correction-irc) - if you have never used IRC, please read up on it in LoopDocs
+- It is likely you will need to modify your settings - in general, the ISF folks need when IRC is enabled tends to be about 10% larger (weaker) of a number than when IRC is disabled
+
 
 ---
 
@@ -52,11 +64,11 @@ Before we start overriding Loop's predictions with manual actions, ask yourself 
 
 If you to believe the high blood glucose is a short-term issue, due to acute stress or anaerobic exercise for example, then using temporary lower override targets will help *Loop* be more aggressive at providing additional insulin. The pre-meal target would be a quick, easy implementation of this tool.
 
-This technique, and the delivery pending insulin as a bolus (described below), are good to help control the urge to "rage" bolusing which often yields an overcorrection and subsequent low blood glucose. These two techniques used in combination are often successful for most short-term situations or meals that are just taking a long time to "burn out".
+This technique, and the deliver [pending insulin as a bolus](#pending-insulin-as-bolus), are good to help control the urge to "rage" bolus which often yields an overcorrection and subsequent low blood glucose. These two techniques used in combination are often successful for most short-term situations or meals that are just taking a long time to "burn out".
 
 ## Pending insulin as bolus
 
-To help correct a high blood glucose, *Loop* will apply a high temporary basal set to deliver over 30 minutes time. If you are stuck on a high blood glucose and want to speed up the correction, you can try to "hurry" along the correction by opening  Loop&#39;s bolus tool. Within the information screen, you will see a "pending insulin" amount. That amount represents the amount of corrective insulin *Loop* plans on delivering with the currently running 30-minute temporary basal. You can choose to manually enter in that amount on the bolus deliver line as an upfront correction bolus rather than waiting for it to be delivered over the next 30 minutes. This generally represents a pretty easy, safe way to help reasonably speed up a correction.
+To help correct a high blood glucose, *Loop* will apply a high temporary basal set to deliver the recommended dose over 30 minutes time when using `Temp Basal Only` strategy or a fraction of the recommended dose every 5 minutes when using Automatic Bolus strategy. If you are stuck on a high blood glucose and want to speed up the correction, you can try to "hurry" along the correction by opening  Loop&#39;s bolus tool. Within the information screen, you will see a "pending insulin" amount. That amount represents the amount of corrective insulin *Loop* plans on delivering. You can choose to manually enter in that amount on the bolus deliver line as an upfront correction bolus rather than waiting for it to be delivered. This generally represents a pretty easy, safe way to help reasonably speed up a correction.
 
 The safety consideration for this is that you do not want to unintentionally stack insulin by using this technique repeatedly in a short period of time. Wait a reasonable amount of time, such as an hour or two, to give insulin a chance to start to affect blood glucose. If the correction still hasn't helped, you may want to consider another technique to help bring down blood glucose.
 
@@ -68,10 +80,18 @@ Carbohydrate, fat, and protein estimations for bolusing are frequently a guessin
 
 Some people use "fake" carbohydrate entries to push *Loop* to be more aggressive with correcting a high blood glucose. This can be effective for hyperglycemia due to short-term causes but is not the recommended way of repeatedly dealing with high blood glucose. If you find yourself regularly using fake carbohydrates often, you may want to consider whether one of your underlying settings needs adjusting.
 
+## Inject or Use Afrezza
+
+You can always take an injection. Or if you use Afrezza, take that.
+
+Typically you want to tell [Loop system about the extra insulin](https://loopkit.github.io/loopdocs//loop-3/features/#non-pump-insulin). But that is a personal choice.
+
 ## Prime insulin (Medtronic pumps only)
 
 !!! warning "Medtronic-Specific Technique"
     This technique only applies to Medtronic pump users. Omnipod users cannot use this method.
+
+    For others, see [Inject or Use Afrezza](#inject-or-use-afrezza)
 
 If your Preferred Data Source is left on the default "Event History", *Loop* will not count insulin delivered from "prime" commands in the Medtronic pump. This means that any insulin you deliver through your infusion set while using the prime delivery will not count towards active insulin or insulin on board (IOB).
 
@@ -91,8 +111,12 @@ Long duration "stuck" high blood glucose most often means you'll need to increas
 
 What kind of situations are most likely to need this adjustment? Monthly hormonal cycles and steroids are good examples of when underlying basal rate adjustments for a few days could help tremendously until things return to normal.
 
+With children, settings adjustments may be required frequently.
+
 Consult your healthcare provider if you are at all uncomfortable self-adjusting basal rates.
 
-## Maximum basal rate
+For more details: see [adjust your settings](../settings/adjust.md){: target="_blank" }.
+
+## Maximum Basal Rate
 
 It is worth mentioning one adjustment that will *not* be helpful in these situations. Increasing your maximum basal rate is very unlikely to resolve a stuck high blood glucose. Stuck high blood glucose is the result of Loop predicting that the insulin on board is sufficient to cover the needed correction. The issue is almost never that *Loop* is being limited by a maximum basal rate but rather that *Loop* is predicting that the insulin it has been delivering for awhile is adequate. In other words, *Loop* doesn't even think that it needs to reach that maximum basal rate.  The better adjustment would be to increase your scheduled basal rates and not the maximum basal rate listed in Delivery Limits.
