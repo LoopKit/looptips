@@ -8,7 +8,7 @@ In the context of the following discussion, the term "settings" refers to inform
 * correction range
 * duration of insulin activity (DIA)
 
-Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's blood glucose and treatment history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic ([*Think Like A Pancreas*](https://www.amazon.com/Think-Like-Pancreas-Practical-Insulin-Completely/dp/0738215147){: target="_blank" } and similar)
+Typically, most people with type 1 diabetes consult with their endocrinologist to develop and revise their settings.  The endocrinologist usually reviews the patient's blood glucose and treatment history at each appointment to assess whether settings need to be adjusted.  There are several great books available about the topic ([*Think Like A Pancreas*](https://www.amazon.com/Think-Like-Pancreas-Practical-Insulin-Completely/dp/0738215147) and similar)
 
 ## Why settings matter
 
@@ -64,7 +64,7 @@ The degree to which *Loop* can deal with those stresses/factors largely depends 
 **Short-term factors** - For things we know are coming, we can tell Loop in advance, and *Loop* has ways of dealing with them mathematically:
 
 - Pizza example: Loop lets us mark the meal as long, slow digestion, and therefore better react to a potential late glucose rise
-- Exercise: We can use [override targets](../how-to/overrides.md) before/after exercise to help Loop administer less insulin for awhile
+- Exercise: We can use [override targets](../how-to/overrides.md){: target="_blank" } before/after exercise to help Loop administer less insulin for awhile
 
 **Long-term factors** - If your insulin needs are impacted by something more long-term such as hormone cycles, medications, or illness, then sometimes *Loop* may not be able to consistently hold you at your desired BG. You may end up holding steady at a higher/lower BG than you'd prefer.
 
@@ -104,7 +104,7 @@ By letting Loop know that the status quo has changed (more/less insulin is neede
 - **Why**: The high temporary basals that Loop will be providing in an attempt to bring you back to target will simply be going to fill the lack of adequate basal scheduled
 - **Solution**: If you update your basal schedule to reflect 1.3 units/hour of basal needs, Loop would be better positioned to provide needed insulin delivery to keep you in the correction range
 
-See [Adjust Your Settings](adjust.md) for guidance on making these changes.
+See [Adjust Your Settings](adjust.md){: target="_blank" } for guidance on making these changes.
 
 ## Automated settings adjustments
 
@@ -112,7 +112,7 @@ A common sentiment among new Loop users goes something like *"Why doesn't Loop s
 
 What the user is actually implying is that the user thinks Loop should be doing some sort of retrospective analysis on the user's blood glucose and data to make a "better" decision.   The user wants Loop to learn from recent data and adjust.  
 
-There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes.  While this does help some, larger-scale "learning" is not currently a part of Loop's algorithm. 
+There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes. There is a longer-term integral retrospecive correction (disabled by default) that can be enabled. While these retrospective corrections help some, larger-scale "learning" is not currently a part of Loop's algorithm. 
 
 Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning could be incorporated.  Until then, you will need to tell Loop if your underlying settings need updating or make temporary adjustments for short-term issues. These pages in LoopTips are written to help you identify when settings may need adjustment or when other techniques may be useful in given situations.
 
