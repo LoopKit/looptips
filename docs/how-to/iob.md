@@ -1,6 +1,6 @@
 # Using Morning IOB
 
-One of the easiest habits to help check your settings is to simply check-in on your morning blood glucose and active insulin (IOB). Check if you are (1) above, below, or within target range and (2) carrying significant positive or negative IOB in the morning before you start walking around (if you are prone to dawn phenomenon) or eating. Since mornings are free from food influence, these are almost like waking up from a mini-basal testing every overnight. 
+One of the easiest habits to help check your settings is to simply check-in on your morning blood glucose and active insulin (IOB). Check if you are (1) above, below, or within correction range and (2) carrying significant positive or negative IOB in the morning before you start walking around (if you are prone to dawn phenomenon) or eating. Since mornings are free from food influence, these are almost like waking up from a mini-basal testing every overnight. 
 
 This Looped group post started the conversation:
 

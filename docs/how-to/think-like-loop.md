@@ -1,4 +1,4 @@
-# Think Like a Loop
+# Think Like a `Loop`
 
 “Why isn’t *Loop* giving me more?”  That is a common question from new Loopers.
 
@@ -9,7 +9,7 @@ For these questions, you'll go really far in Looping if you can remember these t
 1. Go to therapy with your *Loop*
 2. Everything depends on the predicted glucose curve
 
-## Therapy with Loop
+## Therapy with `Loop`
 
 I'll challenge you to "pretend you're at the marriage therapist" as you learn how to use *Loop* as a partner.
 
@@ -65,31 +65,34 @@ That predicted glucose curve has four contributions to its shape:
 
 *Loop* models the inputs from those four contributions to form the final shape of the predicted glucose curve. Once that curve is generated, *Loop* looks at where the entire curve will be for the next 6 hours relative to your glucose safety limit and correction range, and take one of four actions:
 
-### Loop's Four Actions Summary
+### `Loop's` Four Actions Summary
 
-| Predicted Glucose Scenario | Loop Action | Reasoning |
+| Predicted Glucose Scenario | `Loop` Action | Reasoning |
 |----------------------|-------------|-----------|
 | **Any part** below glucose safety limit | **Suspend**<br>(0 U/hr) | Safety first - prevent low glucose |
 | **All** within range OR eventual glucose above range but **dips below** correction range | **Scheduled basal** | Wait-and-see: maintain insulin but don't risk going low |
-| **All** above correction range | **Increased basal** or<br><br>**Scheduled basal** + **Automatic Bolus**| Bring glucose down to target |
+| **All** above low end of the correction range | **Increased basal** or<br><br>**Scheduled basal** + **Automatic Bolus**| Bring glucose down to target |
 | **Eventual glucose** below correction range | **Decreased basal** | Prevent predicted low glucose |
 
 **Important:** The remaining three actions all assume NONE of your predicted glucose curve is below glucose safety limit, otherwise you'd be in Action 1 (suspend).
 
-**Action 1: Set a 0 u/hr basal rate (aka suspend basals)**
+**Action 1: Set a 0 U/hr basal rate (aka suspend basals)**
 
 *Loop* will do this anytime your predicted glucose curve has any portion that goes below your glucose safety limit.
 
-**Action 2: Set scheduled basal rate**
+**Action 2: Return to scheduled basal rate**
 
-*Loop* will set your scheduled basal rate when:
+*Loop* will return to your scheduled basal rate when:
 
 1. All the predicted glucose curve is within the correction range, including the very last value which is called your "eventual glucose", or when
 2. If the eventual glucose is above your correction range in 6 hours, but there's a dip below the correction range earlier in the curve.
 
-**Action 3: Increased basal rate**
+**Action 3: Provide increased insulin delivery**
 
-If the eventual glucose and all the predicted glucose curve is above your correction range, *Loop* will give you a high (increased) temp basal.
+If the eventual glucose and all the predicted glucose curve is above the low-end of your correction range, *Loop* will provide additional insulin:
+
+* For Dosing Strategy: Temp Basal Only: `Loop` will give you a high (increased) temp basal
+* For Dosing Strategy: Automatic Bolus: `Loop` provides scheduled basal with a fraction of the recommended insulin delivered and recalculated with each new glucose reading
 
 **Action 4: Decreased basal rate**
 
@@ -131,7 +134,9 @@ Thinking about this as a human...humans tend to say "Well, I'm on a rise/fall ri
 
 Restating for emphasis:  **All you need to answer this question is provided by the predicted glucose curve, your glucose safety limit, and your correction range.**
 
-The answer is B:  *Loop* will give your scheduled basal in both situations shown above.  When your predicted glucose curve (1) drops for a time below the correction range but (2) all of the curve is still above glucose safety limit, and Eventual glucose is (3) above range or within range...*Loop* will give your scheduled basal.
+For both situations above, the answer is B.
+
+> *Loop* will give your scheduled basal in both situations shown above.  When your predicted glucose curve (1) drops for a time below the correction range but (2) all of the curve is still above glucose safety limit, and Eventual glucose is (3) above range or within range...*Loop* will give your scheduled basal.
 
 The logic is a bit of a wait-and-see.  Scheduled basal will maintain the delivery of insulin.  Your settings haven't told it this is an "oh my gosh...stop the insulin!" moment (you're predicted to still stay above glucose safety limit), but we also don't want to give high temps yet (to correct the eventual glucose) because we'd like to safely make it through the part that is below correction range coming up.
 

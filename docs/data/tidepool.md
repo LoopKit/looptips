@@ -101,7 +101,7 @@ If you hover over an item on the *Tidepool* web display, information is revealed
 * details about a manual bolus:
     * the recommended value with notation if this recommendation was modified (override or underride)
     * if this was a meal entry: Carbs and IC (insulin to carb ratio, called CR in Loop) are shown
-    * in all manual bolus, the Glucose, IOB, ISF and correction target range are shown
+    * in all manual bolus, the Glucose, IOB, ISF and correction range are shown
     * in the graphic below, the left image is from meal entry and the right from a bolus added after the meal
 
     ![meal entry details](img/tidepool-hover-meal-postmeal.png)
