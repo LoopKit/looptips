@@ -5,6 +5,7 @@ theme:
   name: material
   language: en
   features:
+    - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
@@ -21,38 +22,48 @@ extra_css:
   - css/extra.css
   - css/primary-color.css
 
+markdown_extensions:
+    - meta
+    - abbr
+    - admonition
+    - attr_list
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji 
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+        custom_fences:
+          - name:  mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.snippets:
+        auto_append:
+            - includes/tooltip-list.txt
+    - toc:
+        permalink: true
+        permalink_title: Anchor link to this Header on this Page
+        toc_depth: 3
+        title: Headers on this Page
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 plugins:
+  - open-in-new-tab
   - search
   - htmlproofer:
       enabled: !ENV [CHECK_BROKEN_LINKS, False]
       raise_error_after_finish: true
 
 use_directory_urls: !ENV [CHECK_BROKEN_LINKS, True]
-
-markdown_extensions:
-  - meta
-  - abbr
-  - admonition
-  - attr_list
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.snippets:
-      auto_append:
-        - includes/tooltip-list.txt
-  - toc:
-      permalink: true
-      permalink_title: Anchor link to this Header on this Page
-      toc_depth: 3
-      title: Headers on this Page
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 validation:
   anchors: warn # Check for the existence of anchors present in links
@@ -63,22 +74,22 @@ nav:
       - "Why Settings Matter": "settings/overview.md"
       - "Initial Settings": "settings/settings.md"
       - "Adjust Your Settings": "settings/adjust.md"
+  - How To:
+      - "Think Like a Loop": "how-to/think-like-loop.md"
+      - "CGM Habits": "how-to/cgm.md"
+      - "Use Morning IOB": "how-to/iob.md"
+      - "Low Treatments": "how-to/low-treat.md"
+      - "Extended Bolus": "how-to/bolus.md"
+      - "Override Targets": "how-to/overrides.md"
+      - "Exercise": "how-to/exercise.md"
+      - "Shower & Swimming": "how-to/disconnect.md"
+      - "Stuck on High": "how-to/high-bg.md"
+      - "Site Failure": "how-to/site-fail.md"
+      - "Talk with Endo": "how-to/endo.md"
   - Data Tools:
       - "Overview": "data/overview.md"
       - "Health": "data/health.md"
       - '<span translate="no">Nightscout</span>': "data/nightscout.md"
       - '<span translate="no">Tidepool</span>': "data/tidepool.md"
       - "Perceptus": "data/glucodyn.md"
-  - How To:
-      - "Think Like a Loop": "how-to/think-like-loop.md"
-      - "CGM habits": "how-to/cgm.md"
-      - "Use morning IOB": "how-to/iob.md"
-      - "Override Targets": "how-to/overrides.md"
-      - "Low Treatments": "how-to/low-treat.md"
-      - "Shower & Swimming": "how-to/disconnect.md"
-      - "Exercise": "how-to/exercise.md"
-      - "Extended Bolus": "how-to/bolus.md"
-      - "Site Failure": "how-to/site-fail.md"
-      - "Stuck on High": "how-to/high-bg.md"
-      - "Talk with Endo": "how-to/endo.md"
   - Translation: "translate.md"

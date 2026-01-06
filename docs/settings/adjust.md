@@ -10,7 +10,7 @@ Before considering a change to your settings, the usual laundry list of possible
 
 * Bad infusion site (kinked cannula, blood in cannula, infected site?)
 * Bad insulin (cloudy? insulin exposed to heat/freezing?)
-* Unexpected food impacts (that diet Coke wasn't diet, kid sneaking food?)
+* Unexpected food impacts (that diet Coke wasn't diet, eating food without bolusing or announcing carbs?)
 * CGM damaged (poor calibration, damaged sensor site?)
 
 Some signs that the issue is actually the result of equipment failure include the failure of blood glucose to decrease despite repeated bolus corrections. Often during equipment failure troubleshooting, you've blamed the food (and adjusted a carbohydrate count), given corrections, checked for hidden food wrappers, and maybe even open-looped rage bolused.  Breathe deep, it is super frustrating to have equipment failure. One of the benefits of Loop can be that equipment failures can become a little easier to identify over time because blood glucose control becomes more predictable and reliable.
@@ -54,4 +54,4 @@ Once you have assessed that there's a need for a settings adjustment, the next s
 
 Whether you undertake the adjustments by yourself and/or with your healthcare provider's input is at your own discretion. Ideally, you would have your healthcare provider's input and support to discuss the observations and concerns you have and develop an adjusted setting profile based on those discussions. Many endocrinologists are still becoming familiar with Loop and its algorithm, so providing them links to the various sites would be a good starting point for discussion. This can help the endocrinologist understand where Loop is similar/different than traditional pump therapy. If you and your healthcare provider are comfortable with your self-adjustments and  Loop&#39;s algorithm, then proceed ahead.
 
-To begin the process of settings adjustment, visualizing your data trends is important. You need to be able to piece together what was eaten, how it was bolused, what temporary basals were applied, and how your blood glucose was reacting. The Data section of LoopTips covers the various places you can find your diabetes-related data to help you during adjustments.
+To begin the process of settings adjustment, visualizing your data trends is important. You need to be able to piece together what was eaten, how it was bolused, what temporary basals were applied, and how your blood glucose was reacting. The Data section of LoopTips covers the various places you can find your diabetes-related data to help you during adjustments. But first, read through the How To section to get ideas how to use your Data.

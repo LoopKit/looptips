@@ -3,15 +3,18 @@
 Obviously, without CGM data your Loop will not function. With the stability that Looping brings, many people are looking for ways to minimize their Loop downtime due to avoidable factors. Factors that make CGMs a potential problem include sensor failure, transmitter signal loss, poor calibrations, and the warmup period.
 
 ## Sensor warmup
-One of the obvious downtimes is during new sensor warmup. Unfortunately, the only way to avoid the 2-hour warmup (in the case of Dexcom's system) is to overlap your sensor sessions and this just isn't feasible for most people.
+One of the obvious downtimes is during new sensor warmup. 
 
-* Insurance doesn't provide adequate supplies to overlap sensor supplies; you would need two active transmitters and enough sensors to allow for overlap of use.
-* Sometimes sensors fail before a session was due to expire, making a planned overlap impossible.
-* Some people just don't want to wear two sensors at once. 
+### Dexcom G7 CGM
+One of the nice things about the Dexcom G7 is that many people begin the warm-up of the new sensor while the current sensor is in the grace period. Amazing - no gap in CGM coverage.
+
+### CGM that cannot be overlapped
+
+Unfortunately, many sensors cannot be overlapped, so there will be a period without CGM data between sensors.
 
 Since warmups are an important part of stabilizing CGM values and decreasing sensor noise, they are just going to continue to be a no-Loop time period for the foreseeable future. Most people simply cancel a currently running temporary basal, or let it run its course, when they start a new sensor session. For the two hours of warmup, the Loop will revert to the basal schedule programmed into the pump.
 
-Some people have opted to keep looping during sensor warmups by manually entering blood glucose checks through the Apple Health app for Loop to read. While technically Loop can use those values, the entries would have to be sufficiently frequent to be meaningful. If a person is willing to test 8-12 times in a two hour span, then looping through sensor warmup could be feasible through this method.
+Some people have opted to keep looping during sensor warmups by manually entering blood glucose checks, either through the *Loop* app (with version 3 and newer) or through the Apple Health app. While technically Loop can use those values, the entries would have to be sufficiently frequent to be meaningful. If a person is willing to test 8-12 times in a two hour span, then looping through sensor warmup could be feasible through this method.
 
 ## Sensor noise
 Depending on which CGM device you use, you may observe a sweet spot of data accuracy in the middle of your sensor's session but have sensor "noise" at the beginning and end of the session. Generally speaking, Loop does fairly well despite these times of sensor noise, although having a reasonable maximum basal rate does help mitigate the risk due to a noisy sensor.

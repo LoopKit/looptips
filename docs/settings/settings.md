@@ -17,10 +17,12 @@ If I could offer one bit of really useful advice, it would be to open loop for a
 
 If you want extra help, you can read some excellent books about pump settings and what they mean.  For example, "*Think Like a Pancreas*" by Gary Scheiner is a great reference for understanding some of the guiding principles in pump therapy.  Let me summarize the important parts about pump settings:
 
-* Basal rates should keep your blood glucose steady in the absence of other influences (such as food, medications, etc).
-* Boluses should return your blood glucose to target after a meal.
-* Insulin Sensitivity Factor (ISF) is the amount one unit of insulin drops your blood glucose without other influences.
-* Carb Ratio (CR) is the meal entry in grams that requires one unit of insulin to cover
+* **Basal rates** should keep your glucose steady in the absence of other influences (such as food, medications, etc).
+* **Boluses** should return your glucose to target after a meal.
+* **Insulin Sensitivity Factor (ISF)** is the amount one unit of insulin drops your glucose without other influences.
+* **Carb Ratio (CR)** is the meal entry in grams that requires one unit of insulin to cover
+
+See [Why Settings Matter](overview.md) for more on how Loop uses these settings.
 
 !!! tip "Basal, ISF and CR"
     It's the way it was defined in the beginning, but it can be confusing.
@@ -63,7 +65,7 @@ Many people, especially little kids, are not enthusiastic about fasting basal te
 
 ### Insulin Sensitivity Factor
 
-Insulin sensitivity factor (ISF) is the next logical setting to test. If you've just done the basal test and gotten steady blood glucose with an open loop, try taking a glucose tab or two. Wait for your blood glucose to be steady at the higher value, and give a safe correction that you think will get you close to target. Watch the resulting blood glucose drop over the next 3-4 hours. You should see blood glucose come to a steady level again. How much did the blood glucose drop? How many units of insulin did you use? Divide the two numbers and you will have your ISF.  If your BG dropped 15 mg/dL with half a unit of insulin, your ISF is approximately 30 mg/dL per unit.
+Insulin sensitivity factor (ISF) is the next logical setting to test. If you've just done the basal test and gotten steady blood glucose with an open loop, try taking a glucose tab or two. Wait for your blood glucose to be steady at the higher value, and give a safe correction that you think will get you close to target. Watch the resulting blood glucose drop over the next 3-4 hours. You should see blood glucose come to a steady level again. How much did the blood glucose drop? How many units of insulin did you use? Divide the two numbers and you will have your ISF.  If your glucose dropped 15 mg/dL with half a unit of insulin, your ISF is approximately 30 mg/dL per unit.
 
 Testing ISF is an important step in successful closed Loop use. ISF is used in every Loop calculation and plays an important part in Loop's prediction curve. Most users find that they have to adjust ISF; most often increasing the value. If you are experiencing roller coastering blood glucose, as described below, that is often a sign that ISF needs to be weaker (higher value).
 
