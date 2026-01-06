@@ -73,12 +73,14 @@ As exciting as this sounds...we should first get the caveats out of the way.  Th
 
 Throughout LoopTips, we use standard abbreviations for common diabetes terms:
 
-- **BG** = Blood Glucose (also referred to as "blood sugar")
+- **BG** = Blood Glucose (also referred to as "glucose" or "blood sugar")
 - **IOB** = Insulin On Board (active insulin in your body)
 - **COB** = Carbs On Board (carbohydrates still being digested)
 - **ISF** = Insulin Sensitivity Factor (how much one unit of insulin lowers glucose)
 - **CR** = Carb Ratio (how many grams of carbs are covered by one unit of insulin)
 - **DIA** = Duration of Insulin Action (how long insulin remains active)
+- **AID** = Automated Insulin Delivery system (refers to commercial as well as Open-Source systems)
+- **OS-AID** = Open-Source Automated Insulin Delivery system (refers to *Loop* and others such as *Trio* and *iAPS)
 
 When we say "correction range" or "target range," we're referring to the same thing - your desired glucose range configured in Loop settings.
 
