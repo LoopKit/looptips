@@ -6,7 +6,7 @@ Your Loop has two override icons you can select from the main toolbar: *Pre-meal
 * The [*Custom Preset*](https://loopkit.github.io/loopdocs/operation/features/overrides/) icon allows you select an existing named preset or create a new one
     * *Custom presets* allow you to adjust the target or the insulin needs sensitivity or both and provide a name so you can save and reuse that preset again.
 
-* For Loop version 2, and for the *twiist* commercial system, the *Custom Preset* icon is used for the *Workout* feature which only enables the user to change the target and not the insulin sensitivity.
+* In an older version of Loop (version 1.9), and for the *twiist* commercial system, the *Custom Preset* icon is used for the *Workout* feature which only enables the user to change the target and not the insulin sensitivity.
 
 *Loop* will indicate that an override target is active by showing a darker blue bar on the glucose chart showing the duration and location of the target.
 
@@ -19,8 +19,8 @@ A *Custom Preset* can be created or edited by tapping on the heart icon when no 
 !!! tip "Why Override Targets Work"
     Remember from [Think Like a Loop](think-like-loop.md): Loop makes all decisions based on your predicted glucose curve relative to your correction range. By changing the correction range temporarily with an override, you change how Loop responds. Lower targets make Loop more aggressive; higher targets make Loop more conservative.
 
-!!! tip "What happens when Insulin Needs is modified"
-    When Insulin Needs is modified in a *Custom Preset*, the effective basal rate (U/hr), ISF and CR are all adjusted in parallel. See the example table below using a pump that can delivery an increment of 0.05 U/hr scheduled basal rate using units associated with mg/dL.
+!!! tip "What happens when the `Insulin Needs` setting is modified"
+    When the `Insulin Needs` setting is modified in a *Custom Preset*, the effective basal rate (U/hr), ISF and CR are all adjusted in parallel. See the example table below using a pump that can delivery an increment of 0.05 U/hr scheduled basal rate using units associated with mg/dL.
 
     | Insulin Need | Basal Rate<br>U/hr | ISF | CR | Comment |
     |--:|:-:|--:|--:|:--|

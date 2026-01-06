@@ -21,11 +21,11 @@ Why are you in disagreement with your partner? What would a therapist tell you? 
 
 So...look at the objectives and info you both have at hand.
 
-*Loop* has the info from the settings you’ve given it, how you’ve described your meals, and how you’ve given insulin. *Loop* does not know if you are stressed. *Loop* does not know if you are sick. *Loop* is not a rage bolus machine and is predicting 6 hours out to safely bring you down without you needing to prevent a low while it does that. *Loop* is considerate partner. It respects your input and acts gentle and even-keeled.
+*Loop* has the info from the settings you’ve given it, how you’ve described your meals, and how you’ve given insulin. *Loop* **does not** know if you are stressed. *Loop* **does not** know if you are sick. *Loop* **is not** a rage bolus machine. *Loop* **is** predicting 6 hours out to safely bring you down without you needing to prevent a low while it does that. *Loop* **is** considerate partner. *Loop* **respects** your input and acts gentle and even-keeled.
 
 If you are frustrated with Loop’s actions now...that means you told it the wrong info previously (or are lacking some patience that *Loop* has). Most often either your meal entry was wrong or your basals or...something else you’ve told *Loop* has ended up being incorrect.
 
-Fixing that miscommunication will allow *Loop* to do a better job.
+**Fixing that miscommunication will allow *Loop* to do a better job.**
 
 If you misjudged a meal, go back and edit that meal entry.
 
@@ -49,38 +49,36 @@ Sure, even with the best therapist, you may still have disagreements. They happe
 
 As you start to use *Loop* you will probably find yourself wondering at some point "Why is it suspending insulin right now?" or "Why isn't it giving me increased basals right now?" You might find yourself reverting to a bunch of old-school habits like looking at your carbs on board or insulin on board and trying to calculate a bunch of numbers. Stop there...that's so 1990s. You're a looper now and there is actually an easier way to assess things.
 
-!!! danger "**Thinking like a Loop involves just three things**"
-    </br></br>
-        ➡️  Predicted glucose curve</br></br>
-        ➡️  Correction Range</br></br>
-        ➡️  Suspend Threshold</br></br></br>
-  </p>
+!!! question "**Thinking like a Loop involves these three things**"
+    ➡️  Predicted glucose curve<br>
+    ➡️  Correction Range<br>
+    ➡️  Glucose Safety limit<br>
 
-All of Loop&#39;s decisions are based on what your predicted glucose curve is doing with respect to your correction range and suspend threshold. That's it. All the time. Everytime. It always comes down to that predicted glucose curve.
+All of Loop&#39;s decisions are based on what your predicted glucose curve is doing with respect to your correction range and glucose safety limit. That's it. All the time. Everytime. It always comes down to that predicted glucose curve.
 
 That predicted glucose curve has four contributions to its shape:
 
-1. Carbs (the ones you've told it about)</br></br>
-2. Insulin (the ones you've given through your pump or recorded in the Health app)</br></br>
-3. Glucose momentum (how fast your glucose has been changing recently)</br></br>
-4. Retrospective correction (how accurate/inaccurate *Loop* has been recently in predicting your glucose)</br></br>
+1. **Carbohydrates** (the ones you've told *Loop* about)
+2. **Insulin** (the amount you've given through your pump or recorded as non-pump insulin or in the Health app)
+3. **Glucose momentum** (how fast your glucose has been changing recently)
+4. **Retrospective correction** (how accurate/inaccurate *Loop* has been recently in predicting your glucose) or, if enabled, **Integral Retrospective correction** (uses a longer term view of difference between what *Loop* predicted compared to what your glucose readings actually were)
 
-*Loop* models the inputs from those four contributions to form the final shape of the predicted glucose curve. Once that curve is generated, *Loop* looks at where the entire curve will be for the next 6 hours relative to your suspend threshold and correction range, and take one of four actions:
+*Loop* models the inputs from those four contributions to form the final shape of the predicted glucose curve. Once that curve is generated, *Loop* looks at where the entire curve will be for the next 6 hours relative to your glucose safety limit and correction range, and take one of four actions:
 
 ### Loop's Four Actions Summary
 
 | Predicted Glucose Scenario | Loop Action | Reasoning |
 |----------------------|-------------|-----------|
-| **Any part** below suspend threshold | **Suspend** (0 u/hr) | Safety first - prevent low glucose |
+| **Any part** below glucose safety limit | **Suspend**<br>(0 U/hr) | Safety first - prevent low glucose |
 | **All** within range OR eventual glucose above range but **dips below** correction range | **Scheduled basal** | Wait-and-see: maintain insulin but don't risk going low |
-| **All** above correction range | **Increased basal** | Bring glucose down to target |
+| **All** above correction range | **Increased basal** or<br><br>**Scheduled basal** + **Automatic Bolus**| Bring glucose down to target |
 | **Eventual glucose** below correction range | **Decreased basal** | Prevent predicted low glucose |
 
-**Important:** The remaining three actions all assume NONE of your predicted glucose curve is below suspend threshold, otherwise you'd be in Action 1 (suspend).
+**Important:** The remaining three actions all assume NONE of your predicted glucose curve is below glucose safety limit, otherwise you'd be in Action 1 (suspend).
 
 **Action 1: Set a 0 u/hr basal rate (aka suspend basals)**
 
-*Loop* will do this anytime your predicted glucose curve has any portion that goes below your suspend threshold.
+*Loop* will do this anytime your predicted glucose curve has any portion that goes below your glucose safety limit.
 
 **Action 2: Set scheduled basal rate**
 
@@ -101,34 +99,41 @@ If your eventual glucose in 6 hours is below the correction range, you'll get a 
 
 Test your new found skills...let's play a game where you try to guess the action...
 
-!!! warning "What would *Loop* do?"
-    <i>It's 8pm and your predicted glucose curve looks like the following. What do you expect *Loop* to recommend/enact at 8pm?</br></br>
-    A. Zero (suspend) temp basal</br></br>
-    B. Scheduled basal from your settings</br></br>
-    C. High temp basal</br></br>
-    D. Lower temp basal (between zero and scheduled)</i></br></br>
+!!! question "What would *Loop* do?"
+    It's 8pm and your predicted glucose curve looks like the following. What do you expect *Loop* to recommend/enact? For this case the glucose safety limit was allowed to be set to 60 mg/dL.
+    
+    A. Zero (suspend) temp basal<br>
+    B. Scheduled basal from your settings<br>
+    C. High temp basal (or auto bolus)<br>
+    D. Lower temp basal (between zero and scheduled)<br>
+    
     ![wwld1](img/wwld1.png){width="650"}
     {align="center"}
 
-</br></br>
 
-What would your answer be?  Before you give your final answer...consider this next twist.  Would you give the same answer to this graph as you gave the graph above?  If not, what would the answer be for this graph and why? (ignore the timestamp mismatch</br></br>
 
-![wwld2](img/wwld2.jpg){width="650"}
-{align="center"}
+The answer is below but ...consider this next twist. 
 
-This second case has a dramatic drop happening.  Suspend threshold is still at 60 mg/dL, the correction range is still 90-110, the lowest value on the predicted glucose chart is 75 mg/dL, and the eventual glucose is 171 mg/dL for this example.  So, pretty similar to the first example except for this precipitous drop going on right now.
+!!! question "What would *Loop* do now?"
+
+    Would you choose A, B, C or D for this graph? The glucose safety limit is still 60 mg/dL.
+
+    ![wwld2](img/wwld2.jpg){width="500"}
+    {align="center"}
+
+This second case has a dramatic drop happening.  safety limit is still at 60 mg/dL, the correction range is still 90-110, the lowest value on the predicted glucose chart is 75 mg/dL, and the eventual glucose is 171 mg/dL for this example.  So, pretty similar to the first example except for this precipitous drop going on right now.
 
 Let me tell you some of the common pitfalls we all can easily slip into when trying to answer these "Why is *Loop* giving me this basal?" questions.
 
-Wondering about IOB, COB, or DIA in order to answer...those aren't a factor in answering the question as they have already been used to make the predicted glucose curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the predicted glucose curve, your suspend threshold, and your correction range.
+Wondering about IOB, COB, or DIA in order to answer...those aren't a factor in answering the question as they have already been used to make the predicted glucose curve.  In other words, they are accounted for already in the information presented.  All you need to answer this question is provided by the **predicted glucose curve**, your **glucose safety limit**, and your **correction range**.
+
 Thinking about this as a human...humans tend to say "Well, I'm on a rise/fall right now so...[insert Loop action based on that]" *Loop* isn't looking at the past glucose movement alone, instead, it's looking at the prediction curve ahead and applying its rules based on that.  Any drop or rise going on will have been added to the predicted curve through the glucose momentum and retrospective correction components of the algorithm...so again they're already incorporated into the predicted curve.
 
-Restating for emphasis:  All you need to answer this question is provided by the predicted glucose curve, your suspend threshold, and your correction range.
+Restating for emphasis:  **All you need to answer this question is provided by the predicted glucose curve, your glucose safety limit, and your correction range.**
 
-The answer is B:  *Loop* will give your scheduled basal in both situations shown above.  When your predicted glucose curve (1) drops for a time below the correction range but (2) all of the curve is still above suspend threshold, and Eventual glucose is (3) above range or within range...*Loop* will give your scheduled basal.
+The answer is B:  *Loop* will give your scheduled basal in both situations shown above.  When your predicted glucose curve (1) drops for a time below the correction range but (2) all of the curve is still above glucose safety limit, and Eventual glucose is (3) above range or within range...*Loop* will give your scheduled basal.
 
-The logic is a bit of a wait-and-see.  Scheduled basal will maintain the delivery of insulin.  Your settings haven't told it this is an "oh my gosh...stop the insulin!" moment (you're predicted to still stay above suspend threshold), but we also don't want to give high temps yet (to correct the eventual glucose) because we'd like to safely make it through the part that is below correction range coming up.
+The logic is a bit of a wait-and-see.  Scheduled basal will maintain the delivery of insulin.  Your settings haven't told it this is an "oh my gosh...stop the insulin!" moment (you're predicted to still stay above glucose safety limit), but we also don't want to give high temps yet (to correct the eventual glucose) because we'd like to safely make it through the part that is below correction range coming up.
 
-If glucose were to drop (enough) or keep dropping (enough), your predicted glucose curve would likely slip to your suspend threshold and then *Loop* would suspend. (One important take away is to not set your suspend threshold so low that it no longer acts as a safety in these situations.)
-If glucose were to rise enough such that the whole predicted curve comes back into or above the correction range completely, you'd then get high temp basals to correct for that eventual glucose that is above the correction range.
+If glucose were to drop (enough) or keep dropping (enough), your predicted glucose curve would likely slip to your glucose safety limit and then *Loop* would suspend. (One important take away is to not set your glucose safety limit so low that it no longer acts as a safety in these situations.)
+If glucose were to rise enough such that the whole predicted curve comes back into or above the correction range completely, you'd then get high temp basals or automatic boluses to correct for that eventual glucose that is above the correction range.
