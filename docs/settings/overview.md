@@ -98,11 +98,11 @@ However, **longer-term stressors are often helped by settings adjustments.** Exa
 
 By letting Loop know that the status quo has changed (more/less insulin is needed overall) will help glucose get and stay in range.
 
-**Scenario:** If you have told Loop that your insulin need is 1 unit/hour, but in reality, you're needing 1.3 units/hour because you've traveled to a colder place and will be sedentary for days...
+**Scenario:** If you have told Loop that your insulin need is 1 U/hr, but in reality, you're needing 1.3 U/hr because you've traveled to a colder place and will be sedentary for days...
 
 - **What happens**: You will likely find yourself steady but higher than your correction range while Looping
 - **Why**: The high temporary basals that Loop will be providing in an attempt to bring you back to target will simply be going to fill the lack of adequate basal scheduled
-- **Solution**: If you update your basal schedule to reflect 1.3 units/hour of basal needs, Loop would be better positioned to provide needed insulin delivery to keep you in the correction range
+- **Solution**: If you update your basal schedule to reflect 1.3 U/hr of basal needs, Loop would be better positioned to provide needed insulin delivery to keep you in the correction range
 
 See [Adjust Your Settings](adjust.md){: target="_blank" } for guidance on making these changes.
 
@@ -112,8 +112,8 @@ A common sentiment among new Loop users goes something like *"Why doesn't Loop s
 
 What the user is actually implying is that the user thinks Loop should be doing some sort of retrospective analysis on the user's blood glucose and data to make a "better" decision.   The user wants Loop to learn from recent data and adjust.  
 
-There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes. There is a longer-term integral retrospecive correction (disabled by default) that can be enabled. While these retrospective corrections help some, larger-scale "learning" is not currently a part of Loop's algorithm. 
+There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes. There is a longer-term integral retrospecive correction (disabled by default) that can be enabled in the Open-Source version of *Loop*. While these retrospective corrections help some; larger-scale "learning" is not currently a part of Loop's algorithm. 
 
-Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning could be incorporated.  Until then, you will need to tell Loop if your underlying settings need updating or make temporary adjustments for short-term issues. These pages in LoopTips are written to help you identify when settings may need adjustment or when other techniques may be useful in given situations.
+Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning could be incorporated.  Until then, you need to tell Loop if your underlying settings need updating or make temporary adjustments for short-term issues. *LoopTips* is provided to help you identify when settings need adjustment or when other techniques may be useful in given situations.
 
 

@@ -11,6 +11,13 @@ Open loop mode is a first line of defense during this situation. By open looping
 
 ![insulin percent remaining](img/insulin_percent_remaining.png)
 
+## Injections or Afrezza
+You can take an injection to make up some of the missing insulin from the site failure. Or if you use Afrezza, take that. Often people choose to take non-pump insulin equal to a fraction of the IOB that Loop thought was present but was not actually absorbed.
+
+When recovering from a site failure, you may choose not to let the [Loop system about the extra insulin](https://loopkit.github.io/loopdocs//loop-3/features/#non-pump-insulin). But that is a personal choice.
+
+
+
 ## Prime Insulin
 If you are more certain about how much insulin is missing from your Loop's tracking of active insulin, you can choose to deliver insulin using the "prime" delivery function in your Medtronic pump while having your tubing connected to the new, working infusion site. Assuming you are using a Preferred Data Source set to Event History (most people are since this is the default setting), then prime insulin is not counted towards active insulin. In this way, you can deliver insulin to make up for some of the insulin that Loop had thought had been delivered (but wasn't). 
 

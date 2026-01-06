@@ -94,5 +94,6 @@ Exercise with Loop requires planning ahead:
 
 1. **Before**: Set override target 1-2 hours early to reduce IOB
 2. **During**: Monitor CGM and adjust carbs/override as needed
-3. **After**: Keep override active for hours to manage increased insulin sensitivity
+3. **After**: Keep override active to manage increased insulin sensitivity
+    * Depending on the type of exercise, how accustomed your body is to exercise, and whether the Insulin Needs setting is adjusted in the override - you may need to turn off the override when you stop the exercise
 4. **Learn**: Track what works for your specific exercise types and intensity levels

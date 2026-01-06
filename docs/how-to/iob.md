@@ -15,7 +15,7 @@ This Looped group post started the conversation:
     ![Looped1](img/looped1.jpg){width="300"}
     {align="center"}
 
-To illustrate how to use morning IOB and blood glucose to check your basal rates, we will walk through a series of screenshots from a recent Loop experience. When the Looper woke up, she was below her 95 mg/dL target, but relatively steady. At about 8:48am, Nightscout showed negative IOB of -1.33 units, blood glucose of 90 mg/dL and slightly rising but still below a target of 95 mg/dL. (Note: this situation is similar to what the original Facebook poster above was describLooped2](ing.)
+To illustrate how to use morning IOB and blood glucose to check your basal rates, we will walk through a series of screenshots from a recent Loop experience. When the Looper woke up, she was below her 95 mg/dL target, but relatively steady. At about 8:48am, Nightscout showed negative IOB of -1.33 units, blood glucose of 90 mg/dL and slightly rising but still below a target of 95 mg/dL. (Note: this situation is similar to what the original Facebook poster above was describing.)
 
 ![Looped2](img/looped2.jpg){width="750"}
 {align="center"}

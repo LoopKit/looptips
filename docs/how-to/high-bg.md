@@ -5,7 +5,7 @@
 
 *"How do I deal with high glucose that seems to be stuck?"*
 
-> When you and your *Loop* are disagreeing about how much insulin you need to bring down a high glucose value, take a deep breath. Unfortunately, most of the time our disagreement is rooted in the impatience that the pump's insulin works so dang slow. We get tired of waiting another 4-6 hours until glucose will be back in range after a correction.
+> When you and your *Loop* are disagreeing about how much insulin you need to bring down a high glucose value, take a deep breath. Unfortunately, most of the time the disagreement is rooted in the impatience that the pump's insulin works so dang slow. We get tired of waiting another 4-6 hours until glucose will be back in range after a correction.
 
 ## Decision Guide: What to Try First
 

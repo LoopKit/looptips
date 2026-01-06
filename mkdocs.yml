@@ -74,12 +74,6 @@ nav:
       - "Why Settings Matter": "settings/overview.md"
       - "Initial Settings": "settings/settings.md"
       - "Adjust Your Settings": "settings/adjust.md"
-  - Data Tools:
-      - "Overview": "data/overview.md"
-      - "Health": "data/health.md"
-      - '<span translate="no">Nightscout</span>': "data/nightscout.md"
-      - '<span translate="no">Tidepool</span>': "data/tidepool.md"
-      - "Perceptus": "data/glucodyn.md"
   - How To:
       - "Think Like a Loop": "how-to/think-like-loop.md"
       - "CGM Habits": "how-to/cgm.md"
@@ -92,4 +86,10 @@ nav:
       - "Stuck on High": "how-to/high-bg.md"
       - "Site Failure": "how-to/site-fail.md"
       - "Talk with Endo": "how-to/endo.md"
+  - Data Tools:
+      - "Overview": "data/overview.md"
+      - "Health": "data/health.md"
+      - '<span translate="no">Nightscout</span>': "data/nightscout.md"
+      - '<span translate="no">Tidepool</span>': "data/tidepool.md"
+      - "Perceptus": "data/glucodyn.md"
   - Translation: "translate.md"
