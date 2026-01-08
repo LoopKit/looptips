@@ -115,7 +115,7 @@ Test your new found skills...let's play a game where you try to guess the action
 
 
 
-The answer is below but ...consider this next twist. 
+The answer is below but ...consider this next example. 
 
 !!! question "What would *Loop* do now?"
 

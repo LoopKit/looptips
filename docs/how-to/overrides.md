@@ -8,7 +8,7 @@ Your Loop has two override icons you can select from the main toolbar: *Pre-meal
 
 * In an older version of Loop (version 1.9), and for the *twiist* commercial system, the *Custom Preset* icon is used for the *Workout* feature which only enables the user to change the target and not the insulin sensitivity.
 
-*Loop* will indicate that an override target is active by showing a darker blue bar on the glucose chart showing the duration and location of the target.
+When an override target is active, the glucose chart will show a darker blue bar with the duration and level of the custom correction range. The light blue bar that normally shows the correction range is behind the dark blue bar. If the correction range is unmodified by the *Custom Preset*, you might just see the dark blue bar.
 
 You can set the value for the *Pre-meal* targets from the Correction Range area of Loop settings. Generally speaking, *pre-meal* targets are set to value(s) lower than your correction range.
 
@@ -32,7 +32,7 @@ A *Custom Preset* can be created or edited by tapping on the heart icon when no 
 ## Pre-Meal Targets
 
 The pre-meal target is also known as the **pre-meal preset**.
-When activated by pressing the icon that looks like a timer :material-camera-timer: between a f&#8203;ork and a knife :fontawesome-solid-utensils:) it  will stay active for:  
+When activated, by pressing the icon that looks like a timer :material-camera-timer: between a f&#8203;ork and a knife :fontawesome-solid-utensils:, it  will stay active for:  
 
 * one hour, or
 * until carbs are entered, or 
@@ -53,7 +53,7 @@ Pre-meal target won't replace the utility of a true pre-bolus in most situations
 
 The **Custom Presets**, often referred to as Overrides, offered with Loop starting with version 2.0, 31 December 2019, are significantly more flexible than the original Workout Targets.  Please refer to [LoopDocs Overrides](https://loopkit.github.io/loopdocs/operation/features/overrides/).
 
-## Workout Targets (commercial *twist*)
+## Workout Targets (commercial *twiist*)
 
 The workout target, when activated, will give a duration choice of 1 hour, 2 hours, or indefinitely.  The workout target set greater than your usual correction range is useful to help in situations where Loop needs to be *less* aggressive with insulin delivery. The most common use of the workout target is to set it in advance and during exercise to help minimize IOB going into a workout. While the name is a hint to the most common timing of this override's use, there are other times when it can be helpful, such as:
 
