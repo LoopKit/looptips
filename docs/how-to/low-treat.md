@@ -39,7 +39,7 @@ To help you decide, here are some pros and cons of each approach.
 One rule of thumb is that if you know you over-treated a low, and you normally log carbohydrates, then log the "extra" that you consumed.
 
 !!! note "Retrospective Correction makes this matter more"
-    Loop's [*Retrospective Correction* (RC)](think-like-loop.md) - on by default, with a more aggressive [*Integral Retrospective Correction* (IRC)](https://loopkit.github.io/loopdocs/loop-3/features/#integral-retrospective-correction-irc) available as an opt-in under the Algorithm Experiment section fo Loop settings - steers the forecast using the gap between what Loop predicted and what your glucose actually did. A rescue treatment you don't enter (or enter with the wrong time) leaves the resulting rise looking like an *unexplained* climb, which pushes that correction toward **more** insulin and can deepen the rebound.
+    Loop's [*Retrospective Correction* (RC)](think-like-loop.md) - on by default, with a more aggressive [*Integral Retrospective Correction* (IRC)](https://loopkit.github.io/loopdocs/loop-3/features/#integral-retrospective-correction-irc) available as an opt-in under the Algorithm Experiment section of Loop settings - steers the forecast using the gap between what Loop predicted and what your glucose actually did. A rescue treatment you don't enter (or enter with the wrong time) leaves the resulting rise looking like an *unexplained* climb, which pushes that correction toward **more** insulin and can deepen the rebound.
 
 ## Roller Coaster after Low Treatment
 
