@@ -19,6 +19,8 @@ A *Custom Preset* can be created or edited by tapping on the heart icon when no 
 !!! tip "Why Override Targets Work"
     Remember from [Think Like a Loop](think-like-loop.md): Loop makes all decisions based on your predicted glucose curve relative to your correction range. By changing the correction range temporarily with an override, you change how Loop responds. Lower targets make Loop more aggressive; higher targets make Loop more conservative.
 
+## Adjust Insulin Needs
+
 !!! tip "What happens when the `Insulin Needs` setting is modified"
     When the `Insulin Needs` setting is modified in a *Custom Preset*, the effective basal rate (U/hr), ISF and CR are all adjusted in parallel. See the example table below using a pump that can delivery an increment of 0.05 U/hr scheduled basal rate using units associated with mg/dL.
 
