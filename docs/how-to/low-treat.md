@@ -32,11 +32,10 @@ To help you decide, here are some pros and cons of each approach.
 
 **Reasons not to enter rescue carbs**
 
-* It is less effort in the moment - when you are low, treating quickly matters more than logging.
-* Because Loop usually suspends insulin before a low is reached, you often need only a small amount of fast carbs, and a small untracked treatment has limited impact when your ISF is well tuned.
+* It is less effort in the moment - when you are low, treating quickly matters more than logging. Because Loop usually suspends insulin before a low is reached, you often need only a small amount of fast carbs, and a small untracked treatment has limited impact when your ISF is well tuned.
 * You will normally treat the low with fast-acting carbs first and log it afterward, so your glucose may already be rebounding by the time you open Loop. The entry then has to be **backdated** to when you actually ate; if you forget to backdate, Loop assumes the carbs were just eaten and will over-predict the coming rise, and can recommend or deliver too much insulin - setting off the very rebound you were trying to avoid.
 
-One rule of thumb is that if you know you over-treated a low, and you normally log carbohydrates, then log the "extra" that you consumed.
+One rule of thumb: if you know you over-treated a low, log the "extra" you consumed - even if you don't normally log small rescue carbs.
 
 !!! note "Retrospective Correction makes this matter more"
     Loop's [*Retrospective Correction* (RC)](think-like-loop.md) - on by default, with a more aggressive [*Integral Retrospective Correction* (IRC)](https://loopkit.github.io/loopdocs/loop-3/features/#integral-retrospective-correction-irc) available as an opt-in under the Algorithm Experiment section of Loop settings - steers the forecast using the gap between what Loop predicted and what your glucose actually did. A rescue treatment you don't enter (or enter with the wrong time) leaves the resulting rise looking like an *unexplained* climb, which pushes that correction toward **more** insulin and can deepen the rebound.
