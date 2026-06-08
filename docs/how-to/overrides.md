@@ -22,7 +22,7 @@ A *Custom Preset* can be created or edited by tapping on the heart icon when no 
 ## Adjust Insulin Needs
 
 !!! tip "What happens when the `Insulin Needs` setting is modified"
-    When the `Insulin Needs` setting is modified in a *Custom Preset*, the effective basal rate (U/hr), ISF and CR are all adjusted in parallel. See the example table below using a pump that can delivery an increment of 0.05 U/hr scheduled basal rate using units associated with mg/dL.
+    When the `Insulin Needs` setting is modified in a *Custom Preset*, the effective basal rate (U/hr), ISF and CR are all adjusted in parallel. See the example table below using a pump that can deliver an increment of 0.05 U/hr scheduled basal rate using units associated with mg/dL.
 
     | Insulin Need | Basal Rate<br>U/hr | ISF | CR | Comment |
     |--:|:-:|--:|--:|:--|
